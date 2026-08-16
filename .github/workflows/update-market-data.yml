@@ -1,0 +1,67 @@
+name: 更新 Tushare 行情 JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 工作日北京时间 18:05。避开整点可降低 GitHub Actions 排队概率。
+    - cron: "5 18 * * 1-5"
+      timezone: "Asia/Shanghai"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tushare-market-data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-market-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 读取私有仓库
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: 准备 Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安装依赖
+        run: python -m pip install --requirement requirements.txt
+
+      - name: 生成行情 JSON
+        env:
+          TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
+        run: python scripts/update_market_data.py
+
+      - name: 校验输出与 Token 隔离
+        env:
+          TUSHARE_TOKEN: ${{ secrets.TUSHARE_TOKEN }}
+        run: python scripts/validate_output.py
+
+      - name: 保存为私有 Actions 产物
+        uses: actions/upload-artifact@v7
+        with:
+          name: tushare-market-data-${{ github.run_number }}
+          path: |
+            data/latest.json
+            data/history_60d.json
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: 提交更新后的 JSON 到当前私有仓库
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json data/history_60d.json
+          if git diff --cached --quiet; then
+            echo "行情文件没有变化，无需提交。"
+            exit 0
+          fi
+          git commit -m "data: update market JSON [skip ci]"
+          git push
