@@ -1,0 +1,10 @@
+上传完成后，请在 GitHub 仓库中确认以下 6 项都能看到：
+
+1. .github/workflows/update-market-data.yml
+2. config/stock_pools.yml
+3. data/README.md
+4. scripts/update_market_data.py
+5. scripts/validate_output.py
+6. README.md 与 requirements.txt
+
+特别注意：.github 和 .gitignore 是隐藏名称，缺少 .github/workflows 文件时不会出现 Actions 工作流。

@@ -1,0 +1,124 @@
+version: 1
+
+settings:
+  # 输出最近多少个实际交易日。脚本会自动跳过周末、节假日和停牌空白。
+  history_trade_days: 60
+
+  # 为覆盖 60 个交易日，向前查询 120 个自然日。
+  lookback_calendar_days: 120
+
+  # Tushare daily 支持逗号分隔的多只股票；分组可避免扩展股票池后单次记录过多。
+  request_chunk_size: 50
+  retry_attempts: 3
+  retry_base_seconds: 2
+
+# 扩展方法：复制任意股票条目并修改 ts_code、name、note。
+# ts_code 格式：上交所 600000.SH、深交所 000001.SZ、北交所 920xxx.BJ。
+# 同一股票可以出现在多个池中，脚本会合并行情并保留全部池标签。
+pools:
+  ai_hardware:
+    display_name: AI硬件
+    description: AI算力芯片、服务器、光模块与高速互联示例池
+    stocks:
+      - ts_code: 688256.SH
+        name: 寒武纪
+        note: AI芯片
+      - ts_code: 688041.SH
+        name: 海光信息
+        note: CPU与加速芯片
+      - ts_code: 000977.SZ
+        name: 浪潮信息
+        note: AI服务器
+      - ts_code: 603019.SH
+        name: 中科曙光
+        note: 高性能计算与服务器
+      - ts_code: 300308.SZ
+        name: 中际旭创
+        note: 高速光模块
+      - ts_code: 300502.SZ
+        name: 新易盛
+        note: 高速光模块
+      - ts_code: 002281.SZ
+        name: 光迅科技
+        note: 光通信器件
+
+  chemicals_energy_materials:
+    display_name: 化工能源材料
+    description: 化工、油气与新能源上游材料示例池
+    stocks:
+      - ts_code: 600309.SH
+        name: 万华化学
+        note: 聚氨酯与新材料
+      - ts_code: 600426.SH
+        name: 华鲁恒升
+        note: 煤化工
+      - ts_code: 002648.SZ
+        name: 卫星化学
+        note: 轻烃化工
+      - ts_code: 600938.SH
+        name: 中国海油
+        note: 上游油气
+      - ts_code: 601857.SH
+        name: 中国石油
+        note: 综合油气
+      - ts_code: 002460.SZ
+        name: 赣锋锂业
+        note: 锂资源与锂材料
+      - ts_code: 603799.SH
+        name: 华友钴业
+        note: 钴镍锂材料
+
+  energy_storage:
+    display_name: 储能
+    description: 电池、逆变器与储能系统示例池
+    stocks:
+      - ts_code: 300750.SZ
+        name: 宁德时代
+        note: 动力与储能电池
+      - ts_code: 300274.SZ
+        name: 阳光电源
+        note: 光伏与储能逆变器
+      - ts_code: 300014.SZ
+        name: 亿纬锂能
+        note: 锂电池
+      - ts_code: 002074.SZ
+        name: 国轩高科
+        note: 动力与储能电池
+      - ts_code: 002518.SZ
+        name: 科士达
+        note: UPS与储能系统
+      - ts_code: 300827.SZ
+        name: 上能电气
+        note: 逆变器
+      - ts_code: 688390.SH
+        name: 固德威
+        note: 户用与工商业储能逆变器
+
+  consumer_electronics:
+    display_name: 消费电子
+    description: 终端组装、零组件、显示与精密制造示例池
+    stocks:
+      - ts_code: 002475.SZ
+        name: 立讯精密
+        note: 精密制造与连接器
+      - ts_code: 002241.SZ
+        name: 歌尔股份
+        note: 声学与智能硬件
+      - ts_code: 300433.SZ
+        name: 蓝思科技
+        note: 玻璃与结构件
+      - ts_code: 601138.SH
+        name: 工业富联
+        note: 电子制造与服务器
+      - ts_code: 000725.SZ
+        name: 京东方A
+        note: 显示面板
+      - ts_code: 002600.SZ
+        name: 领益智造
+        note: 精密功能件
+      - ts_code: 300115.SZ
+        name: 长盈精密
+        note: 精密结构件
+      - ts_code: 002456.SZ
+        name: 欧菲光
+        note: 光学与摄像模组
