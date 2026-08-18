@@ -10,6 +10,7 @@ on:
 permissions:
   contents: write
 
+# 同一分支的更新任务串行执行，避免多个任务同时推送。
 concurrency:
   group: tushare-market-data-${{ github.ref }}
   cancel-in-progress: false
@@ -20,9 +21,10 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: 读取私有仓库
+      - name: 读取仓库
         uses: actions/checkout@v6
         with:
+          # 后续需要执行 fetch 和 rebase，因此必须保留完整历史。
           fetch-depth: 0
 
       - name: 准备 Python
@@ -30,6 +32,7 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: requirements.txt
 
       - name: 安装依赖
         run: python -m pip install --requirement requirements.txt
@@ -54,14 +57,46 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: 提交更新后的 JSON 到当前私有仓库
+      - name: 提交更新后的 JSON 到当前仓库
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/latest.json data/history_60d.json
+
           if git diff --cached --quiet; then
             echo "行情文件没有变化，无需提交。"
             exit 0
           fi
+
           git commit -m "data: update market JSON [skip ci]"
-          git push
+
+          branch="${GITHUB_REF_NAME}"
+
+          # 最多尝试三次。若推送期间远程分支又更新，
+          # 下一次会重新 fetch 并把本次数据提交 rebase 到最新版本之上。
+          for attempt in 1 2 3; do
+            echo "第 ${attempt} 次尝试同步并推送到 ${branch}……"
+
+            git fetch --prune origin "${branch}"
+
+            if ! git rebase "origin/${branch}"; then
+              echo "::error::远程提交与本次行情文件发生冲突，已停止推送以避免覆盖数据。"
+              git rebase --abort || true
+              exit 1
+            fi
+
+            if git push origin "HEAD:${branch}"; then
+              echo "行情 JSON 已成功推送。"
+              exit 0
+            fi
+
+            echo "远程分支在推送期间再次更新，准备重试。"
+            sleep $((attempt * 5))
+          done
+
+          echo "::error::连续三次推送失败，请检查是否有其他任务频繁修改 ${branch}。"
+          exit 1
