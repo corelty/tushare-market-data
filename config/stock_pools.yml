@@ -9,116 +9,533 @@ settings:
 
   # Tushare daily 支持逗号分隔的多只股票；分组可避免扩展股票池后单次记录过多。
   request_chunk_size: 50
+
   retry_attempts: 3
   retry_base_seconds: 2
 
-# 扩展方法：复制任意股票条目并修改 ts_code、name、note。
+# 扩展方法：复制任意 A 股条目并修改 ts_code、name、note。
 # ts_code 格式：上交所 600000.SH、深交所 000001.SZ、北交所 920xxx.BJ。
-# 同一股票可以出现在多个池中，脚本会合并行情并保留全部池标签。
+# 同一股票可以出现在多个大池中，脚本会合并行情并保留全部池标签。
+# 港股不放入 stocks；统一放入 external_stocks，避免被当前 A 股 Tushare daily 接口请求。
+# 校验结果：五个池共 161 条记录，全局去重后 154 个标的（A股 151、港股 3）。
 pools:
   ai_hardware:
     display_name: AI硬件
-    description: AI算力芯片、服务器、光模块与高速互联示例池
+    description: AI算力芯片、半导体、服务器、光通信、高速互联、PCB、供电与电子元件核心池
     stocks:
       - ts_code: 688256.SH
         name: 寒武纪
-        note: AI芯片
+        note: GPU / ASIC；AI芯片
       - ts_code: 688041.SH
         name: 海光信息
-        note: CPU与加速芯片
-      - ts_code: 000977.SZ
-        name: 浪潮信息
-        note: AI服务器
-      - ts_code: 603019.SH
-        name: 中科曙光
-        note: 高性能计算与服务器
+        note: GPU / ASIC；CPU与加速芯片
+      - ts_code: 688802.SH
+        name: 沐曦股份
+        note: GPU / ASIC；通用GPU
+      - ts_code: 688981.SH
+        name: 中芯国际
+        note: Foundry；晶圆代工
+      - ts_code: 688347.SH
+        name: 华虹宏力
+        note: Foundry；特色工艺晶圆代工
+      - ts_code: 688249.SH
+        name: 晶合集成
+        note: Foundry；晶圆代工
+      - ts_code: 002371.SZ
+        name: 北方华创
+        note: 半导体设备；Hybrid Bonding设备
+      - ts_code: 688012.SH
+        name: 中微公司
+        note: 半导体设备；刻蚀与薄膜沉积设备
+      - ts_code: 688072.SH
+        name: 拓荆科技
+        note: 半导体设备；Hybrid Bonding设备；薄膜沉积设备
+      - ts_code: 688126.SH
+        name: 沪硅产业
+        note: 半导体材料；硅片
+      - ts_code: 002409.SZ
+        name: 雅克科技
+        note: 半导体材料；前驱体与电子材料
+      - ts_code: 688019.SH
+        name: 安集科技
+        note: 半导体材料；CMP抛光液与功能性湿电子化学品
+      - ts_code: 688521.SH
+        name: 芯原股份
+        note: EDA / IP；芯片设计服务与IP授权
+      - ts_code: 301269.SZ
+        name: 华大九天
+        note: EDA / IP；EDA软件
+      - ts_code: 688206.SH
+        name: 概伦电子
+        note: EDA / IP；EDA软件
+      - ts_code: 688825.SH
+        name: 长鑫科技
+        note: DRAM / NAND；DRAM存储芯片
+      - ts_code: 603986.SH
+        name: 兆易创新
+        note: DRAM / NAND；存储芯片与MCU
+      - ts_code: 300223.SZ
+        name: 北京君正
+        note: DRAM / NAND；存储芯片与处理器
+      - ts_code: 301666.SZ
+        name: 大普微
+        note: 企业级SSD；数据中心存储
+      - ts_code: 301308.SZ
+        name: 江波龙
+        note: 企业级SSD；存储产品与企业级存储
+      - ts_code: 688525.SH
+        name: 佰维存储
+        note: 企业级SSD；存储模组与先进封装
+      - ts_code: 688008.SH
+        name: 澜起科技
+        note: CXL Memory；内存接口芯片与互连芯片
+      - ts_code: 600584.SH
+        name: 长电科技
+        note: 先进封装；Chiplet
+      - ts_code: 002185.SZ
+        name: 华天科技
+        note: 先进封装；Chiplet
+      - ts_code: 002156.SZ
+        name: 通富微电
+        note: 先进封装；Chiplet
+      - ts_code: 300316.SZ
+        name: 晶盛机电
+        note: Hybrid Bonding设备；半导体装备
+      - ts_code: 300776.SZ
+        name: 帝尔激光
+        note: 玻璃基板 / TGV；激光设备
+      - ts_code: 600707.SH
+        name: 彩虹股份
+        note: 玻璃基板 / TGV；基板玻璃
+      - ts_code: 603773.SH
+        name: 沃格光电
+        note: 玻璃基板 / TGV；玻璃精加工
       - ts_code: 300308.SZ
         name: 中际旭创
-        note: 高速光模块
+        note: 光模块；高速光模块
       - ts_code: 300502.SZ
         name: 新易盛
-        note: 高速光模块
-      - ts_code: 002281.SZ
-        name: 光迅科技
-        note: 光通信器件
+        note: 光模块；高速光模块
+      - ts_code: 300394.SZ
+        name: 天孚通信
+        note: 光模块；光器件与光引擎
+      - ts_code: 601869.SH
+        name: 长飞光纤
+        note: 光纤光缆
+      - ts_code: 600487.SH
+        name: 亨通光电
+        note: 光纤光缆；光通信网络
+      - ts_code: 600522.SH
+        name: 中天科技
+        note: 光纤光缆；通信与电力线缆
+      - ts_code: 002475.SZ
+        name: 立讯精密
+        note: 高速铜连接；连接器；精密制造
+      - ts_code: 002130.SZ
+        name: 沃尔核材
+        note: 高速铜连接；高速通信线缆
+      - ts_code: 300913.SZ
+        name: 兆龙互连
+        note: 高速铜连接；数据电缆与高速互连
+      - ts_code: 002179.SZ
+        name: 中航光电
+        note: 连接器；高可靠连接器
+      - ts_code: 002025.SZ
+        name: 航天电器
+        note: 连接器；高可靠连接器与继电器
+      - ts_code: 000063.SZ
+        name: 中兴通讯
+        note: 交换芯片 / NIC / DPU；通信设备与算力基础设施
+      - ts_code: 000938.SZ
+        name: 紫光股份
+        note: 交换芯片 / NIC / DPU；网络设备与服务器
+      - ts_code: 688702.SH
+        name: 盛科通信-U
+        note: 交换芯片 / NIC / DPU；以太网交换芯片
+      - ts_code: 002384.SZ
+        name: 东山精密
+        note: PCB制造；精密电子制造
+      - ts_code: 002916.SZ
+        name: 深南电路
+        note: PCB制造；封装基板
+      - ts_code: 002463.SZ
+        name: 沪电股份
+        note: PCB制造；AI服务器与交换机PCB
+      - ts_code: 600183.SH
+        name: 生益科技
+        note: 覆铜板 CCL；高频高速覆铜板
+      - ts_code: 688519.SH
+        name: 南亚新材
+        note: 覆铜板 CCL
+      - ts_code: 002636.SZ
+        name: 金安国纪
+        note: 覆铜板 CCL
+      - ts_code: 600176.SH
+        name: 中国巨石
+        note: 玻纤布 / 电子布；全球玻纤龙头
+      - ts_code: 301526.SZ
+        name: 国际复材
+        note: 玻纤布 / 电子布；玻璃纤维
+      - ts_code: 603256.SH
+        name: 宏和科技
+        note: 玻纤布 / 电子布；高端电子布
+      - ts_code: 301217.SZ
+        name: 铜冠铜箔
+        note: 铜箔；电子铜箔与锂电铜箔
+      - ts_code: 301511.SZ
+        name: 德福科技
+        note: 铜箔；电子铜箔与锂电铜箔
+      - ts_code: 688388.SH
+        name: 嘉元科技
+        note: 铜箔；高性能电解铜箔
+      - ts_code: 601208.SH
+        name: 东材科技
+        note: PCB材料；CCL与电子树脂材料
+      - ts_code: 605589.SH
+        name: 圣泉集团
+        note: PCB材料；特种酚醛树脂与电子材料
+      - ts_code: 603650.SH
+        name: 彤程新材
+        note: PCB材料；电子材料与光刻胶产业链
+      - ts_code: 301200.SZ
+        name: 大族数控
+        note: PCB设备
+      - ts_code: 002008.SZ
+        name: 大族激光
+        note: PCB设备；激光加工装备
+      - ts_code: 688630.SH
+        name: 芯碁微装
+        note: PCB设备；直写光刻设备
+      - ts_code: 601138.SH
+        name: 工业富联
+        note: 服务器ODM / 整机；AI服务器与云计算基础设施
+      - ts_code: 603019.SH
+        name: 中科曙光
+        note: 服务器ODM / 整机；高性能计算与服务器
+      - ts_code: 000977.SZ
+        name: 浪潮信息
+        note: 服务器ODM / 整机；AI服务器
+      - ts_code: 002837.SZ
+        name: 英维克
+        note: 液冷；数据中心温控
+      - ts_code: 301018.SZ
+        name: 申菱环境
+        note: 液冷；数据中心温控
+      - ts_code: 300499.SZ
+        name: 高澜股份
+        note: 液冷；热管理
+      - ts_code: 002851.SZ
+        name: 麦格米特
+        note: AI服务器电源；800V HVDC；电力电子
+      - ts_code: 300870.SZ
+        name: 欧陆通
+        note: AI服务器电源；数据中心电源
+      - ts_code: 002364.SZ
+        name: 中恒电气
+        note: AI服务器电源；800V HVDC；数据中心电源
+      - ts_code: 002335.SZ
+        name: 科华数据
+        note: 800V HVDC；数据中心供配电与UPS
+      - ts_code: 688396.SH
+        name: 华润微
+        note: SiC / GaN；功率半导体
+      - ts_code: 600703.SH
+        name: 三安光电
+        note: SiC / GaN；化合物半导体
+      - ts_code: 600460.SH
+        name: 士兰微
+        note: SiC / GaN；功率半导体与IDM
+      - ts_code: 600406.SH
+        name: 国电南瑞
+        note: 电力设备；电网自动化与电力电子
+      - ts_code: 002028.SZ
+        name: 思源电气
+        note: 电力设备；输配电设备
+      - ts_code: 600089.SH
+        name: 特变电工
+        note: 电力设备；输变电与能源装备
+      - ts_code: 300408.SZ
+        name: 三环集团
+        note: MLCC；电子陶瓷
+      - ts_code: 000636.SZ
+        name: 风华高科
+        note: MLCC；被动元件
+      - ts_code: 603678.SH
+        name: 火炬电子
+        note: MLCC；高可靠电子元器件
+      - ts_code: 300285.SZ
+        name: 国瓷材料
+        note: MLCC材料；电子陶瓷材料平台
+      - ts_code: 605376.SH
+        name: 博迁新材
+        note: MLCC材料；电子专用金属粉体
+      - ts_code: 002859.SZ
+        name: 洁美科技
+        note: MLCC材料；电子元器件薄型载带与离型膜
+      - ts_code: 300450.SZ
+        name: 先导智能
+        note: MLCC设备；智能制造装备
+      - ts_code: 002975.SZ
+        name: 博杰股份
+        note: MLCC设备；自动化测试与组装设备
+      - ts_code: 002338.SZ
+        name: 奥普光电
+        note: MLCC设备；精密光机电设备
+      - ts_code: 002138.SZ
+        name: 顺络电子
+        note: 电感 / 磁性元件；片式电感
+      - ts_code: 002056.SZ
+        name: 横店东磁
+        note: 电感 / 磁性元件；磁性材料与器件
+      - ts_code: 300811.SZ
+        name: 铂科新材
+        note: 电感 / 磁性元件；金属软磁材料与芯片电感
 
   chemicals_energy_materials:
     display_name: 化工能源材料
-    description: 化工、油气与新能源上游材料示例池
+    description: 油气、化工、锂电材料、半导体材料、AI电子材料与高性能材料核心池
     stocks:
-      - ts_code: 600309.SH
-        name: 万华化学
-        note: 聚氨酯与新材料
-      - ts_code: 600426.SH
-        name: 华鲁恒升
-        note: 煤化工
-      - ts_code: 002648.SZ
-        name: 卫星化学
-        note: 轻烃化工
-      - ts_code: 600938.SH
-        name: 中国海油
-        note: 上游油气
       - ts_code: 601857.SH
         name: 中国石油
-        note: 综合油气
-      - ts_code: 002460.SZ
-        name: 赣锋锂业
-        note: 锂资源与锂材料
-      - ts_code: 603799.SH
-        name: 华友钴业
-        note: 钴镍锂材料
+        note: 油气；综合油气；上游油气核心资产
+      - ts_code: 600938.SH
+        name: 中国海油
+        note: 油气；综合油气；上游油气核心资产
+      - ts_code: 600028.SH
+        name: 中国石化
+        note: 油气；综合油气；炼化一体化
+      - ts_code: 601808.SH
+        name: 中海油服
+        note: 油气；油服；油服景气代表
+      - ts_code: 600256.SH
+        name: 广汇能源
+        note: 天然气；城燃 / LNG；LNG高弹性
+      - ts_code: 002493.SZ
+        name: 荣盛石化
+        note: 炼化石化；大炼化；民营炼化核心
+      - ts_code: 600346.SH
+        name: 恒力石化
+        note: 炼化石化；大炼化；民营炼化核心
+      - ts_code: 002648.SZ
+        name: 卫星化学
+        note: 炼化石化；C2 / C3；乙烷裂解与C3龙头
+      - ts_code: 601233.SH
+        name: 桐昆股份
+        note: 炼化石化；聚酯；长丝景气代表
+      - ts_code: 600309.SH
+        name: 万华化学
+        note: 煤化工 / 聚氨酯；聚氨酯；MDI龙头
+      - ts_code: 600989.SH
+        name: 宝丰能源
+        note: 煤化工 / 聚氨酯；煤制烯烃；低成本煤化工
+      - ts_code: 600426.SH
+        name: 华鲁恒升
+        note: 煤化工 / 聚氨酯；煤化工平台；成本曲线龙头
+      - ts_code: 002064.SZ
+        name: 华峰化学
+        note: 煤化工 / 聚氨酯；氨纶 / 己二酸；聚氨酯产业链
+      - ts_code: 000792.SZ
+        name: 盐湖股份
+        note: 磷钾肥；盐湖钾锂；国内钾肥与盐湖锂
+      - ts_code: 000408.SZ
+        name: 藏格矿业
+        note: 磷钾肥；盐湖钾锂；钾肥与盐湖锂
+      - ts_code: 000893.SZ
+        name: 亚钾国际
+        note: 磷钾肥；海外钾肥；钾肥高弹性
+      - ts_code: 600096.SH
+        name: 云天化
+        note: 磷钾肥；磷化工；磷矿资源与磷肥
+      - ts_code: 600141.SH
+        name: 兴发集团
+        note: 磷钾肥；磷化工；磷矿资源与精细磷化工
+      - ts_code: 000902.SZ
+        name: 新洋丰
+        note: 磷钾肥；复合肥；复合肥龙头
+      - ts_code: 000683.SZ
+        name: 远兴能源
+        note: 纯碱 / 氯碱；天然碱；成本曲线核心资产
+      - ts_code: 600409.SH
+        name: 三友化工
+        note: 纯碱 / 氯碱；纯碱周期代表
+      - ts_code: 601216.SH
+        name: 君正集团
+        note: 纯碱 / 氯碱；PVC / 烧碱；氯碱与煤化工
+      - ts_code: 600160.SH
+        name: 巨化股份
+        note: 氟硅化工；制冷剂；三代制冷剂核心
+      - ts_code: 603379.SH
+        name: 三美股份
+        note: 氟硅化工；制冷剂；三代制冷剂核心
+      - ts_code: 002407.SZ
+        name: 多氟多
+        note: 氟硅化工；氟化盐；六氟磷酸锂与氟化工
+      - ts_code: 603260.SH
+        name: 合盛硅业
+        note: 氟硅化工；工业硅 / 有机硅；硅产业链龙头
+      - ts_code: 600378.SH
+        name: 昊华科技
+        note: 氟硅化工；高端氟材料；高端化工材料平台
+      - ts_code: 600486.SH
+        name: 扬农化工
+        note: 农药；原药龙头；品质龙头
+      - ts_code: 603599.SH
+        name: 广信股份
+        note: 农药；原药龙头；低估值周期弹性
+      - ts_code: 002258.SZ
+        name: 利尔化学
+        note: 农药；草铵膦等；草铵膦核心资产
+      - ts_code: 301035.SZ
+        name: 润丰股份
+        note: 农药；制剂 / 海外渠道；全球渠道型农化
+      - ts_code: 002601.SZ
+        name: 龙佰集团
+        note: 传统精细化工；钛白粉；全球钛白粉龙头之一
+      - ts_code: 600352.SH
+        name: 浙江龙盛
+        note: 传统精细化工；染料；染料景气代表
+      - ts_code: 600143.SH
+        name: 金发科技
+        note: 传统精细化工；改性塑料；工程塑料平台
+      - ts_code: 601058.SH
+        name: 赛轮轮胎
+        note: 传统精细化工；轮胎；中国轮胎出海龙头
+      - ts_code: 301358.SZ
+        name: 湖南裕能
+        note: 锂电材料；LFP正极；磷酸铁锂龙头
+      - ts_code: 300919.SZ
+        name: 中伟新材
+        note: 锂电材料；三元前驱体；前驱体龙头
+      - ts_code: 300390.SZ
+        name: 天华新能
+        note: 锂电材料；锂资源；锂价弹性
+      - ts_code: 002709.SZ
+        name: 天赐材料
+        note: 锂电材料；电解液；电解液龙头
+      - ts_code: 300037.SZ
+        name: 新宙邦
+        note: 锂电材料；电解液；电解液与精细化学品
+      - ts_code: 002812.SZ
+        name: 恩捷股份
+        note: 锂电材料；隔膜；湿法隔膜龙头
+      - ts_code: 300054.SZ
+        name: 鼎龙股份
+        note: 半导体材料；CMP；CMP抛光垫国产化
+      - ts_code: 688019.SH
+        name: 安集科技
+        note: 半导体材料；CMP；CMP抛光液与功能性湿电子化学品
+      - ts_code: 688549.SH
+        name: 中巨芯
+        note: 半导体材料；湿电子化学品；高纯化学品国产化
+      - ts_code: 688545.SH
+        name: 兴福电子
+        note: 半导体材料；湿电子化学品；高纯化学品国产化
+      - ts_code: 603650.SH
+        name: 彤程新材
+        note: 半导体材料；光刻胶；PCB电子材料
+      - ts_code: 688548.SH
+        name: 广钢气体
+        note: 半导体材料；电子特气；国内电子气体代表
+      - ts_code: 603256.SH
+        name: 宏和科技
+        note: AI / PCB电子材料；电子布；高端电子布
+      - ts_code: 601208.SH
+        name: 东材科技
+        note: AI / PCB电子材料；CCL与电子树脂材料
+      - ts_code: 688300.SH
+        name: 联瑞新材
+        note: AI / PCB电子材料；硅微粉；高端封装与覆铜板填料
+      - ts_code: 300285.SZ
+        name: 国瓷材料
+        note: AI / PCB电子材料；MLCC与电子陶瓷；电子陶瓷平台
+      - ts_code: 688295.SH
+        name: 中复神鹰
+        note: 高性能材料；碳纤维；碳纤维龙头
+      - ts_code: 600176.SH
+        name: 中国巨石
+        note: 高性能材料；玻纤；全球玻纤龙头
+      - ts_code: 605589.SH
+        name: 圣泉集团
+        note: 高性能材料；特种树脂；酚醛树脂与生物质材料
+      - ts_code: 300487.SZ
+        name: 蓝晓科技
+        note: 高性能材料；吸附材料；盐湖提锂与吸附树脂
+      - ts_code: 688065.SH
+        name: 凯赛生物
+        note: 高性能材料；生物基尼龙；生物制造材料
+      - ts_code: 002001.SZ
+        name: 新和成
+        note: 营养品 / 生物制造；维生素；精细化工优质龙头
+      - ts_code: 600873.SH
+        name: 梅花生物
+        note: 营养品 / 生物制造；氨基酸；发酵产业龙头
+      - ts_code: 688639.SH
+        name: 华恒生物
+        note: 营养品 / 生物制造；合成生物学平台
+      - ts_code: 600299.SH
+        name: 安迪苏
+        note: 营养品 / 生物制造；蛋氨酸；动物营养龙头
+
+    # 当前脚本只用 Tushare A股 daily；以下港股保留在池中但必须由外部行情源补充。
+    # 由于它们不在 stocks 下，现有 A 股批量请求不会误传这些代码。
+    external_stocks:
+      - external_code: 00135.HK
+        name: 昆仑能源
+        market: HK
+        data_source: external
+        tushare_daily_supported: false
+        note: 天然气；城燃 / LNG；上游气源；当前 Tushare A股 daily 不支持
+      - external_code: 02688.HK
+        name: 新奥能源
+        market: HK
+        data_source: external
+        tushare_daily_supported: false
+        note: 天然气；城燃 / LNG；城燃龙头；当前 Tushare A股 daily 不支持
+      - external_code: 01193.HK
+        name: 华润燃气
+        market: HK
+        data_source: external
+        tushare_daily_supported: false
+        note: 天然气；城燃 / LNG；央企城燃；当前 Tushare A股 daily 不支持
 
   energy_storage:
     display_name: 储能
-    description: 电池、逆变器与储能系统示例池
+    description: 电池、储能系统与逆变器核心池
     stocks:
       - ts_code: 300750.SZ
         name: 宁德时代
         note: 动力与储能电池
+      - ts_code: 300438.SZ
+        name: 鹏辉能源
+        note: 储能电池；中小型锂电池
+      - ts_code: 605117.SH
+        name: 德业股份
+        note: 户用储能逆变器
       - ts_code: 300274.SZ
         name: 阳光电源
-        note: 光伏与储能逆变器
-      - ts_code: 300014.SZ
-        name: 亿纬锂能
-        note: 锂电池
-      - ts_code: 002074.SZ
-        name: 国轩高科
-        note: 动力与储能电池
-      - ts_code: 002518.SZ
-        name: 科士达
-        note: UPS与储能系统
-      - ts_code: 300827.SZ
-        name: 上能电气
-        note: 逆变器
-      - ts_code: 688390.SH
-        name: 固德威
-        note: 户用与工商业储能逆变器
+        note: 光伏与储能逆变器；储能系统
 
   consumer_electronics:
     display_name: 消费电子
-    description: 终端组装、零组件、显示与精密制造示例池
+    description: 终端、结构件与精密功能件核心池
     stocks:
-      - ts_code: 002475.SZ
-        name: 立讯精密
-        note: 精密制造与连接器
-      - ts_code: 002241.SZ
-        name: 歌尔股份
-        note: 声学与智能硬件
       - ts_code: 300433.SZ
         name: 蓝思科技
-        note: 玻璃与结构件
-      - ts_code: 601138.SH
-        name: 工业富联
-        note: 电子制造与服务器
-      - ts_code: 000725.SZ
-        name: 京东方A
-        note: 显示面板
+        note: 玻璃与结构件；精密制造
       - ts_code: 002600.SZ
         name: 领益智造
-        note: 精密功能件
-      - ts_code: 300115.SZ
-        name: 长盈精密
-        note: 精密结构件
-      - ts_code: 002456.SZ
-        name: 欧菲光
-        note: 光学与摄像模组
+        note: 精密功能件；AI终端硬件
+      - ts_code: 688036.SH
+        name: 传音控股
+        note: 智能手机终端；新兴市场消费电子
+
+  frontier_materials_watchlist:
+    display_name: 前沿材料观察股
+    description: 芳纶、PEEK等面向AI、机器人、航空航天与半导体的高性能材料观察池
+    stocks:
+      - ts_code: 002254.SZ
+        name: 泰和新材
+        note: 芳纶；AI、机器人与航空航天高性能纤维
+      - ts_code: 688716.SH
+        name: 中研股份
+        note: PEEK；机器人、航空航天与半导体高性能工程塑料
