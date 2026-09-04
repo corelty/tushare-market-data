@@ -22,6 +22,7 @@ import yaml
 
 
 BEIJING_TZ = ZoneInfo("Asia/Shanghai")
+QUICK_HISTORY_TRADE_DAYS = 20
 BASIC_DAILY_FIELDS = (
     "ts_code",
     "trade_date",
@@ -62,7 +63,7 @@ class ProjectConfig:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="生成 data/latest.json 与 data/history_60d.json"
+        description="生成最新、20 日、60 日总表及按股票池拆分的行情 JSON"
     )
     parser.add_argument(
         "--config",
@@ -286,14 +287,16 @@ def fetch_market_data(
     as_of: date,
 ) -> tuple[pd.DataFrame, str, str]:
     end_date = as_of.strftime("%Y%m%d")
-    start_date = (as_of - timedelta(days=config.settings.lookback_calendar_days)).strftime(
-        "%Y%m%d"
-    )
+    start_date = (
+        as_of - timedelta(days=config.settings.lookback_calendar_days)
+    ).strftime("%Y%m%d")
     codes = sorted(config.stocks)
     pro = ts.pro_api(token)
     frames: list[pd.DataFrame] = []
 
-    total_chunks = (len(codes) + config.settings.request_chunk_size - 1) // config.settings.request_chunk_size
+    total_chunks = (
+        len(codes) + config.settings.request_chunk_size - 1
+    ) // config.settings.request_chunk_size
     for chunk_index, code_chunk in enumerate(
         chunked(codes, config.settings.request_chunk_size), start=1
     ):
@@ -367,26 +370,25 @@ def enrich_records(
     return enriched
 
 
-def build_payloads(
-    frame: pd.DataFrame,
-    config: ProjectConfig,
+def build_history_metadata(
+    *,
+    history: pd.DataFrame,
+    history_dates: list[str],
+    configured_codes: set[str],
+    requested_days: int,
+    latest_trade_date: str,
     query_start: str,
     query_end: str,
     generated_at: str,
-) -> tuple[dict[str, Any], dict[str, Any]]:
-    trade_dates = sorted(frame["trade_date"].dropna().astype(str).unique().tolist())
-    if not trade_dates:
-        raise RuntimeError("返回数据中没有有效交易日")
-
-    selected_dates = trade_dates[-config.settings.history_trade_days :]
-    history = frame[frame["trade_date"].isin(selected_dates)].copy()
-    latest_trade_date = selected_dates[-1]
-    latest = history[history["trade_date"] == latest_trade_date].copy()
-
+    pool_definitions: list[dict[str, Any]],
+    pool_definition: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     history_codes = set(history["ts_code"].tolist())
-    latest_codes = set(latest["ts_code"].tolist())
-    configured_codes = set(config.stocks)
-
+    latest_codes = set(
+        history.loc[
+            history["trade_date"] == latest_trade_date, "ts_code"
+        ].tolist()
+    )
     metadata: dict[str, Any] = {
         "source": "Tushare Pro / daily",
         "source_url": "https://tushare.pro/document/2?doc_id=27",
@@ -394,11 +396,11 @@ def build_payloads(
         "query_start_date": query_start,
         "query_end_date": query_end,
         "latest_trade_date": latest_trade_date,
-        "history_start_date": selected_dates[0],
-        "history_end_date": selected_dates[-1],
-        "history_trade_days_requested": config.settings.history_trade_days,
-        "history_trade_days_actual": len(selected_dates),
-        "configured_stock_count": len(config.stocks),
+        "history_start_date": history_dates[0] if history_dates else None,
+        "history_end_date": history_dates[-1] if history_dates else None,
+        "history_trade_days_requested": requested_days,
+        "history_trade_days_actual": len(history_dates),
+        "configured_stock_count": len(configured_codes),
         "stocks_with_history_data": len(history_codes),
         "stocks_with_latest_data": len(latest_codes),
         "missing_stock_codes_in_history": sorted(configured_codes - history_codes),
@@ -414,21 +416,118 @@ def build_payloads(
         },
         "price_adjustment": "未复权",
         "free_basic_fields_only": True,
-        "stock_pools": config.pool_definitions,
+        "stock_pools": pool_definitions,
         "notice": (
             "仅供个人研究和复盘，不构成投资建议。公开分发前请重新核对 Tushare 最新许可条款。"
         ),
     }
 
+    if pool_definition is None:
+        metadata["scope"] = "all_stocks"
+    else:
+        metadata.update(
+            {
+                "scope": "stock_pool",
+                "pool_key": pool_definition["key"],
+                "pool_name": pool_definition["name"],
+                "pool_description": pool_definition["description"],
+                "stock_count": len(configured_codes),
+            }
+        )
+    return metadata
+
+
+def build_payloads(
+    frame: pd.DataFrame,
+    config: ProjectConfig,
+    query_start: str,
+    query_end: str,
+    generated_at: str,
+) -> tuple[
+    dict[str, Any],
+    dict[str, Any],
+    dict[str, Any],
+    dict[str, dict[str, Any]],
+]:
+    trade_dates = sorted(frame["trade_date"].dropna().astype(str).unique().tolist())
+    if not trade_dates:
+        raise RuntimeError("返回数据中没有有效交易日")
+
+    selected_dates = trade_dates[-config.settings.history_trade_days :]
+    history = frame[frame["trade_date"].isin(selected_dates)].copy()
+    latest_trade_date = selected_dates[-1]
+    latest = history[history["trade_date"] == latest_trade_date].copy()
+    configured_codes = set(config.stocks)
+
+    history_metadata = build_history_metadata(
+        history=history,
+        history_dates=selected_dates,
+        configured_codes=configured_codes,
+        requested_days=config.settings.history_trade_days,
+        latest_trade_date=latest_trade_date,
+        query_start=query_start,
+        query_end=query_end,
+        generated_at=generated_at,
+        pool_definitions=config.pool_definitions,
+    )
     latest_payload = {
-        "meta": metadata,
+        "meta": history_metadata,
         "data": enrich_records(frame_to_records(latest), config.stocks),
     }
     history_payload = {
-        "meta": metadata,
+        "meta": history_metadata,
         "data": enrich_records(frame_to_records(history), config.stocks),
     }
-    return latest_payload, history_payload
+
+    quick_dates = selected_dates[-QUICK_HISTORY_TRADE_DAYS:]
+    quick_history = history[history["trade_date"].isin(quick_dates)].copy()
+    quick_metadata = build_history_metadata(
+        history=quick_history,
+        history_dates=quick_dates,
+        configured_codes=configured_codes,
+        requested_days=QUICK_HISTORY_TRADE_DAYS,
+        latest_trade_date=latest_trade_date,
+        query_start=query_start,
+        query_end=query_end,
+        generated_at=generated_at,
+        pool_definitions=config.pool_definitions,
+    )
+    quick_metadata["history_window"] = "quick_daily_review"
+    quick_payload = {
+        "meta": quick_metadata,
+        "data": enrich_records(frame_to_records(quick_history), config.stocks),
+    }
+
+    pool_payloads: dict[str, dict[str, Any]] = {}
+    for pool_definition in config.pool_definitions:
+        pool_key = pool_definition["key"]
+        pool_codes = {
+            ts_code
+            for ts_code, stock in config.stocks.items()
+            if pool_key in stock["pool_keys"]
+        }
+        pool_history = history[history["ts_code"].isin(pool_codes)].copy()
+        pool_dates = sorted(
+            pool_history["trade_date"].dropna().astype(str).unique().tolist()
+        )
+        pool_metadata = build_history_metadata(
+            history=pool_history,
+            history_dates=pool_dates,
+            configured_codes=pool_codes,
+            requested_days=config.settings.history_trade_days,
+            latest_trade_date=latest_trade_date,
+            query_start=query_start,
+            query_end=query_end,
+            generated_at=generated_at,
+            pool_definitions=[pool_definition],
+            pool_definition=pool_definition,
+        )
+        pool_payloads[pool_key] = {
+            "meta": pool_metadata,
+            "data": enrich_records(frame_to_records(pool_history), config.stocks),
+        }
+
+    return latest_payload, history_payload, quick_payload, pool_payloads
 
 
 def atomic_write_json(path: Path, payload: dict[str, Any]) -> None:
@@ -467,7 +566,7 @@ def run() -> None:
     as_of = parse_as_of(args.as_of)
     generated_at = datetime.now(BEIJING_TZ).isoformat(timespec="seconds")
     frame, query_start, query_end = fetch_market_data(config, token, as_of)
-    latest_payload, history_payload = build_payloads(
+    latest_payload, history_payload, quick_payload, pool_payloads = build_payloads(
         frame,
         config,
         query_start,
@@ -475,18 +574,32 @@ def run() -> None:
         generated_at,
     )
 
-    latest_path = args.output_dir / "latest.json"
-    history_path = args.output_dir / "history_60d.json"
-    atomic_write_json(latest_path, latest_payload)
-    atomic_write_json(history_path, history_payload)
+    output_payloads: dict[str, dict[str, Any]] = {
+        "latest.json": latest_payload,
+        "history_60d.json": history_payload,
+        "history_20d.json": quick_payload,
+    }
+    output_payloads.update(
+        {
+            f"history_{pool_key}.json": payload
+            for pool_key, payload in pool_payloads.items()
+        }
+    )
+
+    output_paths: list[Path] = []
+    for filename, payload in output_payloads.items():
+        output_path = args.output_dir / filename
+        atomic_write_json(output_path, payload)
+        output_paths.append(output_path)
 
     LOGGER.info(
-        "完成：最新交易日 %s，历史 %s 个交易日，%s 条记录",
+        "完成：最新交易日 %s，历史 %s 个交易日，%s 条总表记录，%s 个股票池文件",
         latest_payload["meta"]["latest_trade_date"],
         history_payload["meta"]["history_trade_days_actual"],
         len(history_payload["data"]),
+        len(pool_payloads),
     )
-    LOGGER.info("输出：%s；%s", latest_path, history_path)
+    LOGGER.info("输出：%s", "；".join(str(path) for path in output_paths))
 
 
 def main() -> int:

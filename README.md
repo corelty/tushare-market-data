@@ -3,7 +3,7 @@
 这个项目会把你配置的 A 股股票池按以下流程自动更新：
 
 ```text
-Tushare 基础日线 → GitHub Actions → data/latest.json + data/history_60d.json
+Tushare 基础日线 → GitHub Actions → data/latest.json + data/history_20d.json + data/history_60d.json + data/history_<pool_key>.json
 ```
 
 - 工作日北京时间 **18:05 左右**自动运行，也可以随时手动运行。
@@ -20,12 +20,18 @@ Tushare 基础日线 → GitHub Actions → data/latest.json + data/history_60d.
 
 | 文件 | 内容 | 典型用途 |
 |---|---|---|
-| `data/latest.json` | 股票池最近一个可用交易日 | 日度复盘 |
-| `data/history_60d.json` | 最近 60 个实际交易日，按日期升序 | 周度、月度、成交额和波动复盘 |
+| `data/latest.json` | 全部股票池最近一个可用交易日 | 最新行情与当日横截面 |
+| `data/history_20d.json` | 全部股票最近 20 个实际交易日 | ChatGPT 日度快速复盘、周内强弱和成交变化 |
+| `data/history_60d.json` | 全部股票最近 60 个实际交易日总表 | 全市场周度、月度和跨池比较；保留以兼容现有流程 |
+| `data/history_ai_hardware.json` | AI 硬件池最近 60 个实际交易日 | AI 硬件周度/月度复盘 |
+| `data/history_chemicals_energy_materials.json` | 化工能源材料池最近 60 个实际交易日 | 化工、能源、材料专题复盘 |
+| `data/history_energy_storage.json` | 储能池最近 60 个实际交易日 | 储能专题复盘 |
+| `data/history_consumer_electronics.json` | 消费电子池最近 60 个实际交易日 | 消费电子专题复盘 |
+| `data/history_frontier_materials_watchlist.json` | 前沿材料观察池最近 60 个实际交易日 | 前沿材料观察 |
 
-默认股票池位于 `config/stock_pools.yml`，已经放入四类可修改示例：AI 硬件、化工能源材料、储能、消费电子。
+按池文件名由 `config/stock_pools.yml` 的池 key 自动生成，格式为 `data/history_<pool_key>.json`。同一股票如果属于多个池，会在对应的多个池文件中各保留一份记录；行情请求本身仍只执行一次。
 
-行情字段只有：`open`、`high`、`low`、`close`、`pre_close`、`change`、`pct_chg`、`vol`、`amount`。其中 `vol` 单位为手，`amount` 单位为千元；行情为未复权数据。
+默认股票池位于 `config/stock_pools.yml`。行情字段只有：`open`、`high`、`low`、`close`、`pre_close`、`change`、`pct_chg`、`vol`、`amount`。其中 `vol` 单位为手，`amount` 单位为千元；行情为未复权数据。
 
 ---
 
@@ -96,7 +102,7 @@ Secret 保存后只会显示名称，不会再次显示原值。工作流通过 
 
 ### 允许工作流提交 JSON
 
-工作流需要把更新后的两份 JSON 提交回私有仓库：
+工作流需要把更新后的全部 JSON 提交回私有仓库：
 
 1. 进入 **Settings → Actions → General**。
 2. 找到 **Workflow permissions**。
@@ -124,47 +130,65 @@ Secret 保存后只会显示名称，不会再次显示原值。工作流通过 
 
 ```text
 data/latest.json
+data/history_20d.json
 data/history_60d.json
+data/history_ai_hardware.json
+data/history_chemicals_energy_materials.json
+data/history_energy_storage.json
+data/history_consumer_electronics.json
+data/history_frontier_materials_watchlist.json
 ```
 
 重点检查：
 
 - `meta.latest_trade_date` 是最近一个交易日；周末或节假日不一定等于当天。
-- `meta.history_trade_days_actual` 通常为 `60`。
+- 60 日文件的 `meta.history_trade_days_actual` 通常为 `60`，快速文件通常为 `20`。
+- 每个按池文件都有 `meta.pool_key`、`meta.pool_name`、`meta.stock_count`，并保留 `source`、`fields` 和 `units`。
 - `meta.free_basic_fields_only` 为 `true`。
-- `data` 不是空列表，记录中包含股票代码、名称、板块标签和基础日线字段。
+- `data` 不是空列表，记录中包含股票代码、名称、全部板块标签和基础日线字段。
 - 文件中绝不能出现你的 Tushare Token。
 
 ### 方法 B：下载私有 Actions 产物
 
 1. 进入 **Actions**，打开刚才成功的运行记录。
 2. 在页面下方 **Artifacts** 区域下载 `tushare-market-data-运行编号`。
-3. 解压后应看到两份 JSON。
+3. 解压后应看到全部生成的 JSON。
 
 Actions 产物不是公开网址；只有登录 GitHub 且对私有仓库有读取权限的人才能下载。GitHub 官方说明：[下载工作流产物](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/download-workflow-artifacts)。
 
 ## 第 7 步：怎样让 ChatGPT 读取
 
-这里有一个重要区别：**私有 GitHub 文件有地址，但普通网页读取无法绕过登录权限。** 不要为了让 ChatGPT 读取而直接把仓库改成公开，也不要启用 GitHub Pages。
+推荐按复盘范围选择最小数据集，减少上传体积和读取失败：
 
-### 方式 A：现在就能用，最稳妥
+- **日度快速复盘**：读取 `data/latest.json + data/history_20d.json`。
+- **某个板块的周度/月度复盘**：读取 `data/latest.json +` 对应的 `data/history_<pool_key>.json`。
+- **跨板块周度/月度复盘**：按需读取多个池文件；只有需要全池统一计算时才读取 `data/history_60d.json`。
 
-从 Actions 下载产物，把 `latest.json` 和 `history_60d.json` 直接上传到 ChatGPT 对话，然后输入：
+### 方式 A：上传文件
+
+从 Actions 下载产物，把需要的 JSON 直接上传到 ChatGPT 对话。日度复盘可输入：
 
 ```text
-请使用我上传的 latest.json 和 history_60d.json，按 AI硬件、化工能源材料、储能、消费电子四个股票池做日/周/月复盘。说明数据截至哪个交易日，并列出涨跌幅、成交额变化、强弱排序和异常波动。不要把结果当成投资建议。
+请使用我上传的 latest.json 和 history_20d.json 做日度快速复盘。说明数据截至哪个交易日，并列出股票池强弱、涨跌幅、成交额变化和异常波动。不要把结果当成投资建议。
+```
+
+板块周度/月度复盘可输入：
+
+```text
+请使用我上传的 latest.json 和 history_ai_hardware.json，对 AI 硬件池做周度/月度复盘。请使用 meta 中的池名称、交易日数量和单位，并保留跨池股票的全部标签。
 ```
 
 ### 方式 B：连接已授权的 GitHub 应用
 
-如果你的 ChatGPT 或 Codex 环境提供 GitHub 应用/连接器，可以授权它读取这个私有仓库，然后把下面两个地址和仓库权限一起提供给它：
+如果你的 ChatGPT 或 Codex 环境提供 GitHub 应用/连接器，可以授权它读取这个私有仓库，然后提供所需文件地址，例如：
 
 ```text
 https://github.com/你的用户名/你的仓库名/blob/main/data/latest.json
-https://github.com/你的用户名/你的仓库名/blob/main/data/history_60d.json
+https://github.com/你的用户名/你的仓库名/blob/main/data/history_20d.json
+https://github.com/你的用户名/你的仓库名/blob/main/data/history_ai_hardware.json
 ```
 
-只粘贴这两个链接、但没有授权 GitHub 访问时，ChatGPT 通常不能读取私有内容。授权时尽量只开放这一个仓库。
+只粘贴链接、但没有授权 GitHub 访问时，ChatGPT 通常不能读取私有内容。授权时尽量只开放这一个仓库。
 
 ### 方式 C：后续增加自有只读接口（适合全自动复盘）
 
@@ -172,10 +196,11 @@ https://github.com/你的用户名/你的仓库名/blob/main/data/history_60d.js
 
 ```text
 GET https://data.example.com/market/latest
-GET https://data.example.com/market/history?days=60
+GET https://data.example.com/market/history?days=20
+GET https://data.example.com/market/history?pool=ai_hardware&days=60
 ```
 
-认证信息应放在请求头或连接器的安全配置中，不要把密钥拼在 URL 查询参数里。ChatGPT/Codex 可以通过经授权的 GitHub 集成，或你后续搭建的只读 MCP/应用来获取数据；OpenAI 官方的 [MCP server quickstart](https://developers.openai.com/plugins/build/app-quickstart) 说明了如何把服务器工具暴露给 ChatGPT 和 Codex。
+认证信息应放在请求头或连接器的安全配置中，不要把密钥拼在 URL 查询参数里。ChatGPT/Codex 可以通过经授权的 GitHub 集成，或你后续搭建的只读 MCP/应用来获取数据。
 
 ## 为什么默认不启用 GitHub Pages
 
@@ -201,21 +226,28 @@ GitHub Pages 的用途是公开发布网页或文件，不是私有数据交换�
 
 代码格式：上海 `600000.SH`、深圳 `000001.SZ`、北交所 `920xxx.BJ`（以 Tushare 当前代码为准）。
 
-同一股票可以出现在多个股票池中。脚本只请求一次行情，并在输出的 `pool_keys`、`pool_names` 中保留全部分类。修改后提交文件，再手动运行一次工作流验证。
+同一股票可以出现在多个股票池中。脚本只请求一次行情，并在输出的 `pool_keys`、`pool_names` 中保留全部分类，同时把该股票写入每个所属池的历史文件。修改后提交文件，再手动运行一次工作流验证。
+
+新增股票池时，只要池 key 符合小写字母、数字和下划线规则，脚本就会自动生成 `data/history_<pool_key>.json`，不需要再修改 Python 代码或工作流。
 
 默认每批最多 50 只股票，以控制单次数据量。若股票池扩展到很多只，脚本会自动分批。Tushare `daily` 的单次记录上限和调用频率可能变化，请以接口页面为准。
 
 ## JSON 结构示例
 
-真实数值由首次运行产生，结构类似：
+按池文件会在原有元数据上增加池范围信息：
 
 ```json
 {
   "meta": {
     "source": "Tushare Pro / daily",
-    "latest_trade_date": "20260817",
+    "latest_trade_date": "20260818",
     "history_trade_days_actual": 60,
-    "free_basic_fields_only": true
+    "scope": "stock_pool",
+    "pool_key": "ai_hardware",
+    "pool_name": "AI硬件",
+    "stock_count": 89,
+    "fields": ["ts_code", "trade_date", "open", "high", "low", "close"],
+    "units": {"pct_chg": "%", "vol": "手", "amount": "千元"}
   },
   "data": [
     {
@@ -223,7 +255,7 @@ GitHub Pages 的用途是公开发布网页或文件，不是私有数据交换�
       "name": "中际旭创",
       "pool_keys": ["ai_hardware"],
       "pool_names": ["AI硬件"],
-      "trade_date": "20260817",
+      "trade_date": "20260818",
       "open": 0.0,
       "high": 0.0,
       "low": 0.0,
@@ -297,11 +329,11 @@ GitHub 计划任务可能排队或延迟。只要运行最终成功且 `latest_t
 
 ```text
 .
-├── .github/workflows/update-market-data.yml  # 定时与手动工作流
+├── .github/workflows/update-market-data.yml  # 定时、校验、上传与自动提交全部 JSON
 ├── config/stock_pools.yml                    # 可扩展股票池
-├── data/README.md                            # 输出目录说明
-├── scripts/update_market_data.py             # 拉取、整理、生成 JSON
-├── scripts/validate_output.py                 # 离线校验输出
+├── data/README.md                            # 输出文件与推荐读取组合
+├── scripts/update_market_data.py             # 拉取、整理、生成总表和拆分文件
+├── scripts/validate_output.py                 # 离线校验全部输出及跨池完整性
 ├── .gitignore                                # 忽略本地秘密和临时文件
 ├── requirements.txt                          # Python 依赖
 └── UPLOAD_CHECKLIST.txt                      # 网页上传核对表
