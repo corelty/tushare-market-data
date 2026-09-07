@@ -2,12 +2,12 @@
   "meta": {
     "source": "Tushare Pro / daily",
     "source_url": "https://tushare.pro/document/2?doc_id=27",
-    "generated_at_beijing": "2026-09-05T00:13:13+08:00",
-    "query_start_date": "20260508",
-    "query_end_date": "20260905",
-    "latest_trade_date": "20260904",
-    "history_start_date": "20260612",
-    "history_end_date": "20260904",
+    "generated_at_beijing": "2026-09-07T18:20:29+08:00",
+    "query_start_date": "20260510",
+    "query_end_date": "20260907",
+    "latest_trade_date": "20260907",
+    "history_start_date": "20260615",
+    "history_end_date": "20260907",
     "history_trade_days_requested": 60,
     "history_trade_days_actual": 60,
     "configured_stock_count": 3,
@@ -52,75 +52,6 @@
     "stock_count": 3
   },
   "data": [
-    {
-      "ts_code": "002600.SZ",
-      "name": "领益智造",
-      "pool_keys": [
-        "consumer_electronics"
-      ],
-      "pool_names": [
-        "消费电子"
-      ],
-      "pool_notes": {
-        "consumer_electronics": "精密功能件；AI终端硬件"
-      },
-      "trade_date": "20260612",
-      "open": 13.91,
-      "high": 14.43,
-      "low": 13.9,
-      "close": 14.01,
-      "pre_close": 13.63,
-      "change": 0.38,
-      "pct_chg": 2.788,
-      "vol": 2334210.63,
-      "amount": 3325115.27337
-    },
-    {
-      "ts_code": "300433.SZ",
-      "name": "蓝思科技",
-      "pool_keys": [
-        "consumer_electronics"
-      ],
-      "pool_names": [
-        "消费电子"
-      ],
-      "pool_notes": {
-        "consumer_electronics": "玻璃与结构件；精密制造"
-      },
-      "trade_date": "20260612",
-      "open": 44.0,
-      "high": 47.55,
-      "low": 41.13,
-      "close": 41.14,
-      "pre_close": 42.68,
-      "change": -1.54,
-      "pct_chg": -3.6082,
-      "vol": 2312563.68,
-      "amount": 10273850.6612
-    },
-    {
-      "ts_code": "688036.SH",
-      "name": "传音控股",
-      "pool_keys": [
-        "consumer_electronics"
-      ],
-      "pool_names": [
-        "消费电子"
-      ],
-      "pool_notes": {
-        "consumer_electronics": "智能手机终端；新兴市场消费电子"
-      },
-      "trade_date": "20260612",
-      "open": 53.98,
-      "high": 54.3,
-      "low": 53.2,
-      "close": 53.67,
-      "pre_close": 53.17,
-      "change": 0.5,
-      "pct_chg": 0.9404,
-      "vol": 104015.07,
-      "amount": 560374.083
-    },
     {
       "ts_code": "002600.SZ",
       "name": "领益智造",
@@ -4191,6 +4122,75 @@
       "pct_chg": 0.5668,
       "vol": 74083.95,
       "amount": 423504.121
+    },
+    {
+      "ts_code": "002600.SZ",
+      "name": "领益智造",
+      "pool_keys": [
+        "consumer_electronics"
+      ],
+      "pool_names": [
+        "消费电子"
+      ],
+      "pool_notes": {
+        "consumer_electronics": "精密功能件；AI终端硬件"
+      },
+      "trade_date": "20260907",
+      "open": 12.68,
+      "high": 12.76,
+      "low": 12.58,
+      "close": 12.65,
+      "pre_close": 12.63,
+      "change": 0.02,
+      "pct_chg": 0.1584,
+      "vol": 698053.04,
+      "amount": 885009.65052
+    },
+    {
+      "ts_code": "300433.SZ",
+      "name": "蓝思科技",
+      "pool_keys": [
+        "consumer_electronics"
+      ],
+      "pool_names": [
+        "消费电子"
+      ],
+      "pool_notes": {
+        "consumer_electronics": "玻璃与结构件；精密制造"
+      },
+      "trade_date": "20260907",
+      "open": 35.3,
+      "high": 36.11,
+      "low": 35.15,
+      "close": 35.78,
+      "pre_close": 35.14,
+      "change": 0.64,
+      "pct_chg": 1.8213,
+      "vol": 633516.18,
+      "amount": 2258192.69094
+    },
+    {
+      "ts_code": "688036.SH",
+      "name": "传音控股",
+      "pool_keys": [
+        "consumer_electronics"
+      ],
+      "pool_names": [
+        "消费电子"
+      ],
+      "pool_notes": {
+        "consumer_electronics": "智能手机终端；新兴市场消费电子"
+      },
+      "trade_date": "20260907",
+      "open": 56.52,
+      "high": 56.98,
+      "low": 54.68,
+      "close": 54.8,
+      "pre_close": 56.78,
+      "change": -1.98,
+      "pct_chg": -3.4871,
+      "vol": 121418.97,
+      "amount": 669453.761
     }
   ]
 }
