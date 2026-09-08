@@ -2,12 +2,12 @@
   "meta": {
     "source": "Tushare Pro / daily",
     "source_url": "https://tushare.pro/document/2?doc_id=27",
-    "generated_at_beijing": "2026-09-07T18:20:29+08:00",
-    "query_start_date": "20260510",
-    "query_end_date": "20260907",
-    "latest_trade_date": "20260907",
-    "history_start_date": "20260615",
-    "history_end_date": "20260907",
+    "generated_at_beijing": "2026-09-08T18:21:28+08:00",
+    "query_start_date": "20260511",
+    "query_end_date": "20260908",
+    "latest_trade_date": "20260908",
+    "history_start_date": "20260616",
+    "history_end_date": "20260908",
     "history_trade_days_requested": 60,
     "history_trade_days_actual": 60,
     "configured_stock_count": 2,
@@ -52,52 +52,6 @@
     "stock_count": 2
   },
   "data": [
-    {
-      "ts_code": "002254.SZ",
-      "name": "泰和新材",
-      "pool_keys": [
-        "frontier_materials_watchlist"
-      ],
-      "pool_names": [
-        "前沿材料观察股"
-      ],
-      "pool_notes": {
-        "frontier_materials_watchlist": "芳纶；AI、机器人与航空航天高性能纤维"
-      },
-      "trade_date": "20260615",
-      "open": 17.69,
-      "high": 17.97,
-      "low": 17.06,
-      "close": 17.48,
-      "pre_close": 18.06,
-      "change": -0.58,
-      "pct_chg": -3.2115,
-      "vol": 932451.94,
-      "amount": 1622247.40991
-    },
-    {
-      "ts_code": "688716.SH",
-      "name": "中研股份",
-      "pool_keys": [
-        "frontier_materials_watchlist"
-      ],
-      "pool_names": [
-        "前沿材料观察股"
-      ],
-      "pool_notes": {
-        "frontier_materials_watchlist": "PEEK；机器人、航空航天与半导体高性能工程塑料"
-      },
-      "trade_date": "20260615",
-      "open": 33.26,
-      "high": 35.23,
-      "low": 32.8,
-      "close": 34.84,
-      "pre_close": 32.45,
-      "change": 2.39,
-      "pct_chg": 7.3652,
-      "vol": 43525.03,
-      "amount": 150283.48
-    },
     {
       "ts_code": "002254.SZ",
       "name": "泰和新材",
@@ -2811,6 +2765,52 @@
       "pct_chg": -0.1111,
       "vol": 11209.99,
       "amount": 30515.383
+    },
+    {
+      "ts_code": "002254.SZ",
+      "name": "泰和新材",
+      "pool_keys": [
+        "frontier_materials_watchlist"
+      ],
+      "pool_names": [
+        "前沿材料观察股"
+      ],
+      "pool_notes": {
+        "frontier_materials_watchlist": "芳纶；AI、机器人与航空航天高性能纤维"
+      },
+      "trade_date": "20260908",
+      "open": 12.66,
+      "high": 12.89,
+      "low": 12.55,
+      "close": 12.62,
+      "pre_close": 12.62,
+      "change": 0.0,
+      "pct_chg": 0.0,
+      "vol": 129416.96,
+      "amount": 164252.05718
+    },
+    {
+      "ts_code": "688716.SH",
+      "name": "中研股份",
+      "pool_keys": [
+        "frontier_materials_watchlist"
+      ],
+      "pool_names": [
+        "前沿材料观察股"
+      ],
+      "pool_notes": {
+        "frontier_materials_watchlist": "PEEK；机器人、航空航天与半导体高性能工程塑料"
+      },
+      "trade_date": "20260908",
+      "open": 26.98,
+      "high": 27.47,
+      "low": 26.73,
+      "close": 26.87,
+      "pre_close": 26.98,
+      "change": -0.11,
+      "pct_chg": -0.4077,
+      "vol": 10342.12,
+      "amount": 27883.623
     }
   ]
 }
