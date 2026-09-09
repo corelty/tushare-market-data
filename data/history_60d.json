@@ -2,12 +2,12 @@
   "meta": {
     "source": "Tushare Pro / daily",
     "source_url": "https://tushare.pro/document/2?doc_id=27",
-    "generated_at_beijing": "2026-09-08T18:21:28+08:00",
-    "query_start_date": "20260511",
-    "query_end_date": "20260908",
-    "latest_trade_date": "20260908",
-    "history_start_date": "20260616",
-    "history_end_date": "20260908",
+    "generated_at_beijing": "2026-09-09T18:21:01+08:00",
+    "query_start_date": "20260512",
+    "query_end_date": "20260909",
+    "latest_trade_date": "20260909",
+    "history_start_date": "20260617",
+    "history_end_date": "20260909",
     "history_trade_days_requested": 60,
     "history_trade_days_actual": 60,
     "configured_stock_count": 151,
@@ -72,3477 +72,6 @@
     "scope": "all_stocks"
   },
   "data": [
-    {
-      "ts_code": "000063.SZ",
-      "name": "中兴通讯",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "交换芯片 / NIC / DPU；通信设备与算力基础设施"
-      },
-      "trade_date": "20260616",
-      "open": 36.9,
-      "high": 38.48,
-      "low": 36.55,
-      "close": 38.0,
-      "pre_close": 37.22,
-      "change": 0.78,
-      "pct_chg": 2.0956,
-      "vol": 2128867.5,
-      "amount": 8030855.24942
-    },
-    {
-      "ts_code": "000408.SZ",
-      "name": "藏格矿业",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "磷钾肥；盐湖钾锂；钾肥与盐湖锂"
-      },
-      "trade_date": "20260616",
-      "open": 81.48,
-      "high": 81.54,
-      "low": 76.23,
-      "close": 76.34,
-      "pre_close": 81.86,
-      "change": -5.52,
-      "pct_chg": -6.7432,
-      "vol": 177597.76,
-      "amount": 1392353.65496
-    },
-    {
-      "ts_code": "000636.SZ",
-      "name": "风华高科",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "MLCC；被动元件"
-      },
-      "trade_date": "20260616",
-      "open": 68.24,
-      "high": 71.53,
-      "low": 68.0,
-      "close": 70.61,
-      "pre_close": 65.03,
-      "change": 5.58,
-      "pct_chg": 8.5807,
-      "vol": 1795432.42,
-      "amount": 12685111.7994
-    },
-    {
-      "ts_code": "000683.SZ",
-      "name": "远兴能源",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "纯碱 / 氯碱；天然碱；成本曲线核心资产"
-      },
-      "trade_date": "20260616",
-      "open": 6.96,
-      "high": 6.97,
-      "low": 6.76,
-      "close": 6.78,
-      "pre_close": 6.95,
-      "change": -0.17,
-      "pct_chg": -2.446,
-      "vol": 426802.86,
-      "amount": 293047.34707
-    },
-    {
-      "ts_code": "000792.SZ",
-      "name": "盐湖股份",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "磷钾肥；盐湖钾锂；国内钾肥与盐湖锂"
-      },
-      "trade_date": "20260616",
-      "open": 31.65,
-      "high": 31.79,
-      "low": 30.8,
-      "close": 31.15,
-      "pre_close": 32.03,
-      "change": -0.88,
-      "pct_chg": -2.7474,
-      "vol": 1048806.54,
-      "amount": 3285184.08502
-    },
-    {
-      "ts_code": "000893.SZ",
-      "name": "亚钾国际",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "磷钾肥；海外钾肥；钾肥高弹性"
-      },
-      "trade_date": "20260616",
-      "open": 48.75,
-      "high": 48.75,
-      "low": 43.7,
-      "close": 43.7,
-      "pre_close": 48.55,
-      "change": -4.85,
-      "pct_chg": -9.9897,
-      "vol": 247947.55,
-      "amount": 1122121.69453
-    },
-    {
-      "ts_code": "000902.SZ",
-      "name": "新洋丰",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "磷钾肥；复合肥；复合肥龙头"
-      },
-      "trade_date": "20260616",
-      "open": 13.06,
-      "high": 13.06,
-      "low": 12.5,
-      "close": 12.54,
-      "pre_close": 12.93,
-      "change": -0.39,
-      "pct_chg": -3.0162,
-      "vol": 159565.59,
-      "amount": 202115.88703
-    },
-    {
-      "ts_code": "000938.SZ",
-      "name": "紫光股份",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "交换芯片 / NIC / DPU；网络设备与服务器"
-      },
-      "trade_date": "20260616",
-      "open": 26.48,
-      "high": 26.79,
-      "low": 26.12,
-      "close": 26.78,
-      "pre_close": 26.48,
-      "change": 0.3,
-      "pct_chg": 1.1329,
-      "vol": 1025605.91,
-      "amount": 2721707.49962
-    },
-    {
-      "ts_code": "000977.SZ",
-      "name": "浪潮信息",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "服务器ODM / 整机；AI服务器"
-      },
-      "trade_date": "20260616",
-      "open": 63.0,
-      "high": 63.03,
-      "low": 61.55,
-      "close": 62.3,
-      "pre_close": 63.09,
-      "change": -0.79,
-      "pct_chg": -1.2522,
-      "vol": 520745.53,
-      "amount": 3245401.37065
-    },
-    {
-      "ts_code": "002001.SZ",
-      "name": "新和成",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "营养品 / 生物制造；维生素；精细化工优质龙头"
-      },
-      "trade_date": "20260616",
-      "open": 30.0,
-      "high": 30.11,
-      "low": 27.33,
-      "close": 27.65,
-      "pre_close": 30.24,
-      "change": -2.59,
-      "pct_chg": -8.5648,
-      "vol": 728488.03,
-      "amount": 2057688.27186
-    },
-    {
-      "ts_code": "002008.SZ",
-      "name": "大族激光",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "PCB设备；激光加工装备"
-      },
-      "trade_date": "20260616",
-      "open": 125.74,
-      "high": 136.62,
-      "low": 123.0,
-      "close": 136.62,
-      "pre_close": 124.2,
-      "change": 12.42,
-      "pct_chg": 10.0,
-      "vol": 585797.95,
-      "amount": 7710997.43609
-    },
-    {
-      "ts_code": "002025.SZ",
-      "name": "航天电器",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "连接器；高可靠连接器与继电器"
-      },
-      "trade_date": "20260616",
-      "open": 66.0,
-      "high": 66.5,
-      "low": 62.66,
-      "close": 63.12,
-      "pre_close": 65.88,
-      "change": -2.76,
-      "pct_chg": -4.1894,
-      "vol": 197598.25,
-      "amount": 1265837.88303
-    },
-    {
-      "ts_code": "002028.SZ",
-      "name": "思源电气",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "电力设备；输配电设备"
-      },
-      "trade_date": "20260616",
-      "open": 176.5,
-      "high": 180.8,
-      "low": 174.0,
-      "close": 174.48,
-      "pre_close": 178.0,
-      "change": -3.52,
-      "pct_chg": -1.9775,
-      "vol": 101719.16,
-      "amount": 1798437.31888
-    },
-    {
-      "ts_code": "002056.SZ",
-      "name": "横店东磁",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "电感 / 磁性元件；磁性材料与器件"
-      },
-      "trade_date": "20260616",
-      "open": 25.62,
-      "high": 27.27,
-      "low": 24.85,
-      "close": 26.25,
-      "pre_close": 25.45,
-      "change": 0.8,
-      "pct_chg": 3.1434,
-      "vol": 1002312.0,
-      "amount": 2616301.7597
-    },
-    {
-      "ts_code": "002064.SZ",
-      "name": "华峰化学",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "煤化工 / 聚氨酯；氨纶 / 己二酸；聚氨酯产业链"
-      },
-      "trade_date": "20260616",
-      "open": 10.75,
-      "high": 11.39,
-      "low": 10.65,
-      "close": 10.71,
-      "pre_close": 10.92,
-      "change": -0.21,
-      "pct_chg": -1.9231,
-      "vol": 665340.65,
-      "amount": 728313.00276
-    },
-    {
-      "ts_code": "002130.SZ",
-      "name": "沃尔核材",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "高速铜连接；高速通信线缆"
-      },
-      "trade_date": "20260616",
-      "open": 20.41,
-      "high": 21.2,
-      "low": 20.26,
-      "close": 20.84,
-      "pre_close": 20.53,
-      "change": 0.31,
-      "pct_chg": 1.51,
-      "vol": 474739.16,
-      "amount": 983256.63493
-    },
-    {
-      "ts_code": "002138.SZ",
-      "name": "顺络电子",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "电感 / 磁性元件；片式电感"
-      },
-      "trade_date": "20260616",
-      "open": 62.0,
-      "high": 62.8,
-      "low": 58.8,
-      "close": 61.29,
-      "pre_close": 61.3,
-      "change": -0.01,
-      "pct_chg": -0.0163,
-      "vol": 652075.48,
-      "amount": 3952678.98111
-    },
-    {
-      "ts_code": "002156.SZ",
-      "name": "通富微电",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "先进封装；Chiplet"
-      },
-      "trade_date": "20260616",
-      "open": 62.41,
-      "high": 63.5,
-      "low": 61.74,
-      "close": 62.93,
-      "pre_close": 61.54,
-      "change": 1.39,
-      "pct_chg": 2.2587,
-      "vol": 1247423.8,
-      "amount": 7820788.72163
-    },
-    {
-      "ts_code": "002179.SZ",
-      "name": "中航光电",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "连接器；高可靠连接器"
-      },
-      "trade_date": "20260616",
-      "open": 38.41,
-      "high": 38.98,
-      "low": 37.78,
-      "close": 38.11,
-      "pre_close": 38.19,
-      "change": -0.08,
-      "pct_chg": -0.2095,
-      "vol": 347777.13,
-      "amount": 1331516.01737
-    },
-    {
-      "ts_code": "002185.SZ",
-      "name": "华天科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "先进封装；Chiplet"
-      },
-      "trade_date": "20260616",
-      "open": 17.3,
-      "high": 18.05,
-      "low": 17.2,
-      "close": 17.82,
-      "pre_close": 17.13,
-      "change": 0.69,
-      "pct_chg": 4.028,
-      "vol": 3443888.23,
-      "amount": 6108893.38814
-    },
-    {
-      "ts_code": "002254.SZ",
-      "name": "泰和新材",
-      "pool_keys": [
-        "frontier_materials_watchlist"
-      ],
-      "pool_names": [
-        "前沿材料观察股"
-      ],
-      "pool_notes": {
-        "frontier_materials_watchlist": "芳纶；AI、机器人与航空航天高性能纤维"
-      },
-      "trade_date": "20260616",
-      "open": 17.15,
-      "high": 17.77,
-      "low": 16.6,
-      "close": 16.89,
-      "pre_close": 17.48,
-      "change": -0.59,
-      "pct_chg": -3.3753,
-      "vol": 986415.77,
-      "amount": 1681443.43865
-    },
-    {
-      "ts_code": "002258.SZ",
-      "name": "利尔化学",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "农药；草铵膦等；草铵膦核心资产"
-      },
-      "trade_date": "20260616",
-      "open": 13.72,
-      "high": 14.06,
-      "low": 13.54,
-      "close": 13.96,
-      "pre_close": 13.69,
-      "change": 0.27,
-      "pct_chg": 1.9722,
-      "vol": 220064.7,
-      "amount": 305858.60708
-    },
-    {
-      "ts_code": "002335.SZ",
-      "name": "科华数据",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "800V HVDC；数据中心供配电与UPS"
-      },
-      "trade_date": "20260616",
-      "open": 39.24,
-      "high": 39.48,
-      "low": 38.77,
-      "close": 39.03,
-      "pre_close": 39.23,
-      "change": -0.2,
-      "pct_chg": -0.5098,
-      "vol": 282412.56,
-      "amount": 1104905.16668
-    },
-    {
-      "ts_code": "002338.SZ",
-      "name": "奥普光电",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "MLCC设备；精密光机电设备"
-      },
-      "trade_date": "20260616",
-      "open": 53.0,
-      "high": 56.55,
-      "low": 52.52,
-      "close": 55.47,
-      "pre_close": 53.42,
-      "change": 2.05,
-      "pct_chg": 3.8375,
-      "vol": 98775.97,
-      "amount": 537557.28344
-    },
-    {
-      "ts_code": "002364.SZ",
-      "name": "中恒电气",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "AI服务器电源；800V HVDC；数据中心电源"
-      },
-      "trade_date": "20260616",
-      "open": 52.0,
-      "high": 53.76,
-      "low": 51.06,
-      "close": 52.24,
-      "pre_close": 51.16,
-      "change": 1.08,
-      "pct_chg": 2.111,
-      "vol": 426109.41,
-      "amount": 2250088.75714
-    },
-    {
-      "ts_code": "002371.SZ",
-      "name": "北方华创",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "半导体设备；Hybrid Bonding设备"
-      },
-      "trade_date": "20260616",
-      "open": 680.0,
-      "high": 681.9,
-      "low": 660.36,
-      "close": 672.19,
-      "pre_close": 682.22,
-      "change": -10.03,
-      "pct_chg": -1.4702,
-      "vol": 86768.4,
-      "amount": 5816489.19976
-    },
-    {
-      "ts_code": "002384.SZ",
-      "name": "东山精密",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "PCB制造；精密电子制造"
-      },
-      "trade_date": "20260616",
-      "open": 244.0,
-      "high": 253.1,
-      "low": 235.88,
-      "close": 249.06,
-      "pre_close": 239.31,
-      "change": 9.75,
-      "pct_chg": 4.0742,
-      "vol": 1025167.11,
-      "amount": 24938544.4851
-    },
-    {
-      "ts_code": "002407.SZ",
-      "name": "多氟多",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "氟硅化工；氟化盐；六氟磷酸锂与氟化工"
-      },
-      "trade_date": "20260616",
-      "open": 39.0,
-      "high": 41.5,
-      "low": 38.51,
-      "close": 39.33,
-      "pre_close": 40.14,
-      "change": -0.81,
-      "pct_chg": -2.0179,
-      "vol": 2133238.24,
-      "amount": 8504305.40892
-    },
-    {
-      "ts_code": "002409.SZ",
-      "name": "雅克科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "半导体材料；前驱体与电子材料"
-      },
-      "trade_date": "20260616",
-      "open": 137.45,
-      "high": 143.6,
-      "low": 135.05,
-      "close": 137.76,
-      "pre_close": 138.83,
-      "change": -1.07,
-      "pct_chg": -0.7707,
-      "vol": 366139.26,
-      "amount": 5070951.74692
-    },
-    {
-      "ts_code": "002463.SZ",
-      "name": "沪电股份",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "PCB制造；AI服务器与交换机PCB"
-      },
-      "trade_date": "20260616",
-      "open": 134.2,
-      "high": 144.65,
-      "low": 134.04,
-      "close": 140.64,
-      "pre_close": 133.76,
-      "change": 6.88,
-      "pct_chg": 5.1435,
-      "vol": 1101495.55,
-      "amount": 15332666.4335
-    },
-    {
-      "ts_code": "002475.SZ",
-      "name": "立讯精密",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "高速铜连接；连接器；精密制造"
-      },
-      "trade_date": "20260616",
-      "open": 68.15,
-      "high": 68.7,
-      "low": 66.45,
-      "close": 67.26,
-      "pre_close": 68.15,
-      "change": -0.89,
-      "pct_chg": -1.3059,
-      "vol": 1594150.22,
-      "amount": 10757497.5065
-    },
-    {
-      "ts_code": "002493.SZ",
-      "name": "荣盛石化",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "炼化石化；大炼化；民营炼化核心"
-      },
-      "trade_date": "20260616",
-      "open": 11.79,
-      "high": 12.05,
-      "low": 11.58,
-      "close": 11.65,
-      "pre_close": 11.95,
-      "change": -0.3,
-      "pct_chg": -2.5105,
-      "vol": 511827.45,
-      "amount": 601900.13267
-    },
-    {
-      "ts_code": "002600.SZ",
-      "name": "领益智造",
-      "pool_keys": [
-        "consumer_electronics"
-      ],
-      "pool_names": [
-        "消费电子"
-      ],
-      "pool_notes": {
-        "consumer_electronics": "精密功能件；AI终端硬件"
-      },
-      "trade_date": "20260616",
-      "open": 15.0,
-      "high": 15.95,
-      "low": 14.86,
-      "close": 15.69,
-      "pre_close": 15.04,
-      "change": 0.65,
-      "pct_chg": 4.3218,
-      "vol": 2250669.41,
-      "amount": 3483331.04275
-    },
-    {
-      "ts_code": "002601.SZ",
-      "name": "龙佰集团",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "传统精细化工；钛白粉；全球钛白粉龙头之一"
-      },
-      "trade_date": "20260616",
-      "open": 15.55,
-      "high": 15.7,
-      "low": 15.25,
-      "close": 15.4,
-      "pre_close": 15.69,
-      "change": -0.29,
-      "pct_chg": -1.8483,
-      "vol": 294885.65,
-      "amount": 455823.82537
-    },
-    {
-      "ts_code": "002636.SZ",
-      "name": "金安国纪",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "覆铜板 CCL"
-      },
-      "trade_date": "20260616",
-      "open": 94.91,
-      "high": 102.9,
-      "low": 94.5,
-      "close": 101.49,
-      "pre_close": 97.34,
-      "change": 4.15,
-      "pct_chg": 4.2634,
-      "vol": 601334.7,
-      "amount": 5959603.31749
-    },
-    {
-      "ts_code": "002648.SZ",
-      "name": "卫星化学",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "炼化石化；C2 / C3；乙烷裂解与C3龙头"
-      },
-      "trade_date": "20260616",
-      "open": 23.0,
-      "high": 23.0,
-      "low": 22.28,
-      "close": 22.33,
-      "pre_close": 23.27,
-      "change": -0.94,
-      "pct_chg": -4.0395,
-      "vol": 662561.57,
-      "amount": 1495605.45407
-    },
-    {
-      "ts_code": "002709.SZ",
-      "name": "天赐材料",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "锂电材料；电解液；电解液龙头"
-      },
-      "trade_date": "20260616",
-      "open": 49.35,
-      "high": 52.65,
-      "low": 48.47,
-      "close": 52.28,
-      "pre_close": 49.02,
-      "change": 3.26,
-      "pct_chg": 6.6503,
-      "vol": 1416884.73,
-      "amount": 7209801.10109
-    },
-    {
-      "ts_code": "002812.SZ",
-      "name": "恩捷股份",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "锂电材料；隔膜；湿法隔膜龙头"
-      },
-      "trade_date": "20260616",
-      "open": 68.71,
-      "high": 70.77,
-      "low": 67.4,
-      "close": 69.77,
-      "pre_close": 67.92,
-      "change": 1.85,
-      "pct_chg": 2.7238,
-      "vol": 418937.01,
-      "amount": 2910275.24153
-    },
-    {
-      "ts_code": "002837.SZ",
-      "name": "英维克",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "液冷；数据中心温控"
-      },
-      "trade_date": "20260616",
-      "open": 70.56,
-      "high": 75.14,
-      "low": 70.41,
-      "close": 73.19,
-      "pre_close": 70.53,
-      "change": 2.66,
-      "pct_chg": 3.7714,
-      "vol": 706865.05,
-      "amount": 5180308.88013
-    },
-    {
-      "ts_code": "002851.SZ",
-      "name": "麦格米特",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "AI服务器电源；800V HVDC；电力电子"
-      },
-      "trade_date": "20260616",
-      "open": 158.58,
-      "high": 163.64,
-      "low": 157.0,
-      "close": 163.64,
-      "pre_close": 148.76,
-      "change": 14.88,
-      "pct_chg": 10.0027,
-      "vol": 298637.06,
-      "amount": 4852330.4355
-    },
-    {
-      "ts_code": "002859.SZ",
-      "name": "洁美科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "MLCC材料；电子元器件薄型载带与离型膜"
-      },
-      "trade_date": "20260616",
-      "open": 86.5,
-      "high": 91.09,
-      "low": 85.51,
-      "close": 89.0,
-      "pre_close": 82.81,
-      "change": 6.19,
-      "pct_chg": 7.4749,
-      "vol": 351312.9,
-      "amount": 3116370.58588
-    },
-    {
-      "ts_code": "002916.SZ",
-      "name": "深南电路",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "PCB制造；封装基板"
-      },
-      "trade_date": "20260616",
-      "open": 399.0,
-      "high": 413.63,
-      "low": 396.66,
-      "close": 403.88,
-      "pre_close": 399.8,
-      "change": 4.08,
-      "pct_chg": 1.0205,
-      "vol": 158116.43,
-      "amount": 6413131.55652
-    },
-    {
-      "ts_code": "002975.SZ",
-      "name": "博杰股份",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "MLCC设备；自动化测试与组装设备"
-      },
-      "trade_date": "20260616",
-      "open": 136.0,
-      "high": 140.98,
-      "low": 135.46,
-      "close": 136.87,
-      "pre_close": 133.51,
-      "change": 3.36,
-      "pct_chg": 2.5167,
-      "vol": 125794.6,
-      "amount": 1736484.21224
-    },
-    {
-      "ts_code": "300037.SZ",
-      "name": "新宙邦",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "锂电材料；电解液；电解液与精细化学品"
-      },
-      "trade_date": "20260616",
-      "open": 76.89,
-      "high": 83.83,
-      "low": 76.51,
-      "close": 80.4,
-      "pre_close": 77.38,
-      "change": 3.02,
-      "pct_chg": 3.9028,
-      "vol": 473712.68,
-      "amount": 3825457.57304
-    },
-    {
-      "ts_code": "300054.SZ",
-      "name": "鼎龙股份",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "半导体材料；CMP；CMP抛光垫国产化"
-      },
-      "trade_date": "20260616",
-      "open": 84.99,
-      "high": 86.08,
-      "low": 82.88,
-      "close": 84.5,
-      "pre_close": 85.57,
-      "change": -1.07,
-      "pct_chg": -1.2504,
-      "vol": 492985.61,
-      "amount": 4155856.12199
-    },
-    {
-      "ts_code": "300223.SZ",
-      "name": "北京君正",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "DRAM / NAND；存储芯片与处理器"
-      },
-      "trade_date": "20260616",
-      "open": 163.0,
-      "high": 167.5,
-      "low": 161.02,
-      "close": 162.02,
-      "pre_close": 164.3,
-      "change": -2.28,
-      "pct_chg": -1.3877,
-      "vol": 330405.57,
-      "amount": 5406678.57711
-    },
-    {
-      "ts_code": "300274.SZ",
-      "name": "阳光电源",
-      "pool_keys": [
-        "energy_storage"
-      ],
-      "pool_names": [
-        "储能"
-      ],
-      "pool_notes": {
-        "energy_storage": "光伏与储能逆变器；储能系统"
-      },
-      "trade_date": "20260616",
-      "open": 150.41,
-      "high": 156.83,
-      "low": 147.88,
-      "close": 152.49,
-      "pre_close": 149.1,
-      "change": 3.39,
-      "pct_chg": 2.2736,
-      "vol": 701206.77,
-      "amount": 10759046.8877
-    },
-    {
-      "ts_code": "300285.SZ",
-      "name": "国瓷材料",
-      "pool_keys": [
-        "ai_hardware",
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "AI硬件",
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "ai_hardware": "MLCC材料；电子陶瓷材料平台",
-        "chemicals_energy_materials": "AI / PCB电子材料；MLCC与电子陶瓷；电子陶瓷平台"
-      },
-      "trade_date": "20260616",
-      "open": 63.63,
-      "high": 69.66,
-      "low": 63.3,
-      "close": 67.43,
-      "pre_close": 63.3,
-      "change": 4.13,
-      "pct_chg": 6.5245,
-      "vol": 1450434.52,
-      "amount": 9713245.48676
-    },
-    {
-      "ts_code": "300308.SZ",
-      "name": "中际旭创",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "光模块；高速光模块"
-      },
-      "trade_date": "20260616",
-      "open": 1240.0,
-      "high": 1273.68,
-      "low": 1232.46,
-      "close": 1248.09,
-      "pre_close": 1245.0,
-      "change": 3.09,
-      "pct_chg": 0.2482,
-      "vol": 232821.86,
-      "amount": 29091725.5555
-    },
-    {
-      "ts_code": "300316.SZ",
-      "name": "晶盛机电",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "Hybrid Bonding设备；半导体装备"
-      },
-      "trade_date": "20260616",
-      "open": 52.24,
-      "high": 52.88,
-      "low": 51.1,
-      "close": 51.69,
-      "pre_close": 52.15,
-      "change": -0.46,
-      "pct_chg": -0.8821,
-      "vol": 326284.46,
-      "amount": 1692998.46314
-    },
-    {
-      "ts_code": "300390.SZ",
-      "name": "天华新能",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "锂电材料；锂资源；锂价弹性"
-      },
-      "trade_date": "20260616",
-      "open": 95.97,
-      "high": 96.64,
-      "low": 93.0,
-      "close": 93.42,
-      "pre_close": 97.12,
-      "change": -3.7,
-      "pct_chg": -3.8097,
-      "vol": 613285.78,
-      "amount": 5795107.44434
-    },
-    {
-      "ts_code": "300394.SZ",
-      "name": "天孚通信",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "光模块；光器件与光引擎"
-      },
-      "trade_date": "20260616",
-      "open": 311.56,
-      "high": 331.61,
-      "low": 306.01,
-      "close": 324.71,
-      "pre_close": 305.04,
-      "change": 19.67,
-      "pct_chg": 6.4483,
-      "vol": 578379.29,
-      "amount": 18459969.5842
-    },
-    {
-      "ts_code": "300408.SZ",
-      "name": "三环集团",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "MLCC；电子陶瓷"
-      },
-      "trade_date": "20260616",
-      "open": 150.1,
-      "high": 157.08,
-      "low": 149.01,
-      "close": 150.22,
-      "pre_close": 150.25,
-      "change": -0.03,
-      "pct_chg": -0.02,
-      "vol": 888017.09,
-      "amount": 13515061.7179
-    },
-    {
-      "ts_code": "300433.SZ",
-      "name": "蓝思科技",
-      "pool_keys": [
-        "consumer_electronics"
-      ],
-      "pool_names": [
-        "消费电子"
-      ],
-      "pool_notes": {
-        "consumer_electronics": "玻璃与结构件；精密制造"
-      },
-      "trade_date": "20260616",
-      "open": 45.33,
-      "high": 50.6,
-      "low": 45.3,
-      "close": 48.35,
-      "pre_close": 45.98,
-      "change": 2.37,
-      "pct_chg": 5.1544,
-      "vol": 2406559.89,
-      "amount": 11697048.3069
-    },
-    {
-      "ts_code": "300438.SZ",
-      "name": "鹏辉能源",
-      "pool_keys": [
-        "energy_storage"
-      ],
-      "pool_names": [
-        "储能"
-      ],
-      "pool_notes": {
-        "energy_storage": "储能电池；中小型锂电池"
-      },
-      "trade_date": "20260616",
-      "open": 77.5,
-      "high": 79.1,
-      "low": 73.91,
-      "close": 76.99,
-      "pre_close": 74.13,
-      "change": 2.86,
-      "pct_chg": 3.8581,
-      "vol": 432119.16,
-      "amount": 3328172.23401
-    },
-    {
-      "ts_code": "300450.SZ",
-      "name": "先导智能",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "MLCC设备；智能制造装备"
-      },
-      "trade_date": "20260616",
-      "open": 43.88,
-      "high": 49.56,
-      "low": 42.7,
-      "close": 49.4,
-      "pre_close": 42.6,
-      "change": 6.8,
-      "pct_chg": 15.9624,
-      "vol": 1469989.03,
-      "amount": 6887335.93594
-    },
-    {
-      "ts_code": "300487.SZ",
-      "name": "蓝晓科技",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "高性能材料；吸附材料；盐湖提锂与吸附树脂"
-      },
-      "trade_date": "20260616",
-      "open": 55.01,
-      "high": 56.65,
-      "low": 53.8,
-      "close": 55.72,
-      "pre_close": 54.58,
-      "change": 1.14,
-      "pct_chg": 2.0887,
-      "vol": 62659.79,
-      "amount": 347666.38412
-    },
-    {
-      "ts_code": "300499.SZ",
-      "name": "高澜股份",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "液冷；热管理"
-      },
-      "trade_date": "20260616",
-      "open": 37.86,
-      "high": 38.96,
-      "low": 37.41,
-      "close": 38.73,
-      "pre_close": 37.71,
-      "change": 1.02,
-      "pct_chg": 2.7049,
-      "vol": 261915.88,
-      "amount": 1006033.21441
-    },
-    {
-      "ts_code": "300502.SZ",
-      "name": "新易盛",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "光模块；高速光模块"
-      },
-      "trade_date": "20260616",
-      "open": 541.51,
-      "high": 561.77,
-      "low": 535.01,
-      "close": 549.0,
-      "pre_close": 540.49,
-      "change": 8.51,
-      "pct_chg": 1.5745,
-      "vol": 405700.1,
-      "amount": 22245143.8404
-    },
-    {
-      "ts_code": "300750.SZ",
-      "name": "宁德时代",
-      "pool_keys": [
-        "energy_storage"
-      ],
-      "pool_names": [
-        "储能"
-      ],
-      "pool_notes": {
-        "energy_storage": "动力与储能电池"
-      },
-      "trade_date": "20260616",
-      "open": 408.88,
-      "high": 409.02,
-      "low": 398.5,
-      "close": 403.53,
-      "pre_close": 398.1,
-      "change": 5.43,
-      "pct_chg": 1.364,
-      "vol": 348392.62,
-      "amount": 14107808.7348
-    },
-    {
-      "ts_code": "300776.SZ",
-      "name": "帝尔激光",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "玻璃基板 / TGV；激光设备"
-      },
-      "trade_date": "20260616",
-      "open": 145.59,
-      "high": 159.47,
-      "low": 144.79,
-      "close": 157.16,
-      "pre_close": 145.29,
-      "change": 11.87,
-      "pct_chg": 8.1699,
-      "vol": 162691.38,
-      "amount": 2521329.19696
-    },
-    {
-      "ts_code": "300811.SZ",
-      "name": "铂科新材",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "电感 / 磁性元件；金属软磁材料与芯片电感"
-      },
-      "trade_date": "20260616",
-      "open": 93.0,
-      "high": 97.22,
-      "low": 92.0,
-      "close": 95.6,
-      "pre_close": 91.96,
-      "change": 3.64,
-      "pct_chg": 3.9582,
-      "vol": 210870.48,
-      "amount": 2011313.95937
-    },
-    {
-      "ts_code": "300870.SZ",
-      "name": "欧陆通",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "AI服务器电源；数据中心电源"
-      },
-      "trade_date": "20260616",
-      "open": 323.41,
-      "high": 376.0,
-      "low": 316.0,
-      "close": 373.0,
-      "pre_close": 321.22,
-      "change": 51.78,
-      "pct_chg": 16.1198,
-      "vol": 97866.85,
-      "amount": 3466888.63587
-    },
-    {
-      "ts_code": "300913.SZ",
-      "name": "兆龙互连",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "高速铜连接；数据电缆与高速互连"
-      },
-      "trade_date": "20260616",
-      "open": 55.5,
-      "high": 57.9,
-      "low": 54.94,
-      "close": 57.36,
-      "pre_close": 54.92,
-      "change": 2.44,
-      "pct_chg": 4.4428,
-      "vol": 132450.56,
-      "amount": 749562.37119
-    },
-    {
-      "ts_code": "300919.SZ",
-      "name": "中伟新材",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "锂电材料；三元前驱体；前驱体龙头"
-      },
-      "trade_date": "20260616",
-      "open": 49.0,
-      "high": 50.67,
-      "low": 48.5,
-      "close": 49.92,
-      "pre_close": 48.79,
-      "change": 1.13,
-      "pct_chg": 2.316,
-      "vol": 179250.17,
-      "amount": 893135.72048
-    },
-    {
-      "ts_code": "301018.SZ",
-      "name": "申菱环境",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "液冷；数据中心温控"
-      },
-      "trade_date": "20260616",
-      "open": 108.51,
-      "high": 114.5,
-      "low": 107.01,
-      "close": 110.15,
-      "pre_close": 109.18,
-      "change": 0.97,
-      "pct_chg": 0.8884,
-      "vol": 159411.64,
-      "amount": 1778506.71929
-    },
-    {
-      "ts_code": "301035.SZ",
-      "name": "润丰股份",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "农药；制剂 / 海外渠道；全球渠道型农化"
-      },
-      "trade_date": "20260616",
-      "open": 52.5,
-      "high": 53.65,
-      "low": 49.92,
-      "close": 50.03,
-      "pre_close": 53.28,
-      "change": -3.25,
-      "pct_chg": -6.0998,
-      "vol": 20571.42,
-      "amount": 105022.72372
-    },
-    {
-      "ts_code": "301200.SZ",
-      "name": "大族数控",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "PCB设备"
-      },
-      "trade_date": "20260616",
-      "open": 304.86,
-      "high": 333.13,
-      "low": 304.56,
-      "close": 326.0,
-      "pre_close": 304.4,
-      "change": 21.6,
-      "pct_chg": 7.0959,
-      "vol": 67025.25,
-      "amount": 2172380.12795
-    },
-    {
-      "ts_code": "301217.SZ",
-      "name": "铜冠铜箔",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "铜箔；电子铜箔与锂电铜箔"
-      },
-      "trade_date": "20260616",
-      "open": 182.1,
-      "high": 198.8,
-      "low": 172.05,
-      "close": 178.17,
-      "pre_close": 170.16,
-      "change": 8.01,
-      "pct_chg": 4.7073,
-      "vol": 568805.9,
-      "amount": 10312928.109
-    },
-    {
-      "ts_code": "301269.SZ",
-      "name": "华大九天",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "EDA / IP；EDA软件"
-      },
-      "trade_date": "20260616",
-      "open": 101.07,
-      "high": 101.14,
-      "low": 98.26,
-      "close": 99.61,
-      "pre_close": 101.65,
-      "change": -2.04,
-      "pct_chg": -2.0069,
-      "vol": 131228.38,
-      "amount": 1308868.03335
-    },
-    {
-      "ts_code": "301308.SZ",
-      "name": "江波龙",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "企业级SSD；存储产品与企业级存储"
-      },
-      "trade_date": "20260616",
-      "open": 536.04,
-      "high": 548.25,
-      "low": 524.0,
-      "close": 540.23,
-      "pre_close": 529.23,
-      "change": 11.0,
-      "pct_chg": 2.0785,
-      "vol": 165428.1,
-      "amount": 8885474.02177
-    },
-    {
-      "ts_code": "301358.SZ",
-      "name": "湖南裕能",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "锂电材料；LFP正极；磷酸铁锂龙头"
-      },
-      "trade_date": "20260616",
-      "open": 74.1,
-      "high": 77.17,
-      "low": 73.02,
-      "close": 75.1,
-      "pre_close": 72.64,
-      "change": 2.46,
-      "pct_chg": 3.3866,
-      "vol": 334984.92,
-      "amount": 2520327.34594
-    },
-    {
-      "ts_code": "301511.SZ",
-      "name": "德福科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "铜箔；电子铜箔与锂电铜箔"
-      },
-      "trade_date": "20260616",
-      "open": 161.0,
-      "high": 178.88,
-      "low": 159.08,
-      "close": 169.63,
-      "pre_close": 161.07,
-      "change": 8.56,
-      "pct_chg": 5.3145,
-      "vol": 419966.43,
-      "amount": 6993324.31538
-    },
-    {
-      "ts_code": "301526.SZ",
-      "name": "国际复材",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "玻纤布 / 电子布；玻璃纤维"
-      },
-      "trade_date": "20260616",
-      "open": 35.72,
-      "high": 39.59,
-      "low": 35.72,
-      "close": 38.68,
-      "pre_close": 34.13,
-      "change": 4.55,
-      "pct_chg": 13.3314,
-      "vol": 2125701.12,
-      "amount": 8094026.41593
-    },
-    {
-      "ts_code": "301666.SZ",
-      "name": "大普微",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "企业级SSD；数据中心存储"
-      },
-      "trade_date": "20260616",
-      "open": 624.0,
-      "high": 693.96,
-      "low": 604.1,
-      "close": 673.6,
-      "pre_close": 612.0,
-      "change": 61.6,
-      "pct_chg": 10.0654,
-      "vol": 80080.7,
-      "amount": 5248174.06251
-    },
-    {
-      "ts_code": "600028.SH",
-      "name": "中国石化",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "油气；综合油气；炼化一体化"
-      },
-      "trade_date": "20260616",
-      "open": 5.02,
-      "high": 5.03,
-      "low": 4.95,
-      "close": 4.97,
-      "pre_close": 4.99,
-      "change": -0.02,
-      "pct_chg": -0.4008,
-      "vol": 2444510.92,
-      "amount": 1217187.491
-    },
-    {
-      "ts_code": "600089.SH",
-      "name": "特变电工",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "电力设备；输变电与能源装备"
-      },
-      "trade_date": "20260616",
-      "open": 23.9,
-      "high": 24.4,
-      "low": 23.6,
-      "close": 24.11,
-      "pre_close": 23.81,
-      "change": 0.3,
-      "pct_chg": 1.26,
-      "vol": 1517677.93,
-      "amount": 3658614.375
-    },
-    {
-      "ts_code": "600096.SH",
-      "name": "云天化",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "磷钾肥；磷化工；磷矿资源与磷肥"
-      },
-      "trade_date": "20260616",
-      "open": 31.21,
-      "high": 31.99,
-      "low": 30.33,
-      "close": 30.62,
-      "pre_close": 31.22,
-      "change": -0.6,
-      "pct_chg": -1.9218,
-      "vol": 521606.58,
-      "amount": 1619716.83
-    },
-    {
-      "ts_code": "600141.SH",
-      "name": "兴发集团",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "磷钾肥；磷化工；磷矿资源与精细磷化工"
-      },
-      "trade_date": "20260616",
-      "open": 37.2,
-      "high": 40.92,
-      "low": 37.2,
-      "close": 39.13,
-      "pre_close": 37.24,
-      "change": 1.89,
-      "pct_chg": 5.0752,
-      "vol": 1012178.71,
-      "amount": 4003672.43
-    },
-    {
-      "ts_code": "600143.SH",
-      "name": "金发科技",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "传统精细化工；改性塑料；工程塑料平台"
-      },
-      "trade_date": "20260616",
-      "open": 16.92,
-      "high": 17.2,
-      "low": 16.85,
-      "close": 16.95,
-      "pre_close": 17.0,
-      "change": -0.05,
-      "pct_chg": -0.2941,
-      "vol": 465625.15,
-      "amount": 791915.89
-    },
-    {
-      "ts_code": "600160.SH",
-      "name": "巨化股份",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "氟硅化工；制冷剂；三代制冷剂核心"
-      },
-      "trade_date": "20260616",
-      "open": 46.06,
-      "high": 48.0,
-      "low": 44.8,
-      "close": 46.7,
-      "pre_close": 46.59,
-      "change": 0.11,
-      "pct_chg": 0.2361,
-      "vol": 1376211.97,
-      "amount": 6403432.159
-    },
-    {
-      "ts_code": "600176.SH",
-      "name": "中国巨石",
-      "pool_keys": [
-        "ai_hardware",
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "AI硬件",
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "ai_hardware": "玻纤布 / 电子布；全球玻纤龙头",
-        "chemicals_energy_materials": "高性能材料；玻纤；全球玻纤龙头"
-      },
-      "trade_date": "20260616",
-      "open": 46.94,
-      "high": 50.2,
-      "low": 46.0,
-      "close": 49.64,
-      "pre_close": 45.77,
-      "change": 3.87,
-      "pct_chg": 8.4553,
-      "vol": 2417129.32,
-      "amount": 11763683.957
-    },
-    {
-      "ts_code": "600183.SH",
-      "name": "生益科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "覆铜板 CCL；高频高速覆铜板"
-      },
-      "trade_date": "20260616",
-      "open": 176.0,
-      "high": 183.05,
-      "low": 174.8,
-      "close": 179.4,
-      "pre_close": 166.41,
-      "change": 12.99,
-      "pct_chg": 7.806,
-      "vol": 918984.41,
-      "amount": 16561268.212
-    },
-    {
-      "ts_code": "600256.SH",
-      "name": "广汇能源",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "天然气；城燃 / LNG；LNG高弹性"
-      },
-      "trade_date": "20260616",
-      "open": 6.0,
-      "high": 6.0,
-      "low": 5.58,
-      "close": 5.6,
-      "pre_close": 6.05,
-      "change": -0.45,
-      "pct_chg": -7.438,
-      "vol": 2584556.15,
-      "amount": 1481795.543
-    },
-    {
-      "ts_code": "600299.SH",
-      "name": "安迪苏",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "营养品 / 生物制造；蛋氨酸；动物营养龙头"
-      },
-      "trade_date": "20260616",
-      "open": 10.1,
-      "high": 10.13,
-      "low": 9.77,
-      "close": 9.78,
-      "pre_close": 10.12,
-      "change": -0.34,
-      "pct_chg": -3.3597,
-      "vol": 128847.16,
-      "amount": 127413.486
-    },
-    {
-      "ts_code": "600309.SH",
-      "name": "万华化学",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "煤化工 / 聚氨酯；聚氨酯；MDI龙头"
-      },
-      "trade_date": "20260616",
-      "open": 72.5,
-      "high": 72.81,
-      "low": 69.85,
-      "close": 70.07,
-      "pre_close": 73.5,
-      "change": -3.43,
-      "pct_chg": -4.6667,
-      "vol": 479165.19,
-      "amount": 3398996.352
-    },
-    {
-      "ts_code": "600346.SH",
-      "name": "恒力石化",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "炼化石化；大炼化；民营炼化核心"
-      },
-      "trade_date": "20260616",
-      "open": 18.37,
-      "high": 18.59,
-      "low": 17.66,
-      "close": 17.77,
-      "pre_close": 18.53,
-      "change": -0.76,
-      "pct_chg": -4.1015,
-      "vol": 475104.45,
-      "amount": 857237.629
-    },
-    {
-      "ts_code": "600352.SH",
-      "name": "浙江龙盛",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "传统精细化工；染料；染料景气代表"
-      },
-      "trade_date": "20260616",
-      "open": 12.0,
-      "high": 12.12,
-      "low": 11.64,
-      "close": 11.68,
-      "pre_close": 11.9,
-      "change": -0.22,
-      "pct_chg": -1.8487,
-      "vol": 961190.68,
-      "amount": 1141273.621
-    },
-    {
-      "ts_code": "600378.SH",
-      "name": "昊华科技",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "氟硅化工；高端氟材料；高端化工材料平台"
-      },
-      "trade_date": "20260616",
-      "open": 57.21,
-      "high": 61.58,
-      "low": 57.0,
-      "close": 58.0,
-      "pre_close": 56.27,
-      "change": 1.73,
-      "pct_chg": 3.0745,
-      "vol": 1088290.27,
-      "amount": 6460086.226
-    },
-    {
-      "ts_code": "600406.SH",
-      "name": "国电南瑞",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "电力设备；电网自动化与电力电子"
-      },
-      "trade_date": "20260616",
-      "open": 23.5,
-      "high": 23.67,
-      "low": 23.28,
-      "close": 23.54,
-      "pre_close": 23.46,
-      "change": 0.08,
-      "pct_chg": 0.341,
-      "vol": 606515.77,
-      "amount": 1426824.275
-    },
-    {
-      "ts_code": "600409.SH",
-      "name": "三友化工",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "纯碱 / 氯碱；纯碱周期代表"
-      },
-      "trade_date": "20260616",
-      "open": 6.5,
-      "high": 6.78,
-      "low": 6.41,
-      "close": 6.55,
-      "pre_close": 6.53,
-      "change": 0.02,
-      "pct_chg": 0.3063,
-      "vol": 473000.0,
-      "amount": 312238.093
-    },
-    {
-      "ts_code": "600426.SH",
-      "name": "华鲁恒升",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "煤化工 / 聚氨酯；煤化工平台；成本曲线龙头"
-      },
-      "trade_date": "20260616",
-      "open": 28.21,
-      "high": 28.21,
-      "low": 27.0,
-      "close": 27.01,
-      "pre_close": 28.31,
-      "change": -1.3,
-      "pct_chg": -4.592,
-      "vol": 368478.21,
-      "amount": 1011605.969
-    },
-    {
-      "ts_code": "600460.SH",
-      "name": "士兰微",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "SiC / GaN；功率半导体与IDM"
-      },
-      "trade_date": "20260616",
-      "open": 37.0,
-      "high": 38.91,
-      "low": 36.9,
-      "close": 38.28,
-      "pre_close": 35.37,
-      "change": 2.91,
-      "pct_chg": 8.2273,
-      "vol": 1789016.29,
-      "amount": 6907620.856
-    },
-    {
-      "ts_code": "600486.SH",
-      "name": "扬农化工",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "农药；原药龙头；品质龙头"
-      },
-      "trade_date": "20260616",
-      "open": 56.92,
-      "high": 57.04,
-      "low": 55.51,
-      "close": 55.65,
-      "pre_close": 57.21,
-      "change": -1.56,
-      "pct_chg": -2.7268,
-      "vol": 52712.69,
-      "amount": 295469.27
-    },
-    {
-      "ts_code": "600487.SH",
-      "name": "亨通光电",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "光纤光缆；光通信网络"
-      },
-      "trade_date": "20260616",
-      "open": 98.21,
-      "high": 108.66,
-      "low": 98.18,
-      "close": 107.5,
-      "pre_close": 99.28,
-      "change": 8.22,
-      "pct_chg": 8.2796,
-      "vol": 2258993.15,
-      "amount": 23769931.05
-    },
-    {
-      "ts_code": "600522.SH",
-      "name": "中天科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "光纤光缆；通信与电力线缆"
-      },
-      "trade_date": "20260616",
-      "open": 51.4,
-      "high": 55.16,
-      "low": 51.0,
-      "close": 54.15,
-      "pre_close": 51.35,
-      "change": 2.8,
-      "pct_chg": 5.4528,
-      "vol": 3175821.7,
-      "amount": 17060543.68
-    },
-    {
-      "ts_code": "600584.SH",
-      "name": "长电科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "先进封装；Chiplet"
-      },
-      "trade_date": "20260616",
-      "open": 75.06,
-      "high": 78.38,
-      "low": 74.96,
-      "close": 76.93,
-      "pre_close": 74.32,
-      "change": 2.61,
-      "pct_chg": 3.5118,
-      "vol": 1917093.82,
-      "amount": 14701154.142
-    },
-    {
-      "ts_code": "600703.SH",
-      "name": "三安光电",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "SiC / GaN；化合物半导体"
-      },
-      "trade_date": "20260616",
-      "open": 15.7,
-      "high": 16.84,
-      "low": 15.56,
-      "close": 16.84,
-      "pre_close": 15.31,
-      "change": 1.53,
-      "pct_chg": 9.9935,
-      "vol": 4668854.19,
-      "amount": 7741140.763
-    },
-    {
-      "ts_code": "600707.SH",
-      "name": "彩虹股份",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "玻璃基板 / TGV；基板玻璃"
-      },
-      "trade_date": "20260616",
-      "open": 10.5,
-      "high": 11.52,
-      "low": 10.5,
-      "close": 11.51,
-      "pre_close": 10.47,
-      "change": 1.04,
-      "pct_chg": 9.9331,
-      "vol": 2519501.67,
-      "amount": 2835951.642
-    },
-    {
-      "ts_code": "600873.SH",
-      "name": "梅花生物",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "营养品 / 生物制造；氨基酸；发酵产业龙头"
-      },
-      "trade_date": "20260616",
-      "open": 8.87,
-      "high": 8.87,
-      "low": 8.56,
-      "close": 8.59,
-      "pre_close": 8.87,
-      "change": -0.28,
-      "pct_chg": -3.1567,
-      "vol": 329344.38,
-      "amount": 284461.969
-    },
-    {
-      "ts_code": "600938.SH",
-      "name": "中国海油",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "油气；综合油气；上游油气核心资产"
-      },
-      "trade_date": "20260616",
-      "open": 31.78,
-      "high": 31.93,
-      "low": 31.16,
-      "close": 31.27,
-      "pre_close": 31.82,
-      "change": -0.55,
-      "pct_chg": -1.7285,
-      "vol": 489807.69,
-      "amount": 1537497.024
-    },
-    {
-      "ts_code": "600989.SH",
-      "name": "宝丰能源",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "煤化工 / 聚氨酯；煤制烯烃；低成本煤化工"
-      },
-      "trade_date": "20260616",
-      "open": 22.3,
-      "high": 22.39,
-      "low": 21.6,
-      "close": 22.02,
-      "pre_close": 22.3,
-      "change": -0.28,
-      "pct_chg": -1.2556,
-      "vol": 939412.96,
-      "amount": 2067721.164
-    },
-    {
-      "ts_code": "601058.SH",
-      "name": "赛轮轮胎",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "传统精细化工；轮胎；中国轮胎出海龙头"
-      },
-      "trade_date": "20260616",
-      "open": 12.95,
-      "high": 13.09,
-      "low": 12.22,
-      "close": 12.31,
-      "pre_close": 12.96,
-      "change": -0.65,
-      "pct_chg": -5.0154,
-      "vol": 785263.4,
-      "amount": 977670.365
-    },
-    {
-      "ts_code": "601138.SH",
-      "name": "工业富联",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "服务器ODM / 整机；AI服务器与云计算基础设施"
-      },
-      "trade_date": "20260616",
-      "open": 73.4,
-      "high": 74.99,
-      "low": 72.5,
-      "close": 72.9,
-      "pre_close": 73.4,
-      "change": -0.5,
-      "pct_chg": -0.6812,
-      "vol": 1741994.98,
-      "amount": 12770877.348
-    },
-    {
-      "ts_code": "601208.SH",
-      "name": "东材科技",
-      "pool_keys": [
-        "ai_hardware",
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "AI硬件",
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "ai_hardware": "PCB材料；CCL与电子树脂材料",
-        "chemicals_energy_materials": "AI / PCB电子材料；CCL与电子树脂材料"
-      },
-      "trade_date": "20260616",
-      "open": 65.5,
-      "high": 71.74,
-      "low": 65.5,
-      "close": 71.74,
-      "pre_close": 65.22,
-      "change": 6.52,
-      "pct_chg": 9.9969,
-      "vol": 654593.27,
-      "amount": 4580455.13
-    },
-    {
-      "ts_code": "601216.SH",
-      "name": "君正集团",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "纯碱 / 氯碱；PVC / 烧碱；氯碱与煤化工"
-      },
-      "trade_date": "20260616",
-      "open": 5.19,
-      "high": 5.22,
-      "low": 5.11,
-      "close": 5.14,
-      "pre_close": 5.21,
-      "change": -0.07,
-      "pct_chg": -1.3436,
-      "vol": 606124.35,
-      "amount": 312093.208
-    },
-    {
-      "ts_code": "601233.SH",
-      "name": "桐昆股份",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "炼化石化；聚酯；长丝景气代表"
-      },
-      "trade_date": "20260616",
-      "open": 23.24,
-      "high": 24.3,
-      "low": 22.59,
-      "close": 22.84,
-      "pre_close": 23.47,
-      "change": -0.63,
-      "pct_chg": -2.6843,
-      "vol": 766781.36,
-      "amount": 1791163.268
-    },
-    {
-      "ts_code": "601808.SH",
-      "name": "中海油服",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "油气；油服；油服景气代表"
-      },
-      "trade_date": "20260616",
-      "open": 12.37,
-      "high": 12.38,
-      "low": 12.01,
-      "close": 12.07,
-      "pre_close": 12.39,
-      "change": -0.32,
-      "pct_chg": -2.5827,
-      "vol": 157511.73,
-      "amount": 190613.36
-    },
-    {
-      "ts_code": "601857.SH",
-      "name": "中国石油",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "油气；综合油气；上游油气核心资产"
-      },
-      "trade_date": "20260616",
-      "open": 10.1,
-      "high": 10.17,
-      "low": 9.95,
-      "close": 9.95,
-      "pre_close": 10.13,
-      "change": -0.18,
-      "pct_chg": -1.7769,
-      "vol": 1660935.64,
-      "amount": 1662767.858
-    },
-    {
-      "ts_code": "601869.SH",
-      "name": "长飞光纤",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "光纤光缆"
-      },
-      "trade_date": "20260616",
-      "open": 450.31,
-      "high": 474.99,
-      "low": 447.0,
-      "close": 464.1,
-      "pre_close": 450.3,
-      "change": 13.8,
-      "pct_chg": 3.0646,
-      "vol": 150030.29,
-      "amount": 6973395.676
-    },
-    {
-      "ts_code": "603019.SH",
-      "name": "中科曙光",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "服务器ODM / 整机；高性能计算与服务器"
-      },
-      "trade_date": "20260616",
-      "open": 85.7,
-      "high": 85.77,
-      "low": 83.78,
-      "close": 84.47,
-      "pre_close": 85.45,
-      "change": -0.98,
-      "pct_chg": -1.1469,
-      "vol": 363323.2,
-      "amount": 3073132.875
-    },
-    {
-      "ts_code": "603256.SH",
-      "name": "宏和科技",
-      "pool_keys": [
-        "ai_hardware",
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "AI硬件",
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "ai_hardware": "玻纤布 / 电子布；高端电子布",
-        "chemicals_energy_materials": "AI / PCB电子材料；电子布；高端电子布"
-      },
-      "trade_date": "20260616",
-      "open": 237.02,
-      "high": 251.55,
-      "low": 234.66,
-      "close": 251.55,
-      "pre_close": 228.68,
-      "change": 22.87,
-      "pct_chg": 10.0009,
-      "vol": 132056.54,
-      "amount": 3223161.067
-    },
-    {
-      "ts_code": "603260.SH",
-      "name": "合盛硅业",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "氟硅化工；工业硅 / 有机硅；硅产业链龙头"
-      },
-      "trade_date": "20260616",
-      "open": 46.0,
-      "high": 51.03,
-      "low": 44.23,
-      "close": 51.03,
-      "pre_close": 46.39,
-      "change": 4.64,
-      "pct_chg": 10.0022,
-      "vol": 515308.86,
-      "amount": 2460857.363
-    },
-    {
-      "ts_code": "603379.SH",
-      "name": "三美股份",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "氟硅化工；制冷剂；三代制冷剂核心"
-      },
-      "trade_date": "20260616",
-      "open": 66.5,
-      "high": 68.18,
-      "low": 65.03,
-      "close": 66.81,
-      "pre_close": 67.29,
-      "change": -0.48,
-      "pct_chg": -0.7133,
-      "vol": 175524.15,
-      "amount": 1170232.033
-    },
-    {
-      "ts_code": "603599.SH",
-      "name": "广信股份",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "农药；原药龙头；低估值周期弹性"
-      },
-      "trade_date": "20260616",
-      "open": 11.23,
-      "high": 11.6,
-      "low": 10.91,
-      "close": 10.96,
-      "pre_close": 11.28,
-      "change": -0.32,
-      "pct_chg": -2.8369,
-      "vol": 136613.78,
-      "amount": 152407.98
-    },
-    {
-      "ts_code": "603650.SH",
-      "name": "彤程新材",
-      "pool_keys": [
-        "ai_hardware",
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "AI硬件",
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "ai_hardware": "PCB材料；电子材料与光刻胶产业链",
-        "chemicals_energy_materials": "半导体材料；光刻胶；PCB电子材料"
-      },
-      "trade_date": "20260616",
-      "open": 62.04,
-      "high": 64.58,
-      "low": 62.01,
-      "close": 63.99,
-      "pre_close": 62.06,
-      "change": 1.93,
-      "pct_chg": 3.1099,
-      "vol": 245351.48,
-      "amount": 1561216.007
-    },
-    {
-      "ts_code": "603678.SH",
-      "name": "火炬电子",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "MLCC；高可靠电子元器件"
-      },
-      "trade_date": "20260616",
-      "open": 68.36,
-      "high": 69.36,
-      "low": 65.68,
-      "close": 67.7,
-      "pre_close": 63.97,
-      "change": 3.73,
-      "pct_chg": 5.8309,
-      "vol": 537531.85,
-      "amount": 3646909.846
-    },
-    {
-      "ts_code": "603773.SH",
-      "name": "沃格光电",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "玻璃基板 / TGV；玻璃精加工"
-      },
-      "trade_date": "20260616",
-      "open": 137.0,
-      "high": 151.03,
-      "low": 137.0,
-      "close": 151.03,
-      "pre_close": 137.3,
-      "change": 13.73,
-      "pct_chg": 10.0,
-      "vol": 268237.96,
-      "amount": 3954986.31
-    },
-    {
-      "ts_code": "603986.SH",
-      "name": "兆易创新",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "DRAM / NAND；存储芯片与MCU"
-      },
-      "trade_date": "20260616",
-      "open": 526.0,
-      "high": 542.84,
-      "low": 517.71,
-      "close": 532.76,
-      "pre_close": 518.0,
-      "change": 14.76,
-      "pct_chg": 2.8494,
-      "vol": 427785.07,
-      "amount": 22673887.613
-    },
-    {
-      "ts_code": "605117.SH",
-      "name": "德业股份",
-      "pool_keys": [
-        "energy_storage"
-      ],
-      "pool_names": [
-        "储能"
-      ],
-      "pool_notes": {
-        "energy_storage": "户用储能逆变器"
-      },
-      "trade_date": "20260616",
-      "open": 102.81,
-      "high": 105.91,
-      "low": 100.66,
-      "close": 102.42,
-      "pre_close": 100.96,
-      "change": 1.46,
-      "pct_chg": 1.4461,
-      "vol": 224424.32,
-      "amount": 2317965.611
-    },
-    {
-      "ts_code": "605376.SH",
-      "name": "博迁新材",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "MLCC材料；电子专用金属粉体"
-      },
-      "trade_date": "20260616",
-      "open": 200.0,
-      "high": 214.18,
-      "low": 196.6,
-      "close": 213.0,
-      "pre_close": 194.71,
-      "change": 18.29,
-      "pct_chg": 9.3935,
-      "vol": 154351.51,
-      "amount": 3190392.847
-    },
-    {
-      "ts_code": "605589.SH",
-      "name": "圣泉集团",
-      "pool_keys": [
-        "ai_hardware",
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "AI硬件",
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "ai_hardware": "PCB材料；特种酚醛树脂与电子材料",
-        "chemicals_energy_materials": "高性能材料；特种树脂；酚醛树脂与生物质材料"
-      },
-      "trade_date": "20260616",
-      "open": 65.9,
-      "high": 67.98,
-      "low": 64.31,
-      "close": 67.06,
-      "pre_close": 64.15,
-      "change": 2.91,
-      "pct_chg": 4.5362,
-      "vol": 961110.87,
-      "amount": 6370102.075
-    },
-    {
-      "ts_code": "688008.SH",
-      "name": "澜起科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "CXL Memory；内存接口芯片与互连芯片"
-      },
-      "trade_date": "20260616",
-      "open": 243.21,
-      "high": 247.16,
-      "low": 238.71,
-      "close": 244.17,
-      "pre_close": 240.1,
-      "change": 4.07,
-      "pct_chg": 1.6951,
-      "vol": 538361.74,
-      "amount": 13097791.05
-    },
-    {
-      "ts_code": "688012.SH",
-      "name": "中微公司",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "半导体设备；刻蚀与薄膜沉积设备"
-      },
-      "trade_date": "20260616",
-      "open": 319.98,
-      "high": 323.7,
-      "low": 313.39,
-      "close": 319.0,
-      "pre_close": 319.98,
-      "change": -0.98,
-      "pct_chg": -0.3063,
-      "vol": 205014.54,
-      "amount": 6513324.291
-    },
-    {
-      "ts_code": "688019.SH",
-      "name": "安集科技",
-      "pool_keys": [
-        "ai_hardware",
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "AI硬件",
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "ai_hardware": "半导体材料；CMP抛光液与功能性湿电子化学品",
-        "chemicals_energy_materials": "半导体材料；CMP；CMP抛光液与功能性湿电子化学品"
-      },
-      "trade_date": "20260616",
-      "open": 235.33,
-      "high": 238.8,
-      "low": 227.24,
-      "close": 232.88,
-      "pre_close": 233.67,
-      "change": -0.79,
-      "pct_chg": -0.3381,
-      "vol": 102307.88,
-      "amount": 2372996.598
-    },
-    {
-      "ts_code": "688036.SH",
-      "name": "传音控股",
-      "pool_keys": [
-        "consumer_electronics"
-      ],
-      "pool_names": [
-        "消费电子"
-      ],
-      "pool_notes": {
-        "consumer_electronics": "智能手机终端；新兴市场消费电子"
-      },
-      "trade_date": "20260616",
-      "open": 53.75,
-      "high": 54.85,
-      "low": 53.32,
-      "close": 54.57,
-      "pre_close": 53.72,
-      "change": 0.85,
-      "pct_chg": 1.5823,
-      "vol": 88753.84,
-      "amount": 483015.54
-    },
-    {
-      "ts_code": "688041.SH",
-      "name": "海光信息",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "GPU / ASIC；CPU与加速芯片"
-      },
-      "trade_date": "20260616",
-      "open": 299.0,
-      "high": 299.0,
-      "low": 291.2,
-      "close": 294.31,
-      "pre_close": 299.32,
-      "change": -5.01,
-      "pct_chg": -1.6738,
-      "vol": 280192.11,
-      "amount": 8254140.377
-    },
-    {
-      "ts_code": "688065.SH",
-      "name": "凯赛生物",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "高性能材料；生物基尼龙；生物制造材料"
-      },
-      "trade_date": "20260616",
-      "open": 44.6,
-      "high": 44.75,
-      "low": 43.4,
-      "close": 43.51,
-      "pre_close": 44.88,
-      "change": -1.37,
-      "pct_chg": -3.0526,
-      "vol": 50010.39,
-      "amount": 218694.615
-    },
-    {
-      "ts_code": "688072.SH",
-      "name": "拓荆科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "半导体设备；Hybrid Bonding设备；薄膜沉积设备"
-      },
-      "trade_date": "20260616",
-      "open": 678.0,
-      "high": 679.99,
-      "low": 640.0,
-      "close": 655.8,
-      "pre_close": 669.69,
-      "change": -13.89,
-      "pct_chg": -2.0741,
-      "vol": 88595.09,
-      "amount": 5779692.484
-    },
-    {
-      "ts_code": "688126.SH",
-      "name": "沪硅产业",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "半导体材料；硅片"
-      },
-      "trade_date": "20260616",
-      "open": 31.3,
-      "high": 32.28,
-      "low": 30.42,
-      "close": 31.05,
-      "pre_close": 31.22,
-      "change": -0.17,
-      "pct_chg": -0.5445,
-      "vol": 2045617.23,
-      "amount": 6404745.653
-    },
-    {
-      "ts_code": "688206.SH",
-      "name": "概伦电子",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "EDA / IP；EDA软件"
-      },
-      "trade_date": "20260616",
-      "open": 39.0,
-      "high": 39.26,
-      "low": 37.37,
-      "close": 37.52,
-      "pre_close": 39.12,
-      "change": -1.6,
-      "pct_chg": -4.09,
-      "vol": 108808.78,
-      "amount": 412210.279
-    },
-    {
-      "ts_code": "688249.SH",
-      "name": "晶合集成",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "Foundry；晶圆代工"
-      },
-      "trade_date": "20260616",
-      "open": 42.75,
-      "high": 42.79,
-      "low": 41.03,
-      "close": 42.1,
-      "pre_close": 42.75,
-      "change": -0.65,
-      "pct_chg": -1.5205,
-      "vol": 364898.0,
-      "amount": 1528179.556
-    },
-    {
-      "ts_code": "688256.SH",
-      "name": "寒武纪",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "GPU / ASIC；AI芯片"
-      },
-      "trade_date": "20260616",
-      "open": 1335.5,
-      "high": 1335.91,
-      "low": 1297.79,
-      "close": 1306.99,
-      "pre_close": 1335.0,
-      "change": -28.01,
-      "pct_chg": -2.0981,
-      "vol": 99671.79,
-      "amount": 13096230.889
-    },
-    {
-      "ts_code": "688295.SH",
-      "name": "中复神鹰",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "高性能材料；碳纤维；碳纤维龙头"
-      },
-      "trade_date": "20260616",
-      "open": 51.15,
-      "high": 52.44,
-      "low": 50.18,
-      "close": 51.35,
-      "pre_close": 51.09,
-      "change": 0.26,
-      "pct_chg": 0.5089,
-      "vol": 106404.62,
-      "amount": 545848.165
-    },
-    {
-      "ts_code": "688300.SH",
-      "name": "联瑞新材",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "AI / PCB电子材料；硅微粉；高端封装与覆铜板填料"
-      },
-      "trade_date": "20260616",
-      "open": 213.11,
-      "high": 238.0,
-      "low": 210.0,
-      "close": 220.0,
-      "pre_close": 213.11,
-      "change": 6.89,
-      "pct_chg": 3.2331,
-      "vol": 107825.07,
-      "amount": 2417584.378
-    },
-    {
-      "ts_code": "688347.SH",
-      "name": "华虹宏力",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "Foundry；特色工艺晶圆代工"
-      },
-      "trade_date": "20260616",
-      "open": 238.28,
-      "high": 244.22,
-      "low": 232.6,
-      "close": 238.5,
-      "pre_close": 238.28,
-      "change": 0.22,
-      "pct_chg": 0.0923,
-      "vol": 220470.25,
-      "amount": 5271254.077
-    },
-    {
-      "ts_code": "688388.SH",
-      "name": "嘉元科技",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "铜箔；高性能电解铜箔"
-      },
-      "trade_date": "20260616",
-      "open": 67.93,
-      "high": 71.8,
-      "low": 66.0,
-      "close": 70.9,
-      "pre_close": 66.79,
-      "change": 4.11,
-      "pct_chg": 6.1536,
-      "vol": 595715.39,
-      "amount": 4129104.267
-    },
-    {
-      "ts_code": "688396.SH",
-      "name": "华润微",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "SiC / GaN；功率半导体"
-      },
-      "trade_date": "20260616",
-      "open": 69.0,
-      "high": 73.65,
-      "low": 68.41,
-      "close": 71.75,
-      "pre_close": 68.85,
-      "change": 2.9,
-      "pct_chg": 4.2121,
-      "vol": 473530.07,
-      "amount": 3402786.952
-    },
-    {
-      "ts_code": "688519.SH",
-      "name": "南亚新材",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "覆铜板 CCL"
-      },
-      "trade_date": "20260616",
-      "open": 330.0,
-      "high": 375.0,
-      "low": 330.0,
-      "close": 356.44,
-      "pre_close": 338.3,
-      "change": 18.14,
-      "pct_chg": 5.3621,
-      "vol": 78032.97,
-      "amount": 2731468.458
-    },
-    {
-      "ts_code": "688521.SH",
-      "name": "芯原股份",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "EDA / IP；芯片设计服务与IP授权"
-      },
-      "trade_date": "20260616",
-      "open": 239.0,
-      "high": 254.58,
-      "low": 233.38,
-      "close": 249.1,
-      "pre_close": 237.12,
-      "change": 11.98,
-      "pct_chg": 5.0523,
-      "vol": 228010.43,
-      "amount": 5573128.691
-    },
-    {
-      "ts_code": "688525.SH",
-      "name": "佰维存储",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "企业级SSD；存储模组与先进封装"
-      },
-      "trade_date": "20260616",
-      "open": 340.0,
-      "high": 346.98,
-      "low": 334.71,
-      "close": 340.48,
-      "pre_close": 339.75,
-      "change": 0.73,
-      "pct_chg": 0.2149,
-      "vol": 339895.17,
-      "amount": 11566602.652
-    },
-    {
-      "ts_code": "688545.SH",
-      "name": "兴福电子",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "半导体材料；湿电子化学品；高纯化学品国产化"
-      },
-      "trade_date": "20260616",
-      "open": 112.82,
-      "high": 120.0,
-      "low": 108.77,
-      "close": 109.09,
-      "pre_close": 115.0,
-      "change": -5.91,
-      "pct_chg": -5.1391,
-      "vol": 228910.35,
-      "amount": 2587645.873
-    },
-    {
-      "ts_code": "688548.SH",
-      "name": "广钢气体",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "半导体材料；电子特气；国内电子气体代表"
-      },
-      "trade_date": "20260616",
-      "open": 28.68,
-      "high": 30.6,
-      "low": 28.45,
-      "close": 29.8,
-      "pre_close": 28.12,
-      "change": 1.68,
-      "pct_chg": 5.9744,
-      "vol": 412606.46,
-      "amount": 1223425.268
-    },
-    {
-      "ts_code": "688549.SH",
-      "name": "中巨芯",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "半导体材料；湿电子化学品；高纯化学品国产化"
-      },
-      "trade_date": "20260616",
-      "open": 27.02,
-      "high": 32.42,
-      "low": 27.0,
-      "close": 29.89,
-      "pre_close": 27.02,
-      "change": 2.87,
-      "pct_chg": 10.6218,
-      "vol": 1334355.04,
-      "amount": 4065451.705
-    },
-    {
-      "ts_code": "688630.SH",
-      "name": "芯碁微装",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "PCB设备；直写光刻设备"
-      },
-      "trade_date": "20260616",
-      "open": 445.0,
-      "high": 472.0,
-      "low": 435.0,
-      "close": 463.8,
-      "pre_close": 438.19,
-      "change": 25.61,
-      "pct_chg": 5.8445,
-      "vol": 55765.04,
-      "amount": 2542655.853
-    },
-    {
-      "ts_code": "688639.SH",
-      "name": "华恒生物",
-      "pool_keys": [
-        "chemicals_energy_materials"
-      ],
-      "pool_names": [
-        "化工能源材料"
-      ],
-      "pool_notes": {
-        "chemicals_energy_materials": "营养品 / 生物制造；合成生物学平台"
-      },
-      "trade_date": "20260616",
-      "open": 21.58,
-      "high": 21.58,
-      "low": 21.02,
-      "close": 21.16,
-      "pre_close": 21.3,
-      "change": -0.14,
-      "pct_chg": -0.6573,
-      "vol": 33761.12,
-      "amount": 71445.15
-    },
-    {
-      "ts_code": "688702.SH",
-      "name": "盛科通信-U",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "交换芯片 / NIC / DPU；以太网交换芯片"
-      },
-      "trade_date": "20260616",
-      "open": 285.94,
-      "high": 316.98,
-      "low": 280.88,
-      "close": 299.86,
-      "pre_close": 283.0,
-      "change": 16.86,
-      "pct_chg": 5.9576,
-      "vol": 103117.51,
-      "amount": 3050475.336
-    },
-    {
-      "ts_code": "688716.SH",
-      "name": "中研股份",
-      "pool_keys": [
-        "frontier_materials_watchlist"
-      ],
-      "pool_names": [
-        "前沿材料观察股"
-      ],
-      "pool_notes": {
-        "frontier_materials_watchlist": "PEEK；机器人、航空航天与半导体高性能工程塑料"
-      },
-      "trade_date": "20260616",
-      "open": 34.84,
-      "high": 35.74,
-      "low": 34.35,
-      "close": 35.0,
-      "pre_close": 34.84,
-      "change": 0.16,
-      "pct_chg": 0.4592,
-      "vol": 29914.85,
-      "amount": 104602.968
-    },
-    {
-      "ts_code": "688802.SH",
-      "name": "沐曦股份",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "GPU / ASIC；通用GPU"
-      },
-      "trade_date": "20260616",
-      "open": 720.99,
-      "high": 735.0,
-      "low": 704.0,
-      "close": 728.76,
-      "pre_close": 720.9,
-      "change": 7.86,
-      "pct_chg": 1.0903,
-      "vol": 17471.97,
-      "amount": 1256944.755
-    },
-    {
-      "ts_code": "688981.SH",
-      "name": "中芯国际",
-      "pool_keys": [
-        "ai_hardware"
-      ],
-      "pool_names": [
-        "AI硬件"
-      ],
-      "pool_notes": {
-        "ai_hardware": "Foundry；晶圆代工"
-      },
-      "trade_date": "20260616",
-      "open": 131.0,
-      "high": 134.34,
-      "low": 127.93,
-      "close": 130.14,
-      "pre_close": 130.52,
-      "change": -0.38,
-      "pct_chg": -0.2911,
-      "vol": 745583.01,
-      "amount": 9738547.521
-    },
     {
       "ts_code": "000063.SZ",
       "name": "中兴通讯",
@@ -208837,6 +205366,3500 @@
       "pct_chg": -2.0947,
       "vol": 277641.64,
       "amount": 3398939.37
+    },
+    {
+      "ts_code": "000063.SZ",
+      "name": "中兴通讯",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "交换芯片 / NIC / DPU；通信设备与算力基础设施"
+      },
+      "trade_date": "20260909",
+      "open": 33.27,
+      "high": 33.43,
+      "low": 33.0,
+      "close": 33.09,
+      "pre_close": 33.21,
+      "change": -0.12,
+      "pct_chg": -0.3613,
+      "vol": 438984.2,
+      "amount": 1455938.86285
+    },
+    {
+      "ts_code": "000408.SZ",
+      "name": "藏格矿业",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "磷钾肥；盐湖钾锂；钾肥与盐湖锂"
+      },
+      "trade_date": "20260909",
+      "open": 76.55,
+      "high": 78.7,
+      "low": 76.31,
+      "close": 78.56,
+      "pre_close": 76.29,
+      "change": 2.27,
+      "pct_chg": 2.9755,
+      "vol": 130794.63,
+      "amount": 1014689.63179
+    },
+    {
+      "ts_code": "000636.SZ",
+      "name": "风华高科",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "MLCC；被动元件"
+      },
+      "trade_date": "20260909",
+      "open": 50.5,
+      "high": 51.5,
+      "low": 49.36,
+      "close": 49.7,
+      "pre_close": 49.83,
+      "change": -0.13,
+      "pct_chg": -0.2609,
+      "vol": 711749.48,
+      "amount": 3588299.27526
+    },
+    {
+      "ts_code": "000683.SZ",
+      "name": "远兴能源",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "纯碱 / 氯碱；天然碱；成本曲线核心资产"
+      },
+      "trade_date": "20260909",
+      "open": 6.24,
+      "high": 6.31,
+      "low": 6.17,
+      "close": 6.28,
+      "pre_close": 6.24,
+      "change": 0.04,
+      "pct_chg": 0.641,
+      "vol": 472511.71,
+      "amount": 295032.04188
+    },
+    {
+      "ts_code": "000792.SZ",
+      "name": "盐湖股份",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "磷钾肥；盐湖钾锂；国内钾肥与盐湖锂"
+      },
+      "trade_date": "20260909",
+      "open": 26.6,
+      "high": 26.83,
+      "low": 26.45,
+      "close": 26.72,
+      "pre_close": 26.83,
+      "change": -0.11,
+      "pct_chg": -0.41,
+      "vol": 445540.99,
+      "amount": 1185965.27622
+    },
+    {
+      "ts_code": "000893.SZ",
+      "name": "亚钾国际",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "磷钾肥；海外钾肥；钾肥高弹性"
+      },
+      "trade_date": "20260909",
+      "open": 45.4,
+      "high": 45.9,
+      "low": 42.31,
+      "close": 43.23,
+      "pre_close": 46.0,
+      "change": -2.77,
+      "pct_chg": -6.0217,
+      "vol": 298849.58,
+      "amount": 1302421.08646
+    },
+    {
+      "ts_code": "000902.SZ",
+      "name": "新洋丰",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "磷钾肥；复合肥；复合肥龙头"
+      },
+      "trade_date": "20260909",
+      "open": 14.88,
+      "high": 14.91,
+      "low": 14.64,
+      "close": 14.82,
+      "pre_close": 14.88,
+      "change": -0.06,
+      "pct_chg": -0.4032,
+      "vol": 117725.24,
+      "amount": 174147.11332
+    },
+    {
+      "ts_code": "000938.SZ",
+      "name": "紫光股份",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "交换芯片 / NIC / DPU；网络设备与服务器"
+      },
+      "trade_date": "20260909",
+      "open": 33.92,
+      "high": 34.38,
+      "low": 33.31,
+      "close": 33.57,
+      "pre_close": 33.89,
+      "change": -0.32,
+      "pct_chg": -0.9442,
+      "vol": 1267934.16,
+      "amount": 4290572.4814
+    },
+    {
+      "ts_code": "000977.SZ",
+      "name": "浪潮信息",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "服务器ODM / 整机；AI服务器"
+      },
+      "trade_date": "20260909",
+      "open": 72.48,
+      "high": 72.8,
+      "low": 70.88,
+      "close": 71.38,
+      "pre_close": 72.32,
+      "change": -0.94,
+      "pct_chg": -1.2998,
+      "vol": 706633.5,
+      "amount": 5058632.84173
+    },
+    {
+      "ts_code": "002001.SZ",
+      "name": "新和成",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "营养品 / 生物制造；维生素；精细化工优质龙头"
+      },
+      "trade_date": "20260909",
+      "open": 26.61,
+      "high": 27.05,
+      "low": 26.56,
+      "close": 26.98,
+      "pre_close": 26.65,
+      "change": 0.33,
+      "pct_chg": 1.2383,
+      "vol": 182579.35,
+      "amount": 491231.29934
+    },
+    {
+      "ts_code": "002008.SZ",
+      "name": "大族激光",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "PCB设备；激光加工装备"
+      },
+      "trade_date": "20260909",
+      "open": 95.01,
+      "high": 97.7,
+      "low": 93.8,
+      "close": 94.85,
+      "pre_close": 95.72,
+      "change": -0.87,
+      "pct_chg": -0.9089,
+      "vol": 533786.9,
+      "amount": 5111620.69094
+    },
+    {
+      "ts_code": "002025.SZ",
+      "name": "航天电器",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "连接器；高可靠连接器与继电器"
+      },
+      "trade_date": "20260909",
+      "open": 65.88,
+      "high": 66.94,
+      "low": 63.69,
+      "close": 64.2,
+      "pre_close": 65.57,
+      "change": -1.37,
+      "pct_chg": -2.0894,
+      "vol": 109102.02,
+      "amount": 709756.3243
+    },
+    {
+      "ts_code": "002028.SZ",
+      "name": "思源电气",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "电力设备；输配电设备"
+      },
+      "trade_date": "20260909",
+      "open": 139.8,
+      "high": 140.38,
+      "low": 136.98,
+      "close": 138.58,
+      "pre_close": 139.45,
+      "change": -0.87,
+      "pct_chg": -0.6239,
+      "vol": 109694.43,
+      "amount": 1521132.08051
+    },
+    {
+      "ts_code": "002056.SZ",
+      "name": "横店东磁",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "电感 / 磁性元件；磁性材料与器件"
+      },
+      "trade_date": "20260909",
+      "open": 20.1,
+      "high": 20.14,
+      "low": 19.76,
+      "close": 19.94,
+      "pre_close": 20.11,
+      "change": -0.17,
+      "pct_chg": -0.8454,
+      "vol": 168053.15,
+      "amount": 335100.8011
+    },
+    {
+      "ts_code": "002064.SZ",
+      "name": "华峰化学",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "煤化工 / 聚氨酯；氨纶 / 己二酸；聚氨酯产业链"
+      },
+      "trade_date": "20260909",
+      "open": 11.0,
+      "high": 11.04,
+      "low": 10.76,
+      "close": 10.93,
+      "pre_close": 10.91,
+      "change": 0.02,
+      "pct_chg": 0.1833,
+      "vol": 257953.76,
+      "amount": 281053.65968
+    },
+    {
+      "ts_code": "002130.SZ",
+      "name": "沃尔核材",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "高速铜连接；高速通信线缆"
+      },
+      "trade_date": "20260909",
+      "open": 16.89,
+      "high": 17.75,
+      "low": 16.89,
+      "close": 17.57,
+      "pre_close": 16.93,
+      "change": 0.64,
+      "pct_chg": 3.7803,
+      "vol": 625159.63,
+      "amount": 1094196.16103
+    },
+    {
+      "ts_code": "002138.SZ",
+      "name": "顺络电子",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "电感 / 磁性元件；片式电感"
+      },
+      "trade_date": "20260909",
+      "open": 48.2,
+      "high": 48.99,
+      "low": 47.21,
+      "close": 47.83,
+      "pre_close": 48.1,
+      "change": -0.27,
+      "pct_chg": -0.5613,
+      "vol": 209849.14,
+      "amount": 1007716.27315
+    },
+    {
+      "ts_code": "002156.SZ",
+      "name": "通富微电",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "先进封装；Chiplet"
+      },
+      "trade_date": "20260909",
+      "open": 59.22,
+      "high": 59.8,
+      "low": 57.87,
+      "close": 58.35,
+      "pre_close": 58.32,
+      "change": 0.03,
+      "pct_chg": 0.0514,
+      "vol": 475746.16,
+      "amount": 2799489.89052
+    },
+    {
+      "ts_code": "002179.SZ",
+      "name": "中航光电",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "连接器；高可靠连接器"
+      },
+      "trade_date": "20260909",
+      "open": 34.05,
+      "high": 34.74,
+      "low": 33.97,
+      "close": 34.6,
+      "pre_close": 34.01,
+      "change": 0.59,
+      "pct_chg": 1.7348,
+      "vol": 177281.41,
+      "amount": 610469.15422
+    },
+    {
+      "ts_code": "002185.SZ",
+      "name": "华天科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "先进封装；Chiplet"
+      },
+      "trade_date": "20260909",
+      "open": 16.1,
+      "high": 16.45,
+      "low": 16.01,
+      "close": 16.17,
+      "pre_close": 15.97,
+      "change": 0.2,
+      "pct_chg": 1.2523,
+      "vol": 1853873.95,
+      "amount": 3006734.41966
+    },
+    {
+      "ts_code": "002254.SZ",
+      "name": "泰和新材",
+      "pool_keys": [
+        "frontier_materials_watchlist"
+      ],
+      "pool_names": [
+        "前沿材料观察股"
+      ],
+      "pool_notes": {
+        "frontier_materials_watchlist": "芳纶；AI、机器人与航空航天高性能纤维"
+      },
+      "trade_date": "20260909",
+      "open": 12.63,
+      "high": 12.82,
+      "low": 12.53,
+      "close": 12.57,
+      "pre_close": 12.62,
+      "change": -0.05,
+      "pct_chg": -0.3962,
+      "vol": 137296.0,
+      "amount": 173875.252
+    },
+    {
+      "ts_code": "002258.SZ",
+      "name": "利尔化学",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "农药；草铵膦等；草铵膦核心资产"
+      },
+      "trade_date": "20260909",
+      "open": 15.96,
+      "high": 16.86,
+      "low": 15.56,
+      "close": 15.7,
+      "pre_close": 15.55,
+      "change": 0.15,
+      "pct_chg": 0.9646,
+      "vol": 708265.11,
+      "amount": 1129816.46356
+    },
+    {
+      "ts_code": "002335.SZ",
+      "name": "科华数据",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "800V HVDC；数据中心供配电与UPS"
+      },
+      "trade_date": "20260909",
+      "open": 30.11,
+      "high": 30.44,
+      "low": 29.8,
+      "close": 30.06,
+      "pre_close": 30.18,
+      "change": -0.12,
+      "pct_chg": -0.3976,
+      "vol": 124455.47,
+      "amount": 374365.40888
+    },
+    {
+      "ts_code": "002338.SZ",
+      "name": "奥普光电",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "MLCC设备；精密光机电设备"
+      },
+      "trade_date": "20260909",
+      "open": 40.8,
+      "high": 41.24,
+      "low": 40.35,
+      "close": 40.41,
+      "pre_close": 40.8,
+      "change": -0.39,
+      "pct_chg": -0.9559,
+      "vol": 22886.52,
+      "amount": 93264.187
+    },
+    {
+      "ts_code": "002364.SZ",
+      "name": "中恒电气",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "AI服务器电源；800V HVDC；数据中心电源"
+      },
+      "trade_date": "20260909",
+      "open": 36.7,
+      "high": 37.84,
+      "low": 36.41,
+      "close": 36.7,
+      "pre_close": 36.81,
+      "change": -0.11,
+      "pct_chg": -0.2988,
+      "vol": 242399.24,
+      "amount": 898889.05013
+    },
+    {
+      "ts_code": "002371.SZ",
+      "name": "北方华创",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "半导体设备；Hybrid Bonding设备"
+      },
+      "trade_date": "20260909",
+      "open": 655.0,
+      "high": 655.6,
+      "low": 641.99,
+      "close": 646.4,
+      "pre_close": 647.87,
+      "change": -1.47,
+      "pct_chg": -0.2269,
+      "vol": 38014.65,
+      "amount": 2456899.58574
+    },
+    {
+      "ts_code": "002384.SZ",
+      "name": "东山精密",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "PCB制造；精密电子制造"
+      },
+      "trade_date": "20260909",
+      "open": 193.99,
+      "high": 198.88,
+      "low": 188.7,
+      "close": 196.06,
+      "pre_close": 186.42,
+      "change": 9.64,
+      "pct_chg": 5.1711,
+      "vol": 834032.09,
+      "amount": 16160062.7874
+    },
+    {
+      "ts_code": "002407.SZ",
+      "name": "多氟多",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "氟硅化工；氟化盐；六氟磷酸锂与氟化工"
+      },
+      "trade_date": "20260909",
+      "open": 33.2,
+      "high": 34.13,
+      "low": 33.01,
+      "close": 33.69,
+      "pre_close": 33.52,
+      "change": 0.17,
+      "pct_chg": 0.5072,
+      "vol": 761148.47,
+      "amount": 2553524.07026
+    },
+    {
+      "ts_code": "002409.SZ",
+      "name": "雅克科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "半导体材料；前驱体与电子材料"
+      },
+      "trade_date": "20260909",
+      "open": 132.51,
+      "high": 134.55,
+      "low": 130.5,
+      "close": 131.52,
+      "pre_close": 132.12,
+      "change": -0.6,
+      "pct_chg": -0.4541,
+      "vol": 137660.51,
+      "amount": 1823074.4438
+    },
+    {
+      "ts_code": "002463.SZ",
+      "name": "沪电股份",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "PCB制造；AI服务器与交换机PCB"
+      },
+      "trade_date": "20260909",
+      "open": 127.4,
+      "high": 130.86,
+      "low": 125.6,
+      "close": 127.55,
+      "pre_close": 124.9,
+      "change": 2.65,
+      "pct_chg": 2.1217,
+      "vol": 475846.83,
+      "amount": 6100788.16149
+    },
+    {
+      "ts_code": "002475.SZ",
+      "name": "立讯精密",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "高速铜连接；连接器；精密制造"
+      },
+      "trade_date": "20260909",
+      "open": 55.53,
+      "high": 56.39,
+      "low": 55.44,
+      "close": 55.86,
+      "pre_close": 55.06,
+      "change": 0.8,
+      "pct_chg": 1.453,
+      "vol": 716680.35,
+      "amount": 4011223.89463
+    },
+    {
+      "ts_code": "002493.SZ",
+      "name": "荣盛石化",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "炼化石化；大炼化；民营炼化核心"
+      },
+      "trade_date": "20260909",
+      "open": 14.35,
+      "high": 15.17,
+      "low": 14.18,
+      "close": 15.14,
+      "pre_close": 14.49,
+      "change": 0.65,
+      "pct_chg": 4.4859,
+      "vol": 591160.93,
+      "amount": 876395.16199
+    },
+    {
+      "ts_code": "002600.SZ",
+      "name": "领益智造",
+      "pool_keys": [
+        "consumer_electronics"
+      ],
+      "pool_names": [
+        "消费电子"
+      ],
+      "pool_notes": {
+        "consumer_electronics": "精密功能件；AI终端硬件"
+      },
+      "trade_date": "20260909",
+      "open": 12.43,
+      "high": 12.49,
+      "low": 12.3,
+      "close": 12.44,
+      "pre_close": 12.43,
+      "change": 0.01,
+      "pct_chg": 0.0805,
+      "vol": 617848.03,
+      "amount": 765491.70167
+    },
+    {
+      "ts_code": "002601.SZ",
+      "name": "龙佰集团",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "传统精细化工；钛白粉；全球钛白粉龙头之一"
+      },
+      "trade_date": "20260909",
+      "open": 15.73,
+      "high": 15.9,
+      "low": 15.61,
+      "close": 15.74,
+      "pre_close": 15.74,
+      "change": 0.0,
+      "pct_chg": 0.0,
+      "vol": 96375.96,
+      "amount": 151924.03815
+    },
+    {
+      "ts_code": "002636.SZ",
+      "name": "金安国纪",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "覆铜板 CCL"
+      },
+      "trade_date": "20260909",
+      "open": 69.93,
+      "high": 71.5,
+      "low": 68.5,
+      "close": 69.5,
+      "pre_close": 68.64,
+      "change": 0.86,
+      "pct_chg": 1.2529,
+      "vol": 498395.42,
+      "amount": 3485865.08024
+    },
+    {
+      "ts_code": "002648.SZ",
+      "name": "卫星化学",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "炼化石化；C2 / C3；乙烷裂解与C3龙头"
+      },
+      "trade_date": "20260909",
+      "open": 27.48,
+      "high": 28.3,
+      "low": 27.35,
+      "close": 28.18,
+      "pre_close": 27.69,
+      "change": 0.49,
+      "pct_chg": 1.7696,
+      "vol": 428697.27,
+      "amount": 1197821.7839
+    },
+    {
+      "ts_code": "002709.SZ",
+      "name": "天赐材料",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "锂电材料；电解液；电解液龙头"
+      },
+      "trade_date": "20260909",
+      "open": 33.54,
+      "high": 33.86,
+      "low": 33.27,
+      "close": 33.66,
+      "pre_close": 33.67,
+      "change": -0.01,
+      "pct_chg": -0.0297,
+      "vol": 312943.72,
+      "amount": 1051129.39669
+    },
+    {
+      "ts_code": "002812.SZ",
+      "name": "恩捷股份",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "锂电材料；隔膜；湿法隔膜龙头"
+      },
+      "trade_date": "20260909",
+      "open": 48.2,
+      "high": 49.7,
+      "low": 48.0,
+      "close": 49.16,
+      "pre_close": 48.03,
+      "change": 1.13,
+      "pct_chg": 2.3527,
+      "vol": 184173.15,
+      "amount": 899053.03573
+    },
+    {
+      "ts_code": "002837.SZ",
+      "name": "英维克",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "液冷；数据中心温控"
+      },
+      "trade_date": "20260909",
+      "open": 63.05,
+      "high": 64.1,
+      "low": 61.93,
+      "close": 62.43,
+      "pre_close": 63.0,
+      "change": -0.57,
+      "pct_chg": -0.9048,
+      "vol": 368980.81,
+      "amount": 2317662.60081
+    },
+    {
+      "ts_code": "002851.SZ",
+      "name": "麦格米特",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "AI服务器电源；800V HVDC；电力电子"
+      },
+      "trade_date": "20260909",
+      "open": 129.99,
+      "high": 130.88,
+      "low": 125.91,
+      "close": 127.06,
+      "pre_close": 128.6,
+      "change": -1.54,
+      "pct_chg": -1.1975,
+      "vol": 226195.54,
+      "amount": 2896714.81811
+    },
+    {
+      "ts_code": "002859.SZ",
+      "name": "洁美科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "MLCC材料；电子元器件薄型载带与离型膜"
+      },
+      "trade_date": "20260909",
+      "open": 62.0,
+      "high": 62.85,
+      "low": 61.11,
+      "close": 61.66,
+      "pre_close": 61.78,
+      "change": -0.12,
+      "pct_chg": -0.1942,
+      "vol": 94510.46,
+      "amount": 585697.07337
+    },
+    {
+      "ts_code": "002916.SZ",
+      "name": "深南电路",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "PCB制造；封装基板"
+      },
+      "trade_date": "20260909",
+      "open": 386.3,
+      "high": 391.66,
+      "low": 380.0,
+      "close": 383.3,
+      "pre_close": 382.5,
+      "change": 0.8,
+      "pct_chg": 0.2092,
+      "vol": 75650.26,
+      "amount": 2913977.78405
+    },
+    {
+      "ts_code": "002975.SZ",
+      "name": "博杰股份",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "MLCC设备；自动化测试与组装设备"
+      },
+      "trade_date": "20260909",
+      "open": 102.88,
+      "high": 105.58,
+      "low": 100.12,
+      "close": 101.0,
+      "pre_close": 100.91,
+      "change": 0.09,
+      "pct_chg": 0.0892,
+      "vol": 117824.0,
+      "amount": 1210828.83464
+    },
+    {
+      "ts_code": "300037.SZ",
+      "name": "新宙邦",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "锂电材料；电解液；电解液与精细化学品"
+      },
+      "trade_date": "20260909",
+      "open": 67.6,
+      "high": 69.02,
+      "low": 67.1,
+      "close": 68.49,
+      "pre_close": 67.52,
+      "change": 0.97,
+      "pct_chg": 1.4366,
+      "vol": 130059.1,
+      "amount": 887560.93523
+    },
+    {
+      "ts_code": "300054.SZ",
+      "name": "鼎龙股份",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "半导体材料；CMP；CMP抛光垫国产化"
+      },
+      "trade_date": "20260909",
+      "open": 68.25,
+      "high": 69.24,
+      "low": 67.17,
+      "close": 67.72,
+      "pre_close": 67.55,
+      "change": 0.17,
+      "pct_chg": 0.2517,
+      "vol": 148492.65,
+      "amount": 1010003.79516
+    },
+    {
+      "ts_code": "300223.SZ",
+      "name": "北京君正",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "DRAM / NAND；存储芯片与处理器"
+      },
+      "trade_date": "20260909",
+      "open": 135.72,
+      "high": 136.99,
+      "low": 131.08,
+      "close": 131.98,
+      "pre_close": 133.79,
+      "change": -1.81,
+      "pct_chg": -1.3529,
+      "vol": 144450.34,
+      "amount": 1927931.16051
+    },
+    {
+      "ts_code": "300274.SZ",
+      "name": "阳光电源",
+      "pool_keys": [
+        "energy_storage"
+      ],
+      "pool_names": [
+        "储能"
+      ],
+      "pool_notes": {
+        "energy_storage": "光伏与储能逆变器；储能系统"
+      },
+      "trade_date": "20260909",
+      "open": 87.84,
+      "high": 88.25,
+      "low": 86.23,
+      "close": 87.0,
+      "pre_close": 87.85,
+      "change": -0.85,
+      "pct_chg": -0.9676,
+      "vol": 346102.71,
+      "amount": 3007495.91247
+    },
+    {
+      "ts_code": "300285.SZ",
+      "name": "国瓷材料",
+      "pool_keys": [
+        "ai_hardware",
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "AI硬件",
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "ai_hardware": "MLCC材料；电子陶瓷材料平台",
+        "chemicals_energy_materials": "AI / PCB电子材料；MLCC与电子陶瓷；电子陶瓷平台"
+      },
+      "trade_date": "20260909",
+      "open": 61.78,
+      "high": 62.45,
+      "low": 59.94,
+      "close": 60.37,
+      "pre_close": 60.34,
+      "change": 0.03,
+      "pct_chg": 0.0497,
+      "vol": 487688.9,
+      "amount": 2981898.4884
+    },
+    {
+      "ts_code": "300308.SZ",
+      "name": "中际旭创",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "光模块；高速光模块"
+      },
+      "trade_date": "20260909",
+      "open": 932.5,
+      "high": 934.49,
+      "low": 901.0,
+      "close": 908.9,
+      "pre_close": 902.37,
+      "change": 6.53,
+      "pct_chg": 0.7236,
+      "vol": 201100.5,
+      "amount": 18420917.4755
+    },
+    {
+      "ts_code": "300316.SZ",
+      "name": "晶盛机电",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "Hybrid Bonding设备；半导体装备"
+      },
+      "trade_date": "20260909",
+      "open": 40.42,
+      "high": 41.07,
+      "low": 40.05,
+      "close": 40.33,
+      "pre_close": 40.24,
+      "change": 0.09,
+      "pct_chg": 0.2237,
+      "vol": 62312.0,
+      "amount": 252685.63254
+    },
+    {
+      "ts_code": "300390.SZ",
+      "name": "天华新能",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "锂电材料；锂资源；锂价弹性"
+      },
+      "trade_date": "20260909",
+      "open": 57.48,
+      "high": 57.78,
+      "low": 56.51,
+      "close": 56.91,
+      "pre_close": 57.45,
+      "change": -0.54,
+      "pct_chg": -0.9399,
+      "vol": 179828.73,
+      "amount": 1026665.60672
+    },
+    {
+      "ts_code": "300394.SZ",
+      "name": "天孚通信",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "光模块；光器件与光引擎"
+      },
+      "trade_date": "20260909",
+      "open": 270.0,
+      "high": 270.88,
+      "low": 256.13,
+      "close": 258.03,
+      "pre_close": 258.5,
+      "change": -0.47,
+      "pct_chg": -0.1818,
+      "vol": 300595.93,
+      "amount": 7907332.90069
+    },
+    {
+      "ts_code": "300408.SZ",
+      "name": "三环集团",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "MLCC；电子陶瓷"
+      },
+      "trade_date": "20260909",
+      "open": 118.63,
+      "high": 121.54,
+      "low": 116.71,
+      "close": 117.77,
+      "pre_close": 115.17,
+      "change": 2.6,
+      "pct_chg": 2.2575,
+      "vol": 516563.17,
+      "amount": 6136462.37463
+    },
+    {
+      "ts_code": "300433.SZ",
+      "name": "蓝思科技",
+      "pool_keys": [
+        "consumer_electronics"
+      ],
+      "pool_names": [
+        "消费电子"
+      ],
+      "pool_notes": {
+        "consumer_electronics": "玻璃与结构件；精密制造"
+      },
+      "trade_date": "20260909",
+      "open": 34.98,
+      "high": 35.35,
+      "low": 34.55,
+      "close": 35.12,
+      "pre_close": 34.6,
+      "change": 0.52,
+      "pct_chg": 1.5029,
+      "vol": 584264.21,
+      "amount": 2047229.07528
+    },
+    {
+      "ts_code": "300438.SZ",
+      "name": "鹏辉能源",
+      "pool_keys": [
+        "energy_storage"
+      ],
+      "pool_names": [
+        "储能"
+      ],
+      "pool_notes": {
+        "energy_storage": "储能电池；中小型锂电池"
+      },
+      "trade_date": "20260909",
+      "open": 53.72,
+      "high": 54.6,
+      "low": 53.01,
+      "close": 53.77,
+      "pre_close": 53.91,
+      "change": -0.14,
+      "pct_chg": -0.2597,
+      "vol": 162202.19,
+      "amount": 870988.85837
+    },
+    {
+      "ts_code": "300450.SZ",
+      "name": "先导智能",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "MLCC设备；智能制造装备"
+      },
+      "trade_date": "20260909",
+      "open": 30.74,
+      "high": 31.08,
+      "low": 30.56,
+      "close": 30.83,
+      "pre_close": 30.88,
+      "change": -0.05,
+      "pct_chg": -0.1619,
+      "vol": 172729.01,
+      "amount": 531878.98587
+    },
+    {
+      "ts_code": "300487.SZ",
+      "name": "蓝晓科技",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "高性能材料；吸附材料；盐湖提锂与吸附树脂"
+      },
+      "trade_date": "20260909",
+      "open": 63.0,
+      "high": 68.0,
+      "low": 62.11,
+      "close": 67.18,
+      "pre_close": 63.0,
+      "change": 4.18,
+      "pct_chg": 6.6349,
+      "vol": 98129.82,
+      "amount": 647106.71778
+    },
+    {
+      "ts_code": "300499.SZ",
+      "name": "高澜股份",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "液冷；热管理"
+      },
+      "trade_date": "20260909",
+      "open": 33.63,
+      "high": 37.0,
+      "low": 33.0,
+      "close": 36.82,
+      "pre_close": 33.96,
+      "change": 2.86,
+      "pct_chg": 8.4217,
+      "vol": 526852.28,
+      "amount": 1832561.06743
+    },
+    {
+      "ts_code": "300502.SZ",
+      "name": "新易盛",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "光模块；高速光模块"
+      },
+      "trade_date": "20260909",
+      "open": 435.0,
+      "high": 435.65,
+      "low": 411.57,
+      "close": 414.8,
+      "pre_close": 416.4,
+      "change": -1.6,
+      "pct_chg": -0.3842,
+      "vol": 285201.57,
+      "amount": 12024951.0787
+    },
+    {
+      "ts_code": "300750.SZ",
+      "name": "宁德时代",
+      "pool_keys": [
+        "energy_storage"
+      ],
+      "pool_names": [
+        "储能"
+      ],
+      "pool_notes": {
+        "energy_storage": "动力与储能电池"
+      },
+      "trade_date": "20260909",
+      "open": 332.48,
+      "high": 337.66,
+      "low": 327.1,
+      "close": 336.84,
+      "pre_close": 335.49,
+      "change": 1.35,
+      "pct_chg": 0.4024,
+      "vol": 390240.0,
+      "amount": 12957469.5584
+    },
+    {
+      "ts_code": "300776.SZ",
+      "name": "帝尔激光",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "玻璃基板 / TGV；激光设备"
+      },
+      "trade_date": "20260909",
+      "open": 114.0,
+      "high": 116.26,
+      "low": 112.1,
+      "close": 113.86,
+      "pre_close": 113.31,
+      "change": 0.55,
+      "pct_chg": 0.4854,
+      "vol": 75351.17,
+      "amount": 861159.85398
+    },
+    {
+      "ts_code": "300811.SZ",
+      "name": "铂科新材",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "电感 / 磁性元件；金属软磁材料与芯片电感"
+      },
+      "trade_date": "20260909",
+      "open": 82.19,
+      "high": 85.29,
+      "low": 81.78,
+      "close": 83.01,
+      "pre_close": 81.6,
+      "change": 1.41,
+      "pct_chg": 1.7279,
+      "vol": 142881.01,
+      "amount": 1196199.26934
+    },
+    {
+      "ts_code": "300870.SZ",
+      "name": "欧陆通",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "AI服务器电源；数据中心电源"
+      },
+      "trade_date": "20260909",
+      "open": 215.0,
+      "high": 218.29,
+      "low": 208.35,
+      "close": 210.01,
+      "pre_close": 209.53,
+      "change": 0.48,
+      "pct_chg": 0.2291,
+      "vol": 54000.32,
+      "amount": 1148888.71116
+    },
+    {
+      "ts_code": "300913.SZ",
+      "name": "兆龙互连",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "高速铜连接；数据电缆与高速互连"
+      },
+      "trade_date": "20260909",
+      "open": 36.67,
+      "high": 42.97,
+      "low": 36.02,
+      "close": 41.08,
+      "pre_close": 35.81,
+      "change": 5.27,
+      "pct_chg": 14.7166,
+      "vol": 421777.42,
+      "amount": 1733800.81206
+    },
+    {
+      "ts_code": "300919.SZ",
+      "name": "中伟新材",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "锂电材料；三元前驱体；前驱体龙头"
+      },
+      "trade_date": "20260909",
+      "open": 38.58,
+      "high": 39.5,
+      "low": 38.49,
+      "close": 39.26,
+      "pre_close": 38.69,
+      "change": 0.57,
+      "pct_chg": 1.4732,
+      "vol": 66458.84,
+      "amount": 259120.85504
+    },
+    {
+      "ts_code": "301018.SZ",
+      "name": "申菱环境",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "液冷；数据中心温控"
+      },
+      "trade_date": "20260909",
+      "open": 102.03,
+      "high": 104.66,
+      "low": 100.05,
+      "close": 100.7,
+      "pre_close": 101.41,
+      "change": -0.71,
+      "pct_chg": -0.7001,
+      "vol": 132717.6,
+      "amount": 1351192.75842
+    },
+    {
+      "ts_code": "301035.SZ",
+      "name": "润丰股份",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "农药；制剂 / 海外渠道；全球渠道型农化"
+      },
+      "trade_date": "20260909",
+      "open": 57.7,
+      "high": 58.18,
+      "low": 56.3,
+      "close": 56.99,
+      "pre_close": 57.7,
+      "change": -0.71,
+      "pct_chg": -1.2305,
+      "vol": 15936.34,
+      "amount": 91274.18753
+    },
+    {
+      "ts_code": "301200.SZ",
+      "name": "大族数控",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "PCB设备"
+      },
+      "trade_date": "20260909",
+      "open": 265.08,
+      "high": 272.29,
+      "low": 261.31,
+      "close": 263.04,
+      "pre_close": 264.27,
+      "change": -1.23,
+      "pct_chg": -0.4654,
+      "vol": 19646.2,
+      "amount": 524635.1151
+    },
+    {
+      "ts_code": "301217.SZ",
+      "name": "铜冠铜箔",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "铜箔；电子铜箔与锂电铜箔"
+      },
+      "trade_date": "20260909",
+      "open": 107.62,
+      "high": 110.54,
+      "low": 106.0,
+      "close": 107.21,
+      "pre_close": 105.5,
+      "change": 1.71,
+      "pct_chg": 1.6209,
+      "vol": 270672.7,
+      "amount": 2935757.0547
+    },
+    {
+      "ts_code": "301269.SZ",
+      "name": "华大九天",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "EDA / IP；EDA软件"
+      },
+      "trade_date": "20260909",
+      "open": 90.11,
+      "high": 90.9,
+      "low": 89.02,
+      "close": 89.5,
+      "pre_close": 90.36,
+      "change": -0.86,
+      "pct_chg": -0.9517,
+      "vol": 41445.26,
+      "amount": 372269.49716
+    },
+    {
+      "ts_code": "301308.SZ",
+      "name": "江波龙",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "企业级SSD；存储产品与企业级存储"
+      },
+      "trade_date": "20260909",
+      "open": 359.0,
+      "high": 362.77,
+      "low": 347.18,
+      "close": 348.03,
+      "pre_close": 358.86,
+      "change": -10.83,
+      "pct_chg": -3.0179,
+      "vol": 94686.04,
+      "amount": 3344507.40043
+    },
+    {
+      "ts_code": "301358.SZ",
+      "name": "湖南裕能",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "锂电材料；LFP正极；磷酸铁锂龙头"
+      },
+      "trade_date": "20260909",
+      "open": 55.21,
+      "high": 55.98,
+      "low": 55.0,
+      "close": 55.75,
+      "pre_close": 55.62,
+      "change": 0.13,
+      "pct_chg": 0.2337,
+      "vol": 105126.96,
+      "amount": 583797.60516
+    },
+    {
+      "ts_code": "301511.SZ",
+      "name": "德福科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "铜箔；电子铜箔与锂电铜箔"
+      },
+      "trade_date": "20260909",
+      "open": 105.0,
+      "high": 106.48,
+      "low": 103.0,
+      "close": 105.7,
+      "pre_close": 103.08,
+      "change": 2.62,
+      "pct_chg": 2.5417,
+      "vol": 333872.64,
+      "amount": 3495345.68519
+    },
+    {
+      "ts_code": "301526.SZ",
+      "name": "国际复材",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "玻纤布 / 电子布；玻璃纤维"
+      },
+      "trade_date": "20260909",
+      "open": 27.57,
+      "high": 28.43,
+      "low": 27.18,
+      "close": 27.55,
+      "pre_close": 27.12,
+      "change": 0.43,
+      "pct_chg": 1.5855,
+      "vol": 1214266.55,
+      "amount": 3372220.07549
+    },
+    {
+      "ts_code": "301666.SZ",
+      "name": "大普微",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "企业级SSD；数据中心存储"
+      },
+      "trade_date": "20260909",
+      "open": 413.01,
+      "high": 417.77,
+      "low": 395.1,
+      "close": 397.32,
+      "pre_close": 409.7,
+      "change": -12.38,
+      "pct_chg": -3.0217,
+      "vol": 22426.0,
+      "amount": 908128.6334
+    },
+    {
+      "ts_code": "600028.SH",
+      "name": "中国石化",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "油气；综合油气；炼化一体化"
+      },
+      "trade_date": "20260909",
+      "open": 5.58,
+      "high": 5.65,
+      "low": 5.53,
+      "close": 5.61,
+      "pre_close": 5.59,
+      "change": 0.02,
+      "pct_chg": 0.3578,
+      "vol": 2276622.9,
+      "amount": 1275247.257
+    },
+    {
+      "ts_code": "600089.SH",
+      "name": "特变电工",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "电力设备；输变电与能源装备"
+      },
+      "trade_date": "20260909",
+      "open": 19.09,
+      "high": 19.29,
+      "low": 18.95,
+      "close": 19.28,
+      "pre_close": 19.08,
+      "change": 0.2,
+      "pct_chg": 1.0482,
+      "vol": 693532.35,
+      "amount": 1327074.007
+    },
+    {
+      "ts_code": "600096.SH",
+      "name": "云天化",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "磷钾肥；磷化工；磷矿资源与磷肥"
+      },
+      "trade_date": "20260909",
+      "open": 31.63,
+      "high": 31.9,
+      "low": 31.11,
+      "close": 31.62,
+      "pre_close": 31.91,
+      "change": -0.29,
+      "pct_chg": -0.9088,
+      "vol": 403232.54,
+      "amount": 1268548.107
+    },
+    {
+      "ts_code": "600141.SH",
+      "name": "兴发集团",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "磷钾肥；磷化工；磷矿资源与精细磷化工"
+      },
+      "trade_date": "20260909",
+      "open": 31.5,
+      "high": 31.76,
+      "low": 31.09,
+      "close": 31.5,
+      "pre_close": 31.92,
+      "change": -0.42,
+      "pct_chg": -1.3158,
+      "vol": 305470.08,
+      "amount": 958695.003
+    },
+    {
+      "ts_code": "600143.SH",
+      "name": "金发科技",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "传统精细化工；改性塑料；工程塑料平台"
+      },
+      "trade_date": "20260909",
+      "open": 13.72,
+      "high": 13.76,
+      "low": 13.53,
+      "close": 13.54,
+      "pre_close": 13.76,
+      "change": -0.22,
+      "pct_chg": -1.5988,
+      "vol": 224057.42,
+      "amount": 304743.119
+    },
+    {
+      "ts_code": "600160.SH",
+      "name": "巨化股份",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "氟硅化工；制冷剂；三代制冷剂核心"
+      },
+      "trade_date": "20260909",
+      "open": 37.93,
+      "high": 38.5,
+      "low": 37.9,
+      "close": 38.4,
+      "pre_close": 38.23,
+      "change": 0.17,
+      "pct_chg": 0.4447,
+      "vol": 147415.38,
+      "amount": 562857.095
+    },
+    {
+      "ts_code": "600176.SH",
+      "name": "中国巨石",
+      "pool_keys": [
+        "ai_hardware",
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "AI硬件",
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "ai_hardware": "玻纤布 / 电子布；全球玻纤龙头",
+        "chemicals_energy_materials": "高性能材料；玻纤；全球玻纤龙头"
+      },
+      "trade_date": "20260909",
+      "open": 42.4,
+      "high": 43.45,
+      "low": 41.73,
+      "close": 42.67,
+      "pre_close": 41.39,
+      "change": 1.28,
+      "pct_chg": 3.0925,
+      "vol": 1972005.32,
+      "amount": 8408234.978
+    },
+    {
+      "ts_code": "600183.SH",
+      "name": "生益科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "覆铜板 CCL；高频高速覆铜板"
+      },
+      "trade_date": "20260909",
+      "open": 147.9,
+      "high": 151.88,
+      "low": 146.51,
+      "close": 148.16,
+      "pre_close": 146.28,
+      "change": 1.88,
+      "pct_chg": 1.2852,
+      "vol": 589970.34,
+      "amount": 8801337.181
+    },
+    {
+      "ts_code": "600256.SH",
+      "name": "广汇能源",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "天然气；城燃 / LNG；LNG高弹性"
+      },
+      "trade_date": "20260909",
+      "open": 7.24,
+      "high": 7.48,
+      "low": 7.17,
+      "close": 7.42,
+      "pre_close": 7.21,
+      "change": 0.21,
+      "pct_chg": 2.9126,
+      "vol": 1822860.7,
+      "amount": 1340129.405
+    },
+    {
+      "ts_code": "600299.SH",
+      "name": "安迪苏",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "营养品 / 生物制造；蛋氨酸；动物营养龙头"
+      },
+      "trade_date": "20260909",
+      "open": 8.76,
+      "high": 9.07,
+      "low": 8.76,
+      "close": 8.95,
+      "pre_close": 8.82,
+      "change": 0.13,
+      "pct_chg": 1.4739,
+      "vol": 431258.91,
+      "amount": 384709.036
+    },
+    {
+      "ts_code": "600309.SH",
+      "name": "万华化学",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "煤化工 / 聚氨酯；聚氨酯；MDI龙头"
+      },
+      "trade_date": "20260909",
+      "open": 77.87,
+      "high": 79.06,
+      "low": 77.11,
+      "close": 78.87,
+      "pre_close": 78.09,
+      "change": 0.78,
+      "pct_chg": 0.9988,
+      "vol": 264449.41,
+      "amount": 2069157.36
+    },
+    {
+      "ts_code": "600346.SH",
+      "name": "恒力石化",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "炼化石化；大炼化；民营炼化核心"
+      },
+      "trade_date": "20260909",
+      "open": 18.71,
+      "high": 19.19,
+      "low": 18.38,
+      "close": 19.1,
+      "pre_close": 18.79,
+      "change": 0.31,
+      "pct_chg": 1.6498,
+      "vol": 221130.99,
+      "amount": 416444.616
+    },
+    {
+      "ts_code": "600352.SH",
+      "name": "浙江龙盛",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "传统精细化工；染料；染料景气代表"
+      },
+      "trade_date": "20260909",
+      "open": 12.6,
+      "high": 12.83,
+      "low": 12.53,
+      "close": 12.73,
+      "pre_close": 12.46,
+      "change": 0.27,
+      "pct_chg": 2.1669,
+      "vol": 590341.85,
+      "amount": 748601.347
+    },
+    {
+      "ts_code": "600378.SH",
+      "name": "昊华科技",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "氟硅化工；高端氟材料；高端化工材料平台"
+      },
+      "trade_date": "20260909",
+      "open": 47.02,
+      "high": 48.42,
+      "low": 46.6,
+      "close": 47.29,
+      "pre_close": 46.49,
+      "change": 0.8,
+      "pct_chg": 1.7208,
+      "vol": 572229.98,
+      "amount": 2713113.346
+    },
+    {
+      "ts_code": "600406.SH",
+      "name": "国电南瑞",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "电力设备；电网自动化与电力电子"
+      },
+      "trade_date": "20260909",
+      "open": 22.4,
+      "high": 22.54,
+      "low": 22.26,
+      "close": 22.45,
+      "pre_close": 22.41,
+      "change": 0.04,
+      "pct_chg": 0.1785,
+      "vol": 251246.72,
+      "amount": 563423.73
+    },
+    {
+      "ts_code": "600409.SH",
+      "name": "三友化工",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "纯碱 / 氯碱；纯碱周期代表"
+      },
+      "trade_date": "20260909",
+      "open": 7.0,
+      "high": 7.14,
+      "low": 6.93,
+      "close": 7.04,
+      "pre_close": 7.0,
+      "change": 0.04,
+      "pct_chg": 0.5714,
+      "vol": 224298.01,
+      "amount": 157398.023
+    },
+    {
+      "ts_code": "600426.SH",
+      "name": "华鲁恒升",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "煤化工 / 聚氨酯；煤化工平台；成本曲线龙头"
+      },
+      "trade_date": "20260909",
+      "open": 21.2,
+      "high": 21.5,
+      "low": 20.8,
+      "close": 21.17,
+      "pre_close": 21.14,
+      "change": 0.03,
+      "pct_chg": 0.1419,
+      "vol": 313753.19,
+      "amount": 662530.447
+    },
+    {
+      "ts_code": "600460.SH",
+      "name": "士兰微",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "SiC / GaN；功率半导体与IDM"
+      },
+      "trade_date": "20260909",
+      "open": 30.57,
+      "high": 31.03,
+      "low": 30.08,
+      "close": 30.27,
+      "pre_close": 30.36,
+      "change": -0.09,
+      "pct_chg": -0.2964,
+      "vol": 482560.7,
+      "amount": 1472935.227
+    },
+    {
+      "ts_code": "600486.SH",
+      "name": "扬农化工",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "农药；原药龙头；品质龙头"
+      },
+      "trade_date": "20260909",
+      "open": 58.88,
+      "high": 59.38,
+      "low": 57.8,
+      "close": 58.42,
+      "pre_close": 58.88,
+      "change": -0.46,
+      "pct_chg": -0.7813,
+      "vol": 68789.09,
+      "amount": 402997.974
+    },
+    {
+      "ts_code": "600487.SH",
+      "name": "亨通光电",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "光纤光缆；光通信网络"
+      },
+      "trade_date": "20260909",
+      "open": 64.51,
+      "high": 67.5,
+      "low": 64.5,
+      "close": 66.62,
+      "pre_close": 63.11,
+      "change": 3.51,
+      "pct_chg": 5.5617,
+      "vol": 2184007.86,
+      "amount": 14492707.429
+    },
+    {
+      "ts_code": "600522.SH",
+      "name": "中天科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "光纤光缆；通信与电力线缆"
+      },
+      "trade_date": "20260909",
+      "open": 33.4,
+      "high": 34.39,
+      "low": 33.21,
+      "close": 34.12,
+      "pre_close": 32.51,
+      "change": 1.61,
+      "pct_chg": 4.9523,
+      "vol": 2644968.86,
+      "amount": 8996226.302
+    },
+    {
+      "ts_code": "600584.SH",
+      "name": "长电科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "先进封装；Chiplet"
+      },
+      "trade_date": "20260909",
+      "open": 69.1,
+      "high": 70.28,
+      "low": 68.19,
+      "close": 68.64,
+      "pre_close": 68.6,
+      "change": 0.04,
+      "pct_chg": 0.0583,
+      "vol": 613674.65,
+      "amount": 4248234.36
+    },
+    {
+      "ts_code": "600703.SH",
+      "name": "三安光电",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "SiC / GaN；化合物半导体"
+      },
+      "trade_date": "20260909",
+      "open": 12.92,
+      "high": 13.06,
+      "low": 12.75,
+      "close": 12.85,
+      "pre_close": 12.86,
+      "change": -0.01,
+      "pct_chg": -0.0778,
+      "vol": 894869.09,
+      "amount": 1154668.663
+    },
+    {
+      "ts_code": "600707.SH",
+      "name": "彩虹股份",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "玻璃基板 / TGV；基板玻璃"
+      },
+      "trade_date": "20260909",
+      "open": 8.72,
+      "high": 9.06,
+      "low": 8.58,
+      "close": 8.64,
+      "pre_close": 8.61,
+      "change": 0.03,
+      "pct_chg": 0.3484,
+      "vol": 923056.03,
+      "amount": 808860.362
+    },
+    {
+      "ts_code": "600873.SH",
+      "name": "梅花生物",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "营养品 / 生物制造；氨基酸；发酵产业龙头"
+      },
+      "trade_date": "20260909",
+      "open": 7.92,
+      "high": 8.04,
+      "low": 7.88,
+      "close": 7.9,
+      "pre_close": 7.92,
+      "change": -0.02,
+      "pct_chg": -0.2525,
+      "vol": 259928.48,
+      "amount": 206959.47
+    },
+    {
+      "ts_code": "600938.SH",
+      "name": "中国海油",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "油气；综合油气；上游油气核心资产"
+      },
+      "trade_date": "20260909",
+      "open": 34.45,
+      "high": 34.45,
+      "low": 33.92,
+      "close": 34.18,
+      "pre_close": 34.39,
+      "change": -0.21,
+      "pct_chg": -0.6106,
+      "vol": 391520.9,
+      "amount": 1338951.68
+    },
+    {
+      "ts_code": "600989.SH",
+      "name": "宝丰能源",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "煤化工 / 聚氨酯；煤制烯烃；低成本煤化工"
+      },
+      "trade_date": "20260909",
+      "open": 24.47,
+      "high": 25.23,
+      "low": 23.95,
+      "close": 24.91,
+      "pre_close": 24.39,
+      "change": 0.52,
+      "pct_chg": 2.132,
+      "vol": 911666.36,
+      "amount": 2250617.619
+    },
+    {
+      "ts_code": "601058.SH",
+      "name": "赛轮轮胎",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "传统精细化工；轮胎；中国轮胎出海龙头"
+      },
+      "trade_date": "20260909",
+      "open": 14.45,
+      "high": 14.76,
+      "low": 14.44,
+      "close": 14.62,
+      "pre_close": 14.59,
+      "change": 0.03,
+      "pct_chg": 0.2056,
+      "vol": 311670.15,
+      "amount": 456077.31
+    },
+    {
+      "ts_code": "601138.SH",
+      "name": "工业富联",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "服务器ODM / 整机；AI服务器与云计算基础设施"
+      },
+      "trade_date": "20260909",
+      "open": 64.9,
+      "high": 66.08,
+      "low": 64.47,
+      "close": 65.24,
+      "pre_close": 64.75,
+      "change": 0.49,
+      "pct_chg": 0.7568,
+      "vol": 761505.65,
+      "amount": 4971511.293
+    },
+    {
+      "ts_code": "601208.SH",
+      "name": "东材科技",
+      "pool_keys": [
+        "ai_hardware",
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "AI硬件",
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "ai_hardware": "PCB材料；CCL与电子树脂材料",
+        "chemicals_energy_materials": "AI / PCB电子材料；CCL与电子树脂材料"
+      },
+      "trade_date": "20260909",
+      "open": 47.9,
+      "high": 48.31,
+      "low": 46.71,
+      "close": 47.17,
+      "pre_close": 47.41,
+      "change": -0.24,
+      "pct_chg": -0.5062,
+      "vol": 345859.22,
+      "amount": 1644249.977
+    },
+    {
+      "ts_code": "601216.SH",
+      "name": "君正集团",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "纯碱 / 氯碱；PVC / 烧碱；氯碱与煤化工"
+      },
+      "trade_date": "20260909",
+      "open": 4.83,
+      "high": 4.88,
+      "low": 4.81,
+      "close": 4.85,
+      "pre_close": 4.83,
+      "change": 0.02,
+      "pct_chg": 0.4141,
+      "vol": 453151.0,
+      "amount": 219267.229
+    },
+    {
+      "ts_code": "601233.SH",
+      "name": "桐昆股份",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "炼化石化；聚酯；长丝景气代表"
+      },
+      "trade_date": "20260909",
+      "open": 25.08,
+      "high": 25.09,
+      "low": 24.4,
+      "close": 24.97,
+      "pre_close": 25.07,
+      "change": -0.1,
+      "pct_chg": -0.3989,
+      "vol": 380763.86,
+      "amount": 942039.74
+    },
+    {
+      "ts_code": "601808.SH",
+      "name": "中海油服",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "油气；油服；油服景气代表"
+      },
+      "trade_date": "20260909",
+      "open": 12.87,
+      "high": 13.0,
+      "low": 12.76,
+      "close": 12.88,
+      "pre_close": 12.85,
+      "change": 0.03,
+      "pct_chg": 0.2335,
+      "vol": 138630.07,
+      "amount": 178538.236
+    },
+    {
+      "ts_code": "601857.SH",
+      "name": "中国石油",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "油气；综合油气；上游油气核心资产"
+      },
+      "trade_date": "20260909",
+      "open": 11.33,
+      "high": 11.48,
+      "low": 11.18,
+      "close": 11.32,
+      "pre_close": 11.3,
+      "change": 0.02,
+      "pct_chg": 0.177,
+      "vol": 1192026.83,
+      "amount": 1351581.654
+    },
+    {
+      "ts_code": "601869.SH",
+      "name": "长飞光纤",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "光纤光缆"
+      },
+      "trade_date": "20260909",
+      "open": 430.0,
+      "high": 458.54,
+      "low": 428.1,
+      "close": 442.03,
+      "pre_close": 416.85,
+      "change": 25.18,
+      "pct_chg": 6.0405,
+      "vol": 198414.15,
+      "amount": 8886271.897
+    },
+    {
+      "ts_code": "603019.SH",
+      "name": "中科曙光",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "服务器ODM / 整机；高性能计算与服务器"
+      },
+      "trade_date": "20260909",
+      "open": 83.0,
+      "high": 83.12,
+      "low": 82.08,
+      "close": 82.43,
+      "pre_close": 82.54,
+      "change": -0.11,
+      "pct_chg": -0.1333,
+      "vol": 140496.48,
+      "amount": 1159568.163
+    },
+    {
+      "ts_code": "603256.SH",
+      "name": "宏和科技",
+      "pool_keys": [
+        "ai_hardware",
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "AI硬件",
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "ai_hardware": "玻纤布 / 电子布；高端电子布",
+        "chemicals_energy_materials": "AI / PCB电子材料；电子布；高端电子布"
+      },
+      "trade_date": "20260909",
+      "open": 128.79,
+      "high": 131.54,
+      "low": 126.76,
+      "close": 128.25,
+      "pre_close": 126.78,
+      "change": 1.47,
+      "pct_chg": 1.1595,
+      "vol": 137814.3,
+      "amount": 1771891.314
+    },
+    {
+      "ts_code": "603260.SH",
+      "name": "合盛硅业",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "氟硅化工；工业硅 / 有机硅；硅产业链龙头"
+      },
+      "trade_date": "20260909",
+      "open": 33.57,
+      "high": 34.05,
+      "low": 33.14,
+      "close": 33.92,
+      "pre_close": 33.65,
+      "change": 0.27,
+      "pct_chg": 0.8024,
+      "vol": 78371.79,
+      "amount": 263900.702
+    },
+    {
+      "ts_code": "603379.SH",
+      "name": "三美股份",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "氟硅化工；制冷剂；三代制冷剂核心"
+      },
+      "trade_date": "20260909",
+      "open": 59.37,
+      "high": 59.88,
+      "low": 58.9,
+      "close": 59.32,
+      "pre_close": 59.48,
+      "change": -0.16,
+      "pct_chg": -0.269,
+      "vol": 27359.71,
+      "amount": 162106.998
+    },
+    {
+      "ts_code": "603599.SH",
+      "name": "广信股份",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "农药；原药龙头；低估值周期弹性"
+      },
+      "trade_date": "20260909",
+      "open": 11.32,
+      "high": 11.54,
+      "low": 11.26,
+      "close": 11.41,
+      "pre_close": 11.43,
+      "change": -0.02,
+      "pct_chg": -0.175,
+      "vol": 225838.2,
+      "amount": 257012.154
+    },
+    {
+      "ts_code": "603650.SH",
+      "name": "彤程新材",
+      "pool_keys": [
+        "ai_hardware",
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "AI硬件",
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "ai_hardware": "PCB材料；电子材料与光刻胶产业链",
+        "chemicals_energy_materials": "半导体材料；光刻胶；PCB电子材料"
+      },
+      "trade_date": "20260909",
+      "open": 59.6,
+      "high": 65.22,
+      "low": 59.6,
+      "close": 65.22,
+      "pre_close": 59.29,
+      "change": 5.93,
+      "pct_chg": 10.0017,
+      "vol": 334951.64,
+      "amount": 2156858.32
+    },
+    {
+      "ts_code": "603678.SH",
+      "name": "火炬电子",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "MLCC；高可靠电子元器件"
+      },
+      "trade_date": "20260909",
+      "open": 45.88,
+      "high": 47.1,
+      "low": 45.54,
+      "close": 45.93,
+      "pre_close": 45.77,
+      "change": 0.16,
+      "pct_chg": 0.3496,
+      "vol": 153794.19,
+      "amount": 710652.345
+    },
+    {
+      "ts_code": "603773.SH",
+      "name": "沃格光电",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "玻璃基板 / TGV；玻璃精加工"
+      },
+      "trade_date": "20260909",
+      "open": 89.9,
+      "high": 91.75,
+      "low": 85.31,
+      "close": 86.01,
+      "pre_close": 86.7,
+      "change": -0.69,
+      "pct_chg": -0.7958,
+      "vol": 191337.59,
+      "amount": 1689901.017
+    },
+    {
+      "ts_code": "603986.SH",
+      "name": "兆易创新",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "DRAM / NAND；存储芯片与MCU"
+      },
+      "trade_date": "20260909",
+      "open": 390.0,
+      "high": 392.87,
+      "low": 380.0,
+      "close": 381.87,
+      "pre_close": 385.96,
+      "change": -4.09,
+      "pct_chg": -1.0597,
+      "vol": 229046.91,
+      "amount": 8816384.418
+    },
+    {
+      "ts_code": "605117.SH",
+      "name": "德业股份",
+      "pool_keys": [
+        "energy_storage"
+      ],
+      "pool_names": [
+        "储能"
+      ],
+      "pool_notes": {
+        "energy_storage": "户用储能逆变器"
+      },
+      "trade_date": "20260909",
+      "open": 81.33,
+      "high": 82.5,
+      "low": 81.0,
+      "close": 82.2,
+      "pre_close": 81.33,
+      "change": 0.87,
+      "pct_chg": 1.0697,
+      "vol": 90625.54,
+      "amount": 742276.894
+    },
+    {
+      "ts_code": "605376.SH",
+      "name": "博迁新材",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "MLCC材料；电子专用金属粉体"
+      },
+      "trade_date": "20260909",
+      "open": 136.02,
+      "high": 138.39,
+      "low": 132.44,
+      "close": 133.44,
+      "pre_close": 134.88,
+      "change": -1.44,
+      "pct_chg": -1.0676,
+      "vol": 75425.87,
+      "amount": 1017115.671
+    },
+    {
+      "ts_code": "605589.SH",
+      "name": "圣泉集团",
+      "pool_keys": [
+        "ai_hardware",
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "AI硬件",
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "ai_hardware": "PCB材料；特种酚醛树脂与电子材料",
+        "chemicals_energy_materials": "高性能材料；特种树脂；酚醛树脂与生物质材料"
+      },
+      "trade_date": "20260909",
+      "open": 38.58,
+      "high": 39.26,
+      "low": 38.15,
+      "close": 38.54,
+      "pre_close": 38.47,
+      "change": 0.07,
+      "pct_chg": 0.182,
+      "vol": 165269.73,
+      "amount": 640290.568
+    },
+    {
+      "ts_code": "688008.SH",
+      "name": "澜起科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "CXL Memory；内存接口芯片与互连芯片"
+      },
+      "trade_date": "20260909",
+      "open": 199.9,
+      "high": 199.96,
+      "low": 194.0,
+      "close": 195.3,
+      "pre_close": 195.65,
+      "change": -0.35,
+      "pct_chg": -0.1789,
+      "vol": 188018.29,
+      "amount": 3693163.431
+    },
+    {
+      "ts_code": "688012.SH",
+      "name": "中微公司",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "半导体设备；刻蚀与薄膜沉积设备"
+      },
+      "trade_date": "20260909",
+      "open": 339.97,
+      "high": 340.9,
+      "low": 332.16,
+      "close": 333.0,
+      "pre_close": 336.01,
+      "change": -3.01,
+      "pct_chg": -0.8958,
+      "vol": 100841.04,
+      "amount": 3377718.853
+    },
+    {
+      "ts_code": "688019.SH",
+      "name": "安集科技",
+      "pool_keys": [
+        "ai_hardware",
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "AI硬件",
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "ai_hardware": "半导体材料；CMP抛光液与功能性湿电子化学品",
+        "chemicals_energy_materials": "半导体材料；CMP；CMP抛光液与功能性湿电子化学品"
+      },
+      "trade_date": "20260909",
+      "open": 229.0,
+      "high": 229.76,
+      "low": 225.2,
+      "close": 226.68,
+      "pre_close": 228.99,
+      "change": -2.31,
+      "pct_chg": -1.0088,
+      "vol": 32073.79,
+      "amount": 728602.958
+    },
+    {
+      "ts_code": "688036.SH",
+      "name": "传音控股",
+      "pool_keys": [
+        "consumer_electronics"
+      ],
+      "pool_names": [
+        "消费电子"
+      ],
+      "pool_notes": {
+        "consumer_electronics": "智能手机终端；新兴市场消费电子"
+      },
+      "trade_date": "20260909",
+      "open": 54.1,
+      "high": 54.39,
+      "low": 52.71,
+      "close": 52.9,
+      "pre_close": 54.27,
+      "change": -1.37,
+      "pct_chg": -2.5244,
+      "vol": 101860.41,
+      "amount": 543719.266
+    },
+    {
+      "ts_code": "688041.SH",
+      "name": "海光信息",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "GPU / ASIC；CPU与加速芯片"
+      },
+      "trade_date": "20260909",
+      "open": 242.0,
+      "high": 246.88,
+      "low": 234.32,
+      "close": 235.8,
+      "pre_close": 236.9,
+      "change": -1.1,
+      "pct_chg": -0.4643,
+      "vol": 166307.8,
+      "amount": 3973502.045
+    },
+    {
+      "ts_code": "688065.SH",
+      "name": "凯赛生物",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "高性能材料；生物基尼龙；生物制造材料"
+      },
+      "trade_date": "20260909",
+      "open": 40.26,
+      "high": 40.87,
+      "low": 40.05,
+      "close": 40.1,
+      "pre_close": 40.54,
+      "change": -0.44,
+      "pct_chg": -1.0853,
+      "vol": 33975.21,
+      "amount": 137019.033
+    },
+    {
+      "ts_code": "688072.SH",
+      "name": "拓荆科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "半导体设备；Hybrid Bonding设备；薄膜沉积设备"
+      },
+      "trade_date": "20260909",
+      "open": 645.84,
+      "high": 646.0,
+      "low": 627.01,
+      "close": 631.18,
+      "pre_close": 632.0,
+      "change": -0.82,
+      "pct_chg": -0.1297,
+      "vol": 27155.54,
+      "amount": 1719912.517
+    },
+    {
+      "ts_code": "688126.SH",
+      "name": "沪硅产业",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "半导体材料；硅片"
+      },
+      "trade_date": "20260909",
+      "open": 23.08,
+      "high": 23.26,
+      "low": 22.49,
+      "close": 22.58,
+      "pre_close": 22.82,
+      "change": -0.24,
+      "pct_chg": -1.0517,
+      "vol": 324370.08,
+      "amount": 739328.365
+    },
+    {
+      "ts_code": "688206.SH",
+      "name": "概伦电子",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "EDA / IP；EDA软件"
+      },
+      "trade_date": "20260909",
+      "open": 39.72,
+      "high": 40.98,
+      "low": 38.69,
+      "close": 38.8,
+      "pre_close": 39.72,
+      "change": -0.92,
+      "pct_chg": -2.3162,
+      "vol": 72733.1,
+      "amount": 287009.928
+    },
+    {
+      "ts_code": "688249.SH",
+      "name": "晶合集成",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "Foundry；晶圆代工"
+      },
+      "trade_date": "20260909",
+      "open": 35.81,
+      "high": 36.06,
+      "low": 35.13,
+      "close": 35.5,
+      "pre_close": 35.6,
+      "change": -0.1,
+      "pct_chg": -0.2809,
+      "vol": 124101.36,
+      "amount": 442047.572
+    },
+    {
+      "ts_code": "688256.SH",
+      "name": "寒武纪",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "GPU / ASIC；AI芯片"
+      },
+      "trade_date": "20260909",
+      "open": 1067.0,
+      "high": 1070.19,
+      "low": 1045.99,
+      "close": 1054.96,
+      "pre_close": 1058.99,
+      "change": -4.03,
+      "pct_chg": -0.3806,
+      "vol": 65453.01,
+      "amount": 6913648.256
+    },
+    {
+      "ts_code": "688295.SH",
+      "name": "中复神鹰",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "高性能材料；碳纤维；碳纤维龙头"
+      },
+      "trade_date": "20260909",
+      "open": 38.3,
+      "high": 39.06,
+      "low": 38.2,
+      "close": 38.61,
+      "pre_close": 38.6,
+      "change": 0.01,
+      "pct_chg": 0.0259,
+      "vol": 39444.05,
+      "amount": 152426.031
+    },
+    {
+      "ts_code": "688300.SH",
+      "name": "联瑞新材",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "AI / PCB电子材料；硅微粉；高端封装与覆铜板填料"
+      },
+      "trade_date": "20260909",
+      "open": 169.99,
+      "high": 182.0,
+      "low": 168.1,
+      "close": 181.79,
+      "pre_close": 167.69,
+      "change": 14.1,
+      "pct_chg": 8.4084,
+      "vol": 176249.81,
+      "amount": 3087333.879
+    },
+    {
+      "ts_code": "688347.SH",
+      "name": "华虹宏力",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "Foundry；特色工艺晶圆代工"
+      },
+      "trade_date": "20260909",
+      "open": 227.0,
+      "high": 231.09,
+      "low": 222.5,
+      "close": 224.0,
+      "pre_close": 224.8,
+      "change": -0.8,
+      "pct_chg": -0.3559,
+      "vol": 96258.57,
+      "amount": 2178524.118
+    },
+    {
+      "ts_code": "688388.SH",
+      "name": "嘉元科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "铜箔；高性能电解铜箔"
+      },
+      "trade_date": "20260909",
+      "open": 27.23,
+      "high": 28.11,
+      "low": 27.16,
+      "close": 27.3,
+      "pre_close": 27.18,
+      "change": 0.12,
+      "pct_chg": 0.4415,
+      "vol": 220606.49,
+      "amount": 609296.338
+    },
+    {
+      "ts_code": "688396.SH",
+      "name": "华润微",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "SiC / GaN；功率半导体"
+      },
+      "trade_date": "20260909",
+      "open": 56.97,
+      "high": 57.45,
+      "low": 55.99,
+      "close": 56.28,
+      "pre_close": 56.6,
+      "change": -0.32,
+      "pct_chg": -0.5654,
+      "vol": 98242.76,
+      "amount": 556251.019
+    },
+    {
+      "ts_code": "688519.SH",
+      "name": "南亚新材",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "覆铜板 CCL"
+      },
+      "trade_date": "20260909",
+      "open": 291.98,
+      "high": 304.9,
+      "low": 288.17,
+      "close": 291.65,
+      "pre_close": 284.71,
+      "change": 6.94,
+      "pct_chg": 2.4376,
+      "vol": 49284.53,
+      "amount": 1459502.763
+    },
+    {
+      "ts_code": "688521.SH",
+      "name": "芯原股份",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "EDA / IP；芯片设计服务与IP授权"
+      },
+      "trade_date": "20260909",
+      "open": 196.09,
+      "high": 203.58,
+      "low": 187.86,
+      "close": 191.0,
+      "pre_close": 190.88,
+      "change": 0.12,
+      "pct_chg": 0.0629,
+      "vol": 167824.46,
+      "amount": 3253609.805
+    },
+    {
+      "ts_code": "688525.SH",
+      "name": "佰维存储",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "企业级SSD；存储模组与先进封装"
+      },
+      "trade_date": "20260909",
+      "open": 223.16,
+      "high": 224.5,
+      "low": 215.95,
+      "close": 217.7,
+      "pre_close": 221.5,
+      "change": -3.8,
+      "pct_chg": -1.7156,
+      "vol": 130756.16,
+      "amount": 2875038.826
+    },
+    {
+      "ts_code": "688545.SH",
+      "name": "兴福电子",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "半导体材料；湿电子化学品；高纯化学品国产化"
+      },
+      "trade_date": "20260909",
+      "open": 73.98,
+      "high": 76.46,
+      "low": 72.8,
+      "close": 73.17,
+      "pre_close": 73.42,
+      "change": -0.25,
+      "pct_chg": -0.3405,
+      "vol": 58870.1,
+      "amount": 438673.454
+    },
+    {
+      "ts_code": "688548.SH",
+      "name": "广钢气体",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "半导体材料；电子特气；国内电子气体代表"
+      },
+      "trade_date": "20260909",
+      "open": 29.18,
+      "high": 29.69,
+      "low": 28.6,
+      "close": 28.81,
+      "pre_close": 28.94,
+      "change": -0.13,
+      "pct_chg": -0.4492,
+      "vol": 149877.83,
+      "amount": 435807.775
+    },
+    {
+      "ts_code": "688549.SH",
+      "name": "中巨芯",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "半导体材料；湿电子化学品；高纯化学品国产化"
+      },
+      "trade_date": "20260909",
+      "open": 21.93,
+      "high": 23.75,
+      "low": 21.9,
+      "close": 22.54,
+      "pre_close": 21.9,
+      "change": 0.64,
+      "pct_chg": 2.9224,
+      "vol": 844906.56,
+      "amount": 1935465.491
+    },
+    {
+      "ts_code": "688630.SH",
+      "name": "芯碁微装",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "PCB设备；直写光刻设备"
+      },
+      "trade_date": "20260909",
+      "open": 416.0,
+      "high": 424.68,
+      "low": 405.95,
+      "close": 410.78,
+      "pre_close": 405.0,
+      "change": 5.78,
+      "pct_chg": 1.4272,
+      "vol": 31968.26,
+      "amount": 1326688.941
+    },
+    {
+      "ts_code": "688639.SH",
+      "name": "华恒生物",
+      "pool_keys": [
+        "chemicals_energy_materials"
+      ],
+      "pool_names": [
+        "化工能源材料"
+      ],
+      "pool_notes": {
+        "chemicals_energy_materials": "营养品 / 生物制造；合成生物学平台"
+      },
+      "trade_date": "20260909",
+      "open": 18.3,
+      "high": 18.63,
+      "low": 17.76,
+      "close": 17.8,
+      "pre_close": 18.41,
+      "change": -0.61,
+      "pct_chg": -3.3134,
+      "vol": 56435.11,
+      "amount": 102175.046
+    },
+    {
+      "ts_code": "688702.SH",
+      "name": "盛科通信-U",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "交换芯片 / NIC / DPU；以太网交换芯片"
+      },
+      "trade_date": "20260909",
+      "open": 318.0,
+      "high": 326.99,
+      "low": 310.24,
+      "close": 313.11,
+      "pre_close": 315.15,
+      "change": -2.04,
+      "pct_chg": -0.6473,
+      "vol": 48518.56,
+      "amount": 1535596.4
+    },
+    {
+      "ts_code": "688716.SH",
+      "name": "中研股份",
+      "pool_keys": [
+        "frontier_materials_watchlist"
+      ],
+      "pool_names": [
+        "前沿材料观察股"
+      ],
+      "pool_notes": {
+        "frontier_materials_watchlist": "PEEK；机器人、航空航天与半导体高性能工程塑料"
+      },
+      "trade_date": "20260909",
+      "open": 26.81,
+      "high": 27.6,
+      "low": 26.71,
+      "close": 27.17,
+      "pre_close": 26.87,
+      "change": 0.3,
+      "pct_chg": 1.1165,
+      "vol": 11383.8,
+      "amount": 30950.37
+    },
+    {
+      "ts_code": "688802.SH",
+      "name": "沐曦股份",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "GPU / ASIC；通用GPU"
+      },
+      "trade_date": "20260909",
+      "open": 555.88,
+      "high": 558.94,
+      "low": 528.07,
+      "close": 532.0,
+      "pre_close": 555.99,
+      "change": -23.99,
+      "pct_chg": -4.3148,
+      "vol": 16105.65,
+      "amount": 868707.498
+    },
+    {
+      "ts_code": "688825.SH",
+      "name": "长鑫科技",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "DRAM / NAND；DRAM存储芯片"
+      },
+      "trade_date": "20260909",
+      "open": 58.9,
+      "high": 59.08,
+      "low": 56.47,
+      "close": 56.87,
+      "pre_close": 58.39,
+      "change": -1.52,
+      "pct_chg": -2.6032,
+      "vol": 1787393.99,
+      "amount": 10277241.099
+    },
+    {
+      "ts_code": "688981.SH",
+      "name": "中芯国际",
+      "pool_keys": [
+        "ai_hardware"
+      ],
+      "pool_names": [
+        "AI硬件"
+      ],
+      "pool_notes": {
+        "ai_hardware": "Foundry；晶圆代工"
+      },
+      "trade_date": "20260909",
+      "open": 122.12,
+      "high": 122.96,
+      "low": 120.06,
+      "close": 120.51,
+      "pre_close": 121.52,
+      "change": -1.01,
+      "pct_chg": -0.8311,
+      "vol": 218576.41,
+      "amount": 2646565.747
     }
   ]
 }
