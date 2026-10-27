@@ -2,12 +2,12 @@
   "meta": {
     "source": "Tushare Pro / daily",
     "source_url": "https://tushare.pro/document/2?doc_id=27",
-    "generated_at_beijing": "2026-10-27T00:44:35+08:00",
+    "generated_at_beijing": "2026-10-27T23:50:31+08:00",
     "query_start_date": "20260629",
     "query_end_date": "20261027",
-    "latest_trade_date": "20261026",
-    "history_start_date": "20260727",
-    "history_end_date": "20261026",
+    "latest_trade_date": "20261027",
+    "history_start_date": "20260728",
+    "history_end_date": "20261027",
     "history_trade_days_requested": 60,
     "history_trade_days_actual": 60,
     "configured_stock_count": 4,
@@ -52,98 +52,6 @@
     "stock_count": 4
   },
   "data": [
-    {
-      "ts_code": "300274.SZ",
-      "name": "阳光电源",
-      "pool_keys": [
-        "energy_storage"
-      ],
-      "pool_names": [
-        "储能"
-      ],
-      "pool_notes": {
-        "energy_storage": "光伏与储能逆变器；储能系统"
-      },
-      "trade_date": "20260727",
-      "open": 114.43,
-      "high": 116.69,
-      "low": 112.01,
-      "close": 116.21,
-      "pre_close": 113.42,
-      "change": 2.79,
-      "pct_chg": 2.4599,
-      "vol": 407188.36,
-      "amount": 4645224.54196
-    },
-    {
-      "ts_code": "300438.SZ",
-      "name": "鹏辉能源",
-      "pool_keys": [
-        "energy_storage"
-      ],
-      "pool_names": [
-        "储能"
-      ],
-      "pool_notes": {
-        "energy_storage": "储能电池；中小型锂电池"
-      },
-      "trade_date": "20260727",
-      "open": 64.0,
-      "high": 65.44,
-      "low": 61.0,
-      "close": 63.92,
-      "pre_close": 61.79,
-      "change": 2.13,
-      "pct_chg": 3.4472,
-      "vol": 291478.08,
-      "amount": 1853215.52743
-    },
-    {
-      "ts_code": "300750.SZ",
-      "name": "宁德时代",
-      "pool_keys": [
-        "energy_storage"
-      ],
-      "pool_names": [
-        "储能"
-      ],
-      "pool_notes": {
-        "energy_storage": "动力与储能电池"
-      },
-      "trade_date": "20260727",
-      "open": 398.01,
-      "high": 403.8,
-      "low": 394.0,
-      "close": 400.0,
-      "pre_close": 383.01,
-      "change": 16.99,
-      "pct_chg": 4.4359,
-      "vol": 473272.1,
-      "amount": 18875798.8627
-    },
-    {
-      "ts_code": "605117.SH",
-      "name": "德业股份",
-      "pool_keys": [
-        "energy_storage"
-      ],
-      "pool_names": [
-        "储能"
-      ],
-      "pool_notes": {
-        "energy_storage": "户用储能逆变器"
-      },
-      "trade_date": "20260727",
-      "open": 89.32,
-      "high": 89.55,
-      "low": 86.66,
-      "close": 88.22,
-      "pre_close": 88.45,
-      "change": -0.23,
-      "pct_chg": -0.26,
-      "vol": 127605.69,
-      "amount": 1119326.84
-    },
     {
       "ts_code": "300274.SZ",
       "name": "阳光电源",
@@ -5571,6 +5479,98 @@
       "pct_chg": -0.5991,
       "vol": 83512.98,
       "amount": 580716.119
+    },
+    {
+      "ts_code": "300274.SZ",
+      "name": "阳光电源",
+      "pool_keys": [
+        "energy_storage"
+      ],
+      "pool_names": [
+        "储能"
+      ],
+      "pool_notes": {
+        "energy_storage": "光伏与储能逆变器；储能系统"
+      },
+      "trade_date": "20261027",
+      "open": 70.58,
+      "high": 71.6,
+      "low": 68.23,
+      "close": 68.24,
+      "pre_close": 70.23,
+      "change": -1.99,
+      "pct_chg": -2.8335,
+      "vol": 375784.43,
+      "amount": 2625296.55407
+    },
+    {
+      "ts_code": "300438.SZ",
+      "name": "鹏辉能源",
+      "pool_keys": [
+        "energy_storage"
+      ],
+      "pool_names": [
+        "储能"
+      ],
+      "pool_notes": {
+        "energy_storage": "储能电池；中小型锂电池"
+      },
+      "trade_date": "20261027",
+      "open": 39.32,
+      "high": 39.43,
+      "low": 37.88,
+      "close": 37.88,
+      "pre_close": 39.47,
+      "change": -1.59,
+      "pct_chg": -4.0284,
+      "vol": 194705.05,
+      "amount": 749647.40188
+    },
+    {
+      "ts_code": "300750.SZ",
+      "name": "宁德时代",
+      "pool_keys": [
+        "energy_storage"
+      ],
+      "pool_names": [
+        "储能"
+      ],
+      "pool_notes": {
+        "energy_storage": "动力与储能电池"
+      },
+      "trade_date": "20261027",
+      "open": 238.8,
+      "high": 238.8,
+      "low": 232.67,
+      "close": 233.0,
+      "pre_close": 238.0,
+      "change": -5.0,
+      "pct_chg": -2.1008,
+      "vol": 375049.53,
+      "amount": 8814345.78837
+    },
+    {
+      "ts_code": "605117.SH",
+      "name": "德业股份",
+      "pool_keys": [
+        "energy_storage"
+      ],
+      "pool_names": [
+        "储能"
+      ],
+      "pool_notes": {
+        "energy_storage": "户用储能逆变器"
+      },
+      "trade_date": "20261027",
+      "open": 70.02,
+      "high": 70.68,
+      "low": 68.0,
+      "close": 68.02,
+      "pre_close": 69.69,
+      "change": -1.67,
+      "pct_chg": -2.3963,
+      "vol": 74959.56,
+      "amount": 515654.915
     }
   ]
 }
